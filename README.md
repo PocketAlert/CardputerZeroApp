@@ -177,6 +177,7 @@ The version lives in one place, `version` in `app-builder.json`; CMake reads it 
 - **Pull request or manual run:** tests and builds a dev `.deb`, kept as a workflow artifact.
 - **Push to main with a new version:** also creates the GitHub release `v<version>` with the `.deb` and its checksum, and publishes it to the CardputerZero store with `czdev publish`. Store updates merge automatically once the store's checks pass.
 - **Push to main with an already released version:** only tests and builds.
+- **Manual run with "Publish to the store":** publishes the current version to the store only, with the `.deb` of its GitHub release. Use it when the store step failed.
 
 ```bash
 scripts/bump-version.sh minor      # or patch, major, 1.2.0
