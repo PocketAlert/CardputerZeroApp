@@ -86,8 +86,39 @@ jobs:
           path: dist/*.deb
           if-no-files-found: error
 
-  release:
+  # The store's own install path policy and maintainer script check, so a rejected
+  # package fails before the release is created. The policy script comes from the
+  # store's main branch to track its current rules, so it runs without a token.
+  store-check:
     needs: build
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - uses: actions/download-artifact@v7
+        with:
+          name: pocketalert-cardputer-${{ needs.build.outputs.version }}
+          path: dist
+
+      - name: Store package checks
+        run: |
+          deb="$(ls dist/*.deb)"
+          curl -fsSL https://raw.githubusercontent.com/CardputerZero/packages/main/.github/scripts/install_path_policy.py \
+            -o "$RUNNER_TEMP/install_path_policy.py"
+          python3 "$RUNNER_TEMP/install_path_policy.py" pocketalert-cardputer "$deb" "$RUNNER_TEMP/bad-paths"
+          if [[ -s "$RUNNER_TEMP/bad-paths" ]]; then
+            echo "::error::The store rejects these install paths:"; cat "$RUNNER_TEMP/bad-paths"; exit 1
+          fi
+          dpkg-deb -e "$deb" "$RUNNER_TEMP/ctrl"
+          for scr in preinst postinst prerm postrm; do
+            [[ -f "$RUNNER_TEMP/ctrl/$scr" ]] || continue
+            # Same pattern as validate-pr.yml in CardputerZero/packages.
+            if grep -nE 'rm[[:space:]]+(-[a-zA-Z]+[[:space:]]+)*(/([[:space:]]|$)|/(bin|etc|usr|var|home|boot|lib))|(curl|wget)[^|]*\|[[:space:]]*(ba)?sh|mkfs|/etc/(passwd|shadow|sudoers)|dd[[:space:]][^|]*of=/dev/' "$RUNNER_TEMP/ctrl/$scr"; then
+              echo "::error::The store rejects a pattern in the $scr maintainer script"; exit 1
+            fi
+          done
+
+  release:
+    needs: [build, store-check]
     if: needs.build.outputs.publish == 'true'
     runs-on: ubuntu-latest
     env:
@@ -111,10 +142,11 @@ jobs:
             --title "v$VERSION" --generate-notes
 
   store:
-    needs: [build, release]
+    needs: [build, store-check, release]
     # Also after a skipped release: a manual store-only run has no release job.
     if: >-
-      !cancelled() && needs.build.result == 'success' && needs.build.outputs.store == 'true'
+      !cancelled() && needs.build.result == 'success' && needs.store-check.result == 'success'
+      && needs.build.outputs.store == 'true'
       && (needs.release.result == 'success' || needs.release.result == 'skipped')
     runs-on: ubuntu-latest
     steps:

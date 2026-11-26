@@ -1,7 +1,7 @@
 {
   "app_name": "Pocket Alert",
   "package_name": "pocketalert-cardputer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin_name": "pocketalert_cardputer",
   "description": "Pocket Alert client for CardputerZero",
   "store": {
