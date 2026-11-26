@@ -1,0 +1,43 @@
+{
+  "title": "Programmés",
+  "empty": {
+    "title": "Rien de programmé",
+    "hint": "Rédigez un message et choisissez l’heure d’envoi"
+  },
+  "keys": {
+    "new": "Nouv.",
+    "status": "Statut",
+    "info": "Info",
+    "cancel": "Annuler"
+  },
+  "status": {
+    "pending": "En attente",
+    "all": "Tous",
+    "sent": "Envoyé",
+    "canceled": "Annulé",
+    "failed": "Échec"
+  },
+  "info": {
+    "deliver": "Envoi : {time}",
+    "deliverTz": "Envoi : {time} ({tz})",
+    "status": "Statut : {status}",
+    "level": "Niveau : {level}",
+    "application": "Application : {name}",
+    "device": "Appareil : {name}",
+    "action": "Action : {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Annuler l’envoi ?",
+      "button": "Annuler"
+    }
+  },
+  "toast": {
+    "onlyPending": "Seuls les messages en attente sont annulables",
+    "canceled": "Envoi annulé"
+  },
+  "help": {
+    "filter": "5 ou Z C  changer de filtre",
+    "keys": "Enter / 7  détails   8  annuler l’envoi"
+  }
+}

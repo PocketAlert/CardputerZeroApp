@@ -1,0 +1,66 @@
+{
+  "title": "Pesan baru",
+  "keys": {
+    "send": "Kirim",
+    "clear": "Hapus"
+  },
+  "fields": {
+    "title": "Judul",
+    "message": "Pesan",
+    "app": "Aplikasi",
+    "device": "Perangkat",
+    "level": "Level",
+    "when": "Kirim",
+    "delay": "Tunda",
+    "at": "Pada",
+    "image": "URL gambar",
+    "action1": "Aksi 1",
+    "action2": "Aksi 2",
+    "action3": "Aksi 3"
+  },
+  "placeholders": {
+    "required": "Wajib",
+    "image": "https://… (opsional)"
+  },
+  "options": {
+    "noApp": "Tanpa",
+    "levelAppDefault": "Default aplikasi",
+    "when": {
+      "now": "Sekarang",
+      "in": "Setelah jeda",
+      "at": "Pada waktu"
+    }
+  },
+  "note": "Gambar, jadwal, dan aksi perlu paket berbayar. fn+H tampilkan sintaks aksi.",
+  "confirm": {
+    "discard": {
+      "title": "Buang pesan?",
+      "text": "Draf tidak disimpan.",
+      "button": "Buang"
+    },
+    "clear": {
+      "title": "Kosongkan semua kolom?",
+      "text": "Judul, teks, dan opsi direset.",
+      "button": "Kosongkan"
+    }
+  },
+  "toast": {
+    "required": "Judul dan pesan wajib diisi",
+    "delayError": "Jeda: {error}",
+    "atRequired": "Isi waktu pengiriman",
+    "imageUrl": "Gambar harus URL http(s)",
+    "actionError": "Aksi {number}: {error}",
+    "scheduledFor": "Dijadwalkan: {time}",
+    "sent": "Terkirim"
+  },
+  "errors": {
+    "notSent": "Tidak terkirim"
+  },
+  "help": {
+    "edit": "Enter  ubah kolom / pilih opsi",
+    "change": "Z C  ganti opsi   Tab  kolom berikut",
+    "keys": "4  kirim   5  hapus   Esc  batal",
+    "actions": "Aksi (maks 3):",
+    "formats": "Tunda: {delay}  Pada: {at}"
+  }
+}

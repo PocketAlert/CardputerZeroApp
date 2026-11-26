@@ -1,0 +1,38 @@
+{
+  "title": "Menü",
+  "keys": {
+    "inbox": "Eingang",
+    "new": "Neu",
+    "setup": "Einst."
+  },
+  "items": {
+    "inbox": "Posteingang",
+    "compose": "Neue Nachricht",
+    "scheduled": "Geplant",
+    "applications": "Anwendungen",
+    "devices": "Geräte",
+    "webhooks": "Webhooks",
+    "forms": "Formulare",
+    "apiKeys": "API-Schlüssel",
+    "account": "Konto & Nutzung",
+    "settings": "Einstellungen",
+    "leaveDemo": "Demo beenden",
+    "signOut": "Abmelden"
+  },
+  "hints": {
+    "unread": "Ungelesen: {count}",
+    "demo": "Demo"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "Demo verlassen?",
+      "text": "Zurück zur Anmeldung.",
+      "button": "Verlassen"
+    },
+    "signOut": {
+      "title": "Abmelden?",
+      "text": "Der Schlüssel bleibt im Konto gültig; lösche ihn bei Bedarf unter API-Schlüssel.",
+      "button": "Abmelden"
+    }
+  }
+}

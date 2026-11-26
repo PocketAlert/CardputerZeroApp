@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "Lautlos",
+    "low": "Niedrig",
+    "default": "Standard",
+    "high": "Hoch",
+    "critical": "Kritisch"
+  },
+  "action": {
+    "run": "Starten",
+    "unknownType": "Unbek. Aktionstyp: {type}",
+    "invalidRequest": "{label}: ungültige Anfrage"
+  },
+  "view": {
+    "text": "{url}\n\nScanne den Code, um die Seite auf deinem Handy zu öffnen."
+  },
+  "http": {
+    "running": "{label}: {request}",
+    "failed": "{label} fehlgeschlagen: {error}",
+    "done": "{label}: fertig ({status})",
+    "httpError": "{label}: HTTP {status}"
+  }
+}

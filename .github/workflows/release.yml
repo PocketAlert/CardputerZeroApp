@@ -1,0 +1,134 @@
+# Tests and builds the .deb in Debian trixie arm64, the CardputerZero OS.
+#
+# - Push to main: when the version in app-builder.json has no v<version> tag yet,
+#   creates the GitHub release v<version> with the .deb and publishes it to the
+#   CardputerZero store. Bump it with scripts/bump-version.sh; pushes that keep
+#   the version only run the tests and the build.
+# - Pull request or manual run: tests and builds a dev .deb, kept as a workflow
+#   artifact without publishing.
+#
+# Secrets: CZDEV_TOKEN (optional) — classic GitHub PAT with the public_repo and
+# workflow scopes, of the account that owns the app in the store. czdev forks
+# CardputerZero/packages with it, uploads the .deb to the fork and opens the
+# publish PR. Without it the store step is skipped.
+
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Releases run one at a time: a queued run sees the tag the previous one created
+# and skips. A new push to a pull request cancels its previous run.
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.ref) || 'release' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 45
+    outputs:
+      version: ${{ steps.plan.outputs.version }}
+      publish: ${{ steps.plan.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # tags decide whether this version is already released
+
+      - id: plan
+        run: |
+          version="$(jq -r .version app-builder.json)"
+          [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] \
+            || { echo "::error::Version in app-builder.json must look like 1.2.3, got '$version'"; exit 1; }
+          publish=false
+          if [[ "$GITHUB_EVENT_NAME" == push ]]; then
+            if git rev-parse -q --verify "refs/tags/v$version" > /dev/null; then
+              echo "::notice::v$version is already released. Run scripts/bump-version.sh to publish a new release."
+            else
+              publish=true
+            fi
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "publish=$publish" >> "$GITHUB_OUTPUT"
+          echo "version=$version publish=$publish"
+
+      - name: Test and build the .deb
+        env:
+          RELEASE: ${{ steps.plan.outputs.publish == 'true' && '1' || '' }}
+        run: ./build-deb.sh
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: pocketalert-cardputer-${{ steps.plan.outputs.version }}
+          path: dist/*.deb
+          if-no-files-found: error
+
+  release:
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ needs.build.outputs.version }}
+    steps:
+      - uses: actions/download-artifact@v7
+        with:
+          name: pocketalert-cardputer-${{ needs.build.outputs.version }}
+          path: dist
+
+      # The tag is created on this commit together with the release, so a failed
+      # build leaves no tag behind and the next push retries.
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          sha256sum *.deb > checksums.txt
+          gh release create "v$VERSION" *.deb checksums.txt \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "v$VERSION" --generate-notes
+
+  store:
+    needs: [build, release]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check token
+        id: token
+        env:
+          CZDEV_TOKEN: ${{ secrets.CZDEV_TOKEN }}
+        run: |
+          if [[ -z "$CZDEV_TOKEN" ]]; then
+            echo "::warning::CZDEV_TOKEN is not set, the store was not updated. Publish by hand: czdev publish --deb <file>"
+            echo "set=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "set=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v7
+        if: steps.token.outputs.set == 'true'
+
+      - uses: actions/download-artifact@v7
+        if: steps.token.outputs.set == 'true'
+        with:
+          name: pocketalert-cardputer-${{ needs.build.outputs.version }}
+          path: dist
+
+      # Opens a PR to CardputerZero/packages. Updates merge automatically once its
+      # checks pass; the first release waits for a maintainer and a device video.
+      - name: Publish to the CardputerZero store
+        if: steps.token.outputs.set == 'true'
+        env:
+          CZDEV_TOKEN: ${{ secrets.CZDEV_TOKEN }}
+        run: |
+          git clone --depth 1 https://github.com/CardputerZero/AppBuilder.git "$RUNNER_TEMP/AppBuilder"
+          mkdir -p ~/.czdev
+          umask 077
+          jq -n --arg t "$CZDEV_TOKEN" '{github_token: $t}' > ~/.czdev/credentials
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          "$RUNNER_TEMP/AppBuilder/czdev" publish --deb dist/*.deb

@@ -1,0 +1,26 @@
+#!/bin/sh
+set -e
+# The notifier is enabled for every account (systemctl --global) and started
+# right away in the user sessions that are already running, so it works for
+# pi or any custom user without asking who that is.
+for_each_session() {
+    for dir in /run/user/*; do
+        uid="${dir##*/}"
+        case "$uid" in ''|*[!0-9]*) continue ;; esac
+        [ "$uid" -ge 1000 ] || continue
+        name="$(getent passwd "$uid" | cut -d: -f1)"
+        [ -n "$name" ] && "$@" "$name"
+    done
+}
+
+start_for() {
+    systemctl --user -M "$1@" daemon-reload >/dev/null 2>&1 || true
+    systemctl --user -M "$1@" restart pocketalert-notifyd.service >/dev/null 2>&1 || true
+    systemctl --user -M "$1@" restart APPLaunch.service >/dev/null 2>&1 || true
+}
+
+if [ "$1" = "configure" ] && command -v systemctl >/dev/null 2>&1; then
+    systemctl --global enable pocketalert-notifyd.service >/dev/null 2>&1 || true
+    for_each_session start_for
+fi
+exit 0

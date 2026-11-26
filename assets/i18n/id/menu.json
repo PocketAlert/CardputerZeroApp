@@ -1,0 +1,38 @@
+{
+  "title": "Menu",
+  "keys": {
+    "inbox": "Masuk",
+    "new": "Baru",
+    "setup": "Atur"
+  },
+  "items": {
+    "inbox": "Kotak masuk",
+    "compose": "Pesan baru",
+    "scheduled": "Terjadwal",
+    "applications": "Aplikasi",
+    "devices": "Perangkat",
+    "webhooks": "Webhook",
+    "forms": "Formulir",
+    "apiKeys": "Kunci API",
+    "account": "Akun & penggunaan",
+    "settings": "Pengaturan",
+    "leaveDemo": "Keluar demo",
+    "signOut": "Keluar"
+  },
+  "hints": {
+    "unread": "{count} belum dibaca",
+    "demo": "demo"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "Keluar dari demo?",
+      "text": "Kembali ke layar masuk.",
+      "button": "Keluar"
+    },
+    "signOut": {
+      "title": "Keluar akun?",
+      "text": "Kunci tetap berlaku di akun Anda; hapus di Kunci API jika perlu.",
+      "button": "Keluar"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "폼",
+  "keys": {
+    "link": "링크"
+  },
+  "empty": {
+    "title": "폼 없음",
+    "hint": "pocketalert.app에서 폼을 만드세요"
+  },
+  "row": {
+    "submissions": "제출 {count}건",
+    "submissionsLast": "제출 {count}건  ·  최근 {time}",
+    "closed": "마감"
+  },
+  "link": {
+    "text": "{url}\n\n제출 {count}건. 모두 알림으로 도착해요."
+  },
+  "confirm": {
+    "deleteTitle": "{name} 삭제할까요?",
+    "deleteText": "공개 링크가 더 이상 작동하지 않아요."
+  }
+}

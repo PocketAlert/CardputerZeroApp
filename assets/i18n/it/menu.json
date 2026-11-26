@@ -1,0 +1,38 @@
+{
+  "title": "Menu",
+  "keys": {
+    "inbox": "Posta",
+    "new": "Nuovo",
+    "setup": "Impost."
+  },
+  "items": {
+    "inbox": "Inbox",
+    "compose": "Nuovo messaggio",
+    "scheduled": "Programmati",
+    "applications": "Applicazioni",
+    "devices": "Dispositivi",
+    "webhooks": "Webhook",
+    "forms": "Moduli",
+    "apiKeys": "Chiavi API",
+    "account": "Account e utilizzo",
+    "settings": "Impostazioni",
+    "leaveDemo": "Esci dalla demo",
+    "signOut": "Esci"
+  },
+  "hints": {
+    "unread": "{count} non letti",
+    "demo": "demo"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "Esci dalla demo?",
+      "text": "Torni alla schermata di accesso.",
+      "button": "Esci"
+    },
+    "signOut": {
+      "title": "Esci?",
+      "text": "La chiave resta valida nel tuo account; eliminala in Chiavi API se serve.",
+      "button": "Esci"
+    }
+  }
+}

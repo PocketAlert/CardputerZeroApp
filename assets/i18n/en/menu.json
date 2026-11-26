@@ -1,0 +1,39 @@
+{
+  "title": "Menu",
+  "keys": {
+    "inbox": "Inbox",
+    "new": "New",
+    "setup": "Setup"
+  },
+  "items": {
+    "inbox": "Inbox",
+    "compose": "New message",
+    "scheduled": "Scheduled",
+    "applications": "Applications",
+    "devices": "Devices",
+    "webhooks": "Webhooks",
+    "forms": "Forms",
+    "apiKeys": "API keys",
+    "account": "Account & usage",
+    "settings": "Settings",
+    "leaveDemo": "Leave demo",
+    "signOut": "Sign out",
+    "help": "Help & shortcuts"
+  },
+  "hints": {
+    "unread": "{count} unread",
+    "demo": "demo"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "Leave demo?",
+      "text": "Back to the sign-in screen.",
+      "button": "Leave"
+    },
+    "signOut": {
+      "title": "Sign out?",
+      "text": "The key stays valid in your account; delete it under API keys if needed.",
+      "button": "Sign out"
+    }
+  }
+}

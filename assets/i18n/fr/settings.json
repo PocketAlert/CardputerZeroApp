@@ -1,0 +1,67 @@
+{
+  "title": "Paramètres",
+  "keys": {
+    "test": "Test"
+  },
+  "fields": {
+    "poll": "Si ouvert",
+    "sound": "Son",
+    "minLevel": "Bip dès",
+    "notifier": "En arrière-plan",
+    "notifyPoll": "Si fermé",
+    "dim": "Assombrir",
+    "off": "Écran éteint",
+    "theme": "Thème"
+  },
+  "options": {
+    "check": {
+      "s10": "Vérifier toutes les 10 s",
+      "s15": "Vérifier toutes les 15 s",
+      "s30": "Vérifier toutes les 30 s",
+      "m1": "Vérifier toutes les min",
+      "m2": "Vérifier toutes les 2 min",
+      "m5": "Vérifier toutes les 5 min"
+    },
+    "after": {
+      "s15": "Après 15 s",
+      "s30": "Après 30 s",
+      "m1": "Après 1 min",
+      "m2": "Après 2 min",
+      "m5": "Après 5 min"
+    },
+    "never": "Jamais",
+    "minLevel": {
+      "low": "Faible et plus",
+      "default": "Normal et plus",
+      "high": "Élevé et plus",
+      "critical": "Critique seul."
+    },
+    "theme": {
+      "dark": "Sombre",
+      "lcd": "LCD pager"
+    }
+  },
+  "buttons": {
+    "test": "Envoyer une alerte test",
+    "beep": "Jouer le son d’alerte",
+    "save": "Enregistrer les modifications"
+  },
+  "about": {
+    "version": "Pocket Alert pour Cardputer Zero {version}",
+    "demo": "Mode démo : les données ne sont pas réelles",
+    "account": "Compte : {email}",
+    "config": "Config : {path}",
+    "background": "En arrière-plan : le service {service} émet un bip quand l’app est fermée."
+  },
+  "testAlert": {
+    "title": "Test depuis Cardputer Zero",
+    "message": "Si vous voyez ceci sur vos appareils, les alertes fonctionnent de bout en bout."
+  },
+  "toast": {
+    "saved": "Paramètres enregistrés",
+    "testSent": "Alerte test envoyée"
+  },
+  "errors": {
+    "testFailed": "Échec du test"
+  }
+}

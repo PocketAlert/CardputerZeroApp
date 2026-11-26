@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "Gagal simpan: {error}",
+    "moreMessages": "+{count} lagi",
+    "holdEscToExit": "Tahan Esc untuk keluar dari Pocket Alert",
+    "screenshotSaved": "Screenshot tersimpan",
+    "screenshotFailed": "Screenshot gagal: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}. Periksa kunci API di Pengaturan"
+  },
+  "status": {
+    "demo": "DEMO"
+  },
+  "options": {
+    "allDevices": "Semua perangkat"
+  },
+  "help": {
+    "title": "Keyboard",
+    "global": "Di mana saja\n4-8  aksi di bilah bawah\nF X / panah  geser (tahan untuk gulir)\nT  ke atas   Enter  buka\nEsc  kembali   tahan Esc  keluar\nfn+J  tangkapan layar   fn+H  bantuan ini"
+  },
+  "modal": {
+    "cancelButton": "Esc  Batal",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc tutup   F/X gulir",
+    "pickerFooter": "Enter pilih   Esc batal",
+    "promptFooter": "Enter OK   Esc batal"
+  },
+  "list": {
+    "empty": "Belum ada isi"
+  },
+  "toggle": {
+    "on": "Aktif",
+    "off": "Mati"
+  },
+  "time": {
+    "yesterday": "Kemarin",
+    "dayMonth": "{day} {month}",
+    "weekday": {
+      "sun": "Min",
+      "mon": "Sen",
+      "tue": "Sel",
+      "wed": "Rab",
+      "thu": "Kam",
+      "fri": "Jum",
+      "sat": "Sab"
+    },
+    "month": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "Mei",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Agu",
+      "sep": "Sep",
+      "oct": "Okt",
+      "nov": "Nov",
+      "dec": "Des"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "level": {
+    "silent": "silenzioso",
+    "low": "basso",
+    "default": "standard",
+    "high": "alto",
+    "critical": "critico"
+  },
+  "ok": "OK",
+  "cancel": "Annulla",
+  "save": "Salva",
+  "delete": "Elimina",
+  "back": "Indietro",
+  "close": "Chiudi",
+  "loading": "Caricamento…",
+  "language": {
+    "label": "Lingua",
+    "auto": "Sistema"
+  }
+}

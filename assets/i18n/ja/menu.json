@@ -1,0 +1,38 @@
+{
+  "title": "メニュー",
+  "keys": {
+    "inbox": "受信箱",
+    "new": "新規",
+    "setup": "設定"
+  },
+  "items": {
+    "inbox": "受信箱",
+    "compose": "新規メッセージ",
+    "scheduled": "予約送信",
+    "applications": "アプリケーション",
+    "devices": "デバイス",
+    "webhooks": "Webhook",
+    "forms": "フォーム",
+    "apiKeys": "API キー",
+    "account": "アカウントと利用状況",
+    "settings": "設定",
+    "leaveDemo": "デモ終了",
+    "signOut": "ログアウト"
+  },
+  "hints": {
+    "unread": "未読: {count}",
+    "demo": "デモ"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "デモを終了?",
+      "text": "ログイン画面に戻ります。",
+      "button": "終了"
+    },
+    "signOut": {
+      "title": "ログアウト?",
+      "text": "キーはアカウントで有効のままです。不要なら API キーで削除を。",
+      "button": "ログアウト"
+    }
+  }
+}

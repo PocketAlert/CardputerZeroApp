@@ -1,0 +1,22 @@
+{
+  "title": "表单",
+  "keys": {
+    "link": "链接"
+  },
+  "empty": {
+    "title": "暂无表单",
+    "hint": "请在 pocketalert.app 创建表单"
+  },
+  "row": {
+    "submissions": "提交 {count}",
+    "submissionsLast": "提交 {count}  ·  最近 {time}",
+    "closed": "已关闭"
+  },
+  "link": {
+    "text": "{url}\n\n共 {count} 条提交，每条都会以提醒送达。"
+  },
+  "confirm": {
+    "deleteTitle": "删除 {name}？",
+    "deleteText": "公开链接将失效。"
+  }
+}

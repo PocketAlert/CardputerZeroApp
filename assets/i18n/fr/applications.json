@@ -1,0 +1,53 @@
+{
+  "title": "Applications",
+  "keys": {
+    "new": "Nouv.",
+    "inbox": "Boîte",
+    "send": "Envoi",
+    "edit": "Modif."
+  },
+  "empty": {
+    "title": "Aucune application",
+    "hint": "Triez les alertes par source : 4 en crée une"
+  },
+  "form": {
+    "newTitle": "Nouvelle application",
+    "editTitle": "Modifier l’app",
+    "saveChanges": "Enregistrer",
+    "create": "Créer l’application",
+    "tidNote": "TID {tid}  ·  envoi : pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "Nom",
+    "description": "Description",
+    "color": "Couleur",
+    "defaultLevel": "Niveau",
+    "required": "Obligatoire",
+    "optional": "Facultatif",
+    "levelNotSet": "Non défini"
+  },
+  "colors": {
+    "blue": "Bleu",
+    "indigo": "Indigo",
+    "red": "Rouge",
+    "coral": "Corail",
+    "amber": "Ambre",
+    "green": "Vert",
+    "teal": "Sarcelle",
+    "purple": "Violet",
+    "pink": "Rose",
+    "gray": "Gris",
+    "custom": "Perso {color}"
+  },
+  "toast": {
+    "nameRequired": "Nom requis",
+    "notSaved": "Non enregistré",
+    "created": "Application créée",
+    "updated": "Application mise à jour"
+  },
+  "confirm": {
+    "deleteTitle": "Supprimer {name} ?",
+    "deleteText": "Ses messages restent dans la boîte sans application."
+  },
+  "help": "Applications\nEnter / 7  modifier   4  nouveau   5  boîte de l'app\n6  envoyer à l'app   8  supprimer"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Kunci API",
+  "keys": {
+    "new": "Baru"
+  },
+  "empty": {
+    "title": "Belum ada kunci API"
+  },
+  "row": {
+    "created": "Dibuat {date}",
+    "inactive": "nonaktif"
+  },
+  "create": {
+    "title": "Kunci API baru",
+    "hint": "Beri nama sesuai tempat penggunaannya."
+  },
+  "info": {
+    "text": "TID: {tid}\nDibuat: {date}\n\nRahasia hanya ditampilkan sekali, saat kunci dibuat."
+  },
+  "toast": {
+    "notCreated": "Gagal dibuat"
+  },
+  "created": {
+    "title": "Salin kunci ini sekarang",
+    "text": "{token}\n\nHanya ditampilkan sekali. Pindai kode untuk memindahkannya ke perangkat lain."
+  },
+  "confirm": {
+    "deleteTitle": "Hapus {name}?",
+    "deleteText": "Skrip dan aplikasi yang memakai kunci ini akan berhenti berfungsi.",
+    "deleteTextThisDevice": "Skrip dan aplikasi yang memakai kunci ini akan berhenti berfungsi. Ini mungkin kunci untuk masuk di perangkat ini."
+  }
+}

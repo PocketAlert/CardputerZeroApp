@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "サイレント",
+    "low": "低",
+    "default": "標準",
+    "high": "高",
+    "critical": "緊急"
+  },
+  "action": {
+    "run": "実行",
+    "unknownType": "不明な種類: {type}",
+    "invalidRequest": "{label}: 無効なリクエスト"
+  },
+  "view": {
+    "text": "{url}\n\nコードを読み取ると、スマホで開けます。"
+  },
+  "http": {
+    "running": "{label}: {request}",
+    "failed": "{label} 失敗: {error}",
+    "done": "{label}: 完了 ({status})",
+    "httpError": "{label}: HTTP {status}"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Réception",
+  "keys": {
+    "new": "Nouv.",
+    "filter": "Filtre",
+    "search": "Chercher",
+    "more": "Plus",
+    "menu": "Menu"
+  },
+  "subtitle": {
+    "unread": "non lus",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "Chargement impossible",
+    "title": "Boîte vide",
+    "filteredTitle": "Aucun message ici",
+    "hint": "Les nouvelles alertes s’affichent ici"
+  },
+  "filter": {
+    "title": "Afficher les messages de",
+    "allApps": "Toutes les applis"
+  },
+  "search": {
+    "title": "Recherche",
+    "hint": "Cherche dans le titre, le texte et l’application des messages chargés."
+  },
+  "more": {
+    "title": "Réception",
+    "markRead": "Marquer comme lu",
+    "markUnread": "Marquer comme non lu",
+    "delete": "Supprimer le message",
+    "showAll": "Afficher tous les messages",
+    "showUnread": "Afficher les non lus",
+    "markAllRead": "Tout marquer comme lu",
+    "deleteAll": "Supprimer tous les messages",
+    "refresh": "Actualiser"
+  },
+  "confirm": {
+    "delete": {
+      "title": "Supprimer le message ?"
+    },
+    "deleteAll": {
+      "title": "Tout supprimer ?",
+      "text": "Tous les messages du compte seront supprimés, sur tous les appareils. Action irréversible.",
+      "button": "Tout suppr."
+    }
+  },
+  "toast": {
+    "deleted": "Supprimé",
+    "allRead": "Tout marqué comme lu",
+    "cleared": "Boîte vidée"
+  },
+  "help": "Réception\nEnter  ouvrir le message\nR  lu / non lu   D ou Del  supprimer\nU  non lus seuls   S  chercher   G  actualiser\nN  nouveau message   T ou Esc  retour en haut\nF / X maintenu  défilement rapide"
+}

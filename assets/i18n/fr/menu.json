@@ -1,0 +1,38 @@
+{
+  "title": "Menu",
+  "keys": {
+    "inbox": "Réception",
+    "new": "Nouveau",
+    "setup": "Config"
+  },
+  "items": {
+    "inbox": "Réception",
+    "compose": "Nouveau message",
+    "scheduled": "Programmés",
+    "applications": "Applications",
+    "devices": "Appareils",
+    "webhooks": "Webhooks",
+    "forms": "Formulaires",
+    "apiKeys": "Clés API",
+    "account": "Compte et usage",
+    "settings": "Paramètres",
+    "leaveDemo": "Quitter la démo",
+    "signOut": "Déconnexion"
+  },
+  "hints": {
+    "unread": "Non lus : {count}",
+    "demo": "démo"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "Quitter la démo ?",
+      "text": "Retour à l’écran de connexion.",
+      "button": "Quitter"
+    },
+    "signOut": {
+      "title": "Se déconnecter ?",
+      "text": "La clé reste valide sur votre compte ; supprimez-la dans Clés API si besoin.",
+      "button": "Déconnexion"
+    }
+  }
+}

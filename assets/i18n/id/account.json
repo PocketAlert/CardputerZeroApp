@@ -1,0 +1,24 @@
+{
+  "title": "Akun",
+  "keys": {
+    "refresh": "Segarkan"
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "GRATIS"
+  },
+  "usage": {
+    "sentToday": "Terkirim hari ini",
+    "unlimited": "Paket tanpa batas",
+    "resetsIn": "Reset dalam {time}",
+    "rejected": "{count} ditolak, lewat batas"
+  },
+  "stats": {
+    "lastDays": "7 HARI TERAKHIR"
+  },
+  "duration": {
+    "now": "Baru saja",
+    "hoursMinutes": "{hours}j {minutes}m",
+    "minutes": "{minutes}m"
+  }
+}

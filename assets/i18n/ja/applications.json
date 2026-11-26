@@ -1,0 +1,53 @@
+{
+  "title": "アプリケーション",
+  "keys": {
+    "new": "新規",
+    "inbox": "受信箱",
+    "send": "送信",
+    "edit": "編集"
+  },
+  "empty": {
+    "title": "アプリケーションなし",
+    "hint": "送信元ごとに通知を分類: 4 で作成"
+  },
+  "form": {
+    "newTitle": "新規アプリケーション",
+    "editTitle": "アプリケーション編集",
+    "saveChanges": "変更を保存",
+    "create": "アプリケーションを作成",
+    "tidNote": "TID {tid}  ·  送信: pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "名前",
+    "description": "説明",
+    "color": "色",
+    "defaultLevel": "既定の重要度",
+    "required": "必須",
+    "optional": "任意",
+    "levelNotSet": "未設定"
+  },
+  "colors": {
+    "blue": "ブルー",
+    "indigo": "インディゴ",
+    "red": "レッド",
+    "coral": "コーラル",
+    "amber": "アンバー",
+    "green": "グリーン",
+    "teal": "ティール",
+    "purple": "パープル",
+    "pink": "ピンク",
+    "gray": "グレー",
+    "custom": "カスタム {color}"
+  },
+  "toast": {
+    "nameRequired": "名前は必須です",
+    "notSaved": "保存できませんでした",
+    "created": "アプリケーションを作成",
+    "updated": "アプリケーションを更新"
+  },
+  "confirm": {
+    "deleteTitle": "{name} を削除しますか?",
+    "deleteText": "メッセージは受信箱に残ります(アプリケーションなし)。"
+  },
+  "help": "アプリケーション\nEnter / 7  編集   4  新規   5  アプリの受信箱\n6  アプリへ送信   8  削除"
+}

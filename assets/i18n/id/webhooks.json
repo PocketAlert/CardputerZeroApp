@@ -1,0 +1,70 @@
+{
+  "title": "Webhook",
+  "keys": {
+    "new": "Baru",
+    "history": "Riwayat",
+    "url": "URL",
+    "toggle": "Aktifkan"
+  },
+  "empty": {
+    "title": "Belum ada webhook",
+    "hint": "Ubah webhook layanan apa pun jadi notifikasi"
+  },
+  "row": {
+    "off": "mati"
+  },
+  "form": {
+    "newTitle": "Webhook baru",
+    "editTitle": "Ubah webhook",
+    "saveChanges": "Simpan perubahan",
+    "create": "Buat webhook",
+    "note": "Template: * meneruskan seluruh payload, %field.path% mengambil nilai. Nilai aksi juga boleh memakai %placeholders%."
+  },
+  "fields": {
+    "name": "Nama",
+    "required": "Wajib",
+    "template": "Templat",
+    "templatePlaceholder": "* atau %title%: %message%",
+    "slug": "Slug URL",
+    "slugPlaceholder": "Otomatis jika kosong",
+    "application": "Aplikasi",
+    "applicationNone": "Tidak ada",
+    "device": "Perangkat",
+    "level": "Level",
+    "levelNotSet": "Belum diatur",
+    "action": "Aksi {number}",
+    "active": "Aktif"
+  },
+  "toast": {
+    "nameRequired": "Nama wajib diisi",
+    "actionInvalid": "Aksi {number}: {error}",
+    "notSaved": "Tidak tersimpan",
+    "updated": "Webhook diperbarui",
+    "enabled": "Webhook aktif",
+    "paused": "Webhook dijeda"
+  },
+  "created": {
+    "title": "Webhook dibuat",
+    "text": "{url}\n\nKirim POST JSON ke sini untuk mengirim notifikasi."
+  },
+  "urlInfo": "{url}\n\nTemplate: {template}\n\nCoba:\n{curl}",
+  "confirm": {
+    "deleteTitle": "Hapus {name}?",
+    "deleteText": "Pengirim yang memanggil URL-nya akan menerima 404."
+  },
+  "history": {
+    "keys": {
+      "refresh": "Segarkan"
+    },
+    "empty": {
+      "title": "Belum ada permintaan",
+      "hint": "Panggilan ke webhook ini muncul di sini"
+    },
+    "error": "galat",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "Permintaan {method}",
+    "detail": "Status: {status}\nWaktu: {when}\nDari: {from}\nTipe: {type}\n\nBody:\n{body}",
+    "detailMessage": "\n\nPesan:\n{message}"
+  },
+  "help": "Webhook\nEnter  ubah   4  baru   5  riwayat request\n6  URL + QR + curl   7  jeda/lanjut   8  hapus"
+}

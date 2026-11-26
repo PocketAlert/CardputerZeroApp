@@ -1,0 +1,38 @@
+{
+  "tagline": "Les alertes de vos serveurs, dans la poche",
+  "options": {
+    "email": "Connexion par e-mail",
+    "apiKey": "Saisir une clé API",
+    "cliKey": "Utiliser la clé du CLI",
+    "demo": "Explorer la démo"
+  },
+  "help": "Connectez-vous une fois : la clé est stockée dans {path}.\nSaisir une longue clé est fastidieux : copiez-la via SSH ou installez la CLI et lancez `{command}`.",
+  "email": {
+    "title": "Connexion",
+    "keySignIn": "Entrer",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vous@exemple.fr",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Requis",
+    "submit": "Se connecter",
+    "note": "Enter modifie un champ. Si la 2FA est activée, un code sera demandé. L’appareil reçoit sa propre clé API nommée « {name} ».",
+    "missingFields": "Saisissez e-mail et mot de passe",
+    "signingIn": "Connexion…"
+  },
+  "twoFactor": {
+    "title": "Code à deux facteurs",
+    "hint": "Code à 6 chiffres de votre app d’authentification, ou code de secours."
+  },
+  "apiKey": {
+    "title": "Clé API",
+    "hint": "Créez-en une sur {url}",
+    "checking": "Vérification…"
+  },
+  "signedInAs": "Connecté : {email}",
+  "error": {
+    "signInFailed": "Connexion échouée",
+    "codeRejected": "Code refusé",
+    "deviceKeyFailed": "Création de la clé d’appareil impossible",
+    "keyRejected": "Clé refusée"
+  }
+}

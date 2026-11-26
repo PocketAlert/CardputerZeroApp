@@ -1,0 +1,67 @@
+{
+  "title": "Configurações",
+  "keys": {
+    "test": "Teste"
+  },
+  "fields": {
+    "poll": "Ao abrir",
+    "sound": "Som",
+    "minLevel": "Bipar em",
+    "notifier": "Em segundo plano",
+    "notifyPoll": "Ao fechar",
+    "dim": "Escurecer",
+    "off": "Tela apagada",
+    "theme": "Tema"
+  },
+  "options": {
+    "check": {
+      "s10": "A cada 10 s",
+      "s15": "A cada 15 s",
+      "s30": "A cada 30 s",
+      "m1": "A cada 1 min",
+      "m2": "A cada 2 min",
+      "m5": "A cada 5 min"
+    },
+    "after": {
+      "s15": "Após 15 s",
+      "s30": "Após 30 s",
+      "m1": "Após 1 min",
+      "m2": "Após 2 min",
+      "m5": "Após 5 min"
+    },
+    "never": "Nunca",
+    "minLevel": {
+      "low": "Baixa ou mais",
+      "default": "Padrão ou mais",
+      "high": "Alta ou mais",
+      "critical": "Só crítica"
+    },
+    "theme": {
+      "dark": "Escuro",
+      "lcd": "LCD de pager"
+    }
+  },
+  "buttons": {
+    "test": "Enviar alerta de teste",
+    "beep": "Tocar o som de alerta",
+    "save": "Salvar alterações"
+  },
+  "about": {
+    "version": "Pocket Alert para Cardputer Zero {version}",
+    "demo": "Modo demo: os dados não são reais",
+    "account": "Conta: {email}",
+    "config": "Config: {path}",
+    "background": "Em segundo plano: o serviço {service} apita com o app fechado."
+  },
+  "testAlert": {
+    "title": "Teste do Cardputer Zero",
+    "message": "Se isto chegou nos seus dispositivos, os alertas funcionam de ponta a ponta."
+  },
+  "toast": {
+    "saved": "Configurações salvas",
+    "testSent": "Alerta de teste enviado"
+  },
+  "errors": {
+    "testFailed": "Falha no teste"
+  }
+}

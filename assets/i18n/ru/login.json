@@ -1,0 +1,38 @@
+{
+  "tagline": "Алерты с ваших серверов в кармане",
+  "options": {
+    "email": "Войти по email",
+    "apiKey": "Ввести API-ключ",
+    "cliKey": "Ключ из CLI",
+    "demo": "Открыть демо"
+  },
+  "help": "Войдите один раз: ключ хранится в {path}.\nВводить длинный ключ неудобно: скопируйте его по SSH или установите CLI и выполните `{command}`.",
+  "email": {
+    "title": "Вход",
+    "keySignIn": "Войти",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Обязательно",
+    "submit": "Войти",
+    "note": "Enter — правка поля. При 2FA далее запросим код. Устройство получит свой API-ключ «{name}».",
+    "missingFields": "Введите email и пароль",
+    "signingIn": "Вход…"
+  },
+  "twoFactor": {
+    "title": "Код 2FA",
+    "hint": "6 цифр из приложения-аутентификатора или резервный код."
+  },
+  "apiKey": {
+    "title": "API-ключ",
+    "hint": "Создайте на {url}",
+    "checking": "Проверка ключа…"
+  },
+  "signedInAs": "Вы вошли как {email}",
+  "error": {
+    "signInFailed": "Не удалось войти",
+    "codeRejected": "Код отклонён",
+    "deviceKeyFailed": "Ключ устройства не создан",
+    "keyRejected": "Ключ отклонён"
+  }
+}

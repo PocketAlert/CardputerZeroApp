@@ -1,0 +1,43 @@
+{
+  "title": "Scheduled",
+  "empty": {
+    "title": "Nothing scheduled",
+    "hint": "Compose a message and pick a delivery time"
+  },
+  "keys": {
+    "new": "New",
+    "status": "Status",
+    "info": "Info",
+    "cancel": "Cancel"
+  },
+  "status": {
+    "pending": "pending",
+    "all": "all",
+    "sent": "sent",
+    "canceled": "canceled",
+    "failed": "failed"
+  },
+  "info": {
+    "deliver": "Deliver: {time}",
+    "deliverTz": "Deliver: {time} ({tz})",
+    "status": "Status: {status}",
+    "level": "Level: {level}",
+    "application": "Application: {name}",
+    "device": "Device: {name}",
+    "action": "Action: {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Cancel delivery?",
+      "button": "Cancel it"
+    }
+  },
+  "toast": {
+    "onlyPending": "Only pending messages can be canceled",
+    "canceled": "Delivery canceled"
+  },
+  "help": {
+    "filter": "5 or Z C  switch status filter",
+    "keys": "Enter / 7  details   8  cancel delivery"
+  }
+}

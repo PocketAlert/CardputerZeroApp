@@ -1,0 +1,32 @@
+{
+  "title": "API-Schlüssel",
+  "keys": {
+    "new": "Neu"
+  },
+  "empty": {
+    "title": "Keine API-Schlüssel"
+  },
+  "row": {
+    "created": "Erstellt {date}",
+    "inactive": "inaktiv"
+  },
+  "create": {
+    "title": "Neuer API-Schlüssel",
+    "hint": "Benenne ihn nach dem Einsatzort."
+  },
+  "info": {
+    "text": "TID: {tid}\nErstellt: {date}\n\nDas Secret wird nur einmal angezeigt, beim Erstellen des Schlüssels."
+  },
+  "toast": {
+    "notCreated": "Nicht erstellt"
+  },
+  "created": {
+    "title": "Schlüssel jetzt kopieren",
+    "text": "{token}\n\nWird nur einmal angezeigt. Scanne den Code, um ihn auf ein anderes Gerät zu übertragen."
+  },
+  "confirm": {
+    "deleteTitle": "{name} löschen?",
+    "deleteText": "Skripte und Apps mit diesem Schlüssel funktionieren nicht mehr.",
+    "deleteTextThisDevice": "Skripte und Apps mit diesem Schlüssel funktionieren nicht mehr. Evtl. meldet sich dieses Gerät damit an."
+  }
+}

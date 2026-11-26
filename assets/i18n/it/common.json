@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "Silenzioso",
+    "low": "Bassa",
+    "default": "Default",
+    "high": "Alta",
+    "critical": "Critica"
+  },
+  "action": {
+    "run": "Esegui",
+    "unknownType": "Tipo azione sconosciuto: {type}",
+    "invalidRequest": "{label}: richiesta non valida"
+  },
+  "view": {
+    "text": "{url}\n\nInquadra il codice per aprirlo sul telefono."
+  },
+  "http": {
+    "running": "{label}: {request}",
+    "failed": "{label} non riuscito: {error}",
+    "done": "{label}: fatto ({status})",
+    "httpError": "{label}: HTTP {status}"
+  }
+}

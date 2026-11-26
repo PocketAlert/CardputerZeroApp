@@ -1,0 +1,66 @@
+{
+  "title": "Nova mensagem",
+  "keys": {
+    "send": "Enviar",
+    "clear": "Limpar"
+  },
+  "fields": {
+    "title": "Título",
+    "message": "Mensagem",
+    "app": "App",
+    "device": "Dispositivo",
+    "level": "Nível",
+    "when": "Envio",
+    "delay": "Atraso",
+    "at": "Às",
+    "image": "URL imagem",
+    "action1": "Ação 1",
+    "action2": "Ação 2",
+    "action3": "Ação 3"
+  },
+  "placeholders": {
+    "required": "Obrigatório",
+    "image": "https://… (opcional)"
+  },
+  "options": {
+    "noApp": "Nenhum",
+    "levelAppDefault": "Padrão do app",
+    "when": {
+      "now": "Agora",
+      "in": "Após um atraso",
+      "at": "Em um horário"
+    }
+  },
+  "note": "Imagens, agendamento e ações exigem plano pago. Fn+H mostra a sintaxe das ações.",
+  "confirm": {
+    "discard": {
+      "title": "Descartar mensagem?",
+      "text": "O rascunho não é salvo.",
+      "button": "Descartar"
+    },
+    "clear": {
+      "title": "Limpar todos os campos?",
+      "text": "Título, texto e opções serão redefinidos.",
+      "button": "Limpar"
+    }
+  },
+  "toast": {
+    "required": "Título e mensagem são obrigatórios",
+    "delayError": "Atraso: {error}",
+    "atRequired": "Informe o horário de envio",
+    "imageUrl": "A imagem deve ser uma URL http(s)",
+    "actionError": "Ação {number}: {error}",
+    "scheduledFor": "Agendada para {time}",
+    "sent": "Enviada"
+  },
+  "errors": {
+    "notSent": "Não enviado"
+  },
+  "help": {
+    "edit": "Enter  editar campo / escolher",
+    "change": "Z C  mudar opção   Tab  próximo campo",
+    "keys": "4  enviar   5  limpar   Esc  cancelar",
+    "actions": "Ações (até 3):",
+    "formats": "Atraso: {delay}  Às: {at}"
+  }
+}

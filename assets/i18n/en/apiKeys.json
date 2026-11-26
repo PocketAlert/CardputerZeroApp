@@ -1,0 +1,32 @@
+{
+  "title": "API keys",
+  "keys": {
+    "new": "New"
+  },
+  "empty": {
+    "title": "No API keys"
+  },
+  "row": {
+    "created": "Created {date}",
+    "inactive": "inactive"
+  },
+  "create": {
+    "title": "New API key",
+    "hint": "Name it after where it will be used."
+  },
+  "info": {
+    "text": "TID: {tid}\nCreated: {date}\n\nThe secret is shown only once, when the key is created."
+  },
+  "toast": {
+    "notCreated": "Not created"
+  },
+  "created": {
+    "title": "Copy this key now",
+    "text": "{token}\n\nIt is shown only once. Scan the code to move it to another device."
+  },
+  "confirm": {
+    "deleteTitle": "Delete {name}?",
+    "deleteText": "Scripts and apps using this key stop working.",
+    "deleteTextThisDevice": "Scripts and apps using this key stop working. This may be the key this device signs in with."
+  }
+}

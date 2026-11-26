@@ -1,0 +1,38 @@
+{
+  "title": "메뉴",
+  "keys": {
+    "inbox": "받은함",
+    "new": "새로",
+    "setup": "설정"
+  },
+  "items": {
+    "inbox": "받은 알림",
+    "compose": "새 메시지",
+    "scheduled": "예약 발송",
+    "applications": "애플리케이션",
+    "devices": "기기",
+    "webhooks": "웹훅",
+    "forms": "폼",
+    "apiKeys": "API 키",
+    "account": "계정·사용량",
+    "settings": "설정",
+    "leaveDemo": "데모 나가기",
+    "signOut": "로그아웃"
+  },
+  "hints": {
+    "unread": "안읽음 {count}",
+    "demo": "데모"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "데모 나가기?",
+      "text": "로그인 화면으로 돌아가요.",
+      "button": "나가기"
+    },
+    "signOut": {
+      "title": "로그아웃할까요?",
+      "text": "키는 계정에서 계속 유효해요. 필요하면 API 키에서 삭제하세요.",
+      "button": "로그아웃"
+    }
+  }
+}

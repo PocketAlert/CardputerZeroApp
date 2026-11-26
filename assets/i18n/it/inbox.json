@@ -1,0 +1,55 @@
+{
+  "title": "Posta",
+  "keys": {
+    "new": "Nuovo",
+    "filter": "Filtra",
+    "search": "Cerca",
+    "more": "Altro",
+    "menu": "Menu"
+  },
+  "subtitle": {
+    "unread": "non lette",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "Caricamento non riuscito",
+    "title": "Inbox zero",
+    "filteredTitle": "Nessun messaggio",
+    "hint": "I nuovi avvisi appaiono qui"
+  },
+  "filter": {
+    "title": "Mostra messaggi da",
+    "allApps": "Tutte le applicazioni"
+  },
+  "search": {
+    "title": "Cerca",
+    "hint": "Cerca in titolo, testo e applicazione dei messaggi caricati."
+  },
+  "more": {
+    "title": "Posta in arrivo",
+    "markRead": "Segna come letto",
+    "markUnread": "Segna come non letto",
+    "delete": "Elimina messaggio",
+    "showAll": "Mostra tutti i messaggi",
+    "showUnread": "Solo non letti",
+    "markAllRead": "Segna tutti come letti",
+    "deleteAll": "Elimina tutti i messaggi",
+    "refresh": "Aggiorna"
+  },
+  "confirm": {
+    "delete": {
+      "title": "Eliminare il messaggio?"
+    },
+    "deleteAll": {
+      "title": "Eliminare tutti i messaggi?",
+      "text": "Tutti i messaggi dell'account vengono rimossi, su ogni dispositivo. Non si può annullare.",
+      "button": "Elimina tutti"
+    }
+  },
+  "toast": {
+    "deleted": "Eliminato",
+    "allRead": "Tutto segnato come letto",
+    "cleared": "Posta svuotata"
+  },
+  "help": "Posta\nEnter  apri messaggio\nR  letto / da leggere   D o Del  elimina\nU  solo non letti   S  cerca   G  aggiorna\nN  nuovo messaggio   T o Esc  torna su\ntieni F / X  scorri più veloce"
+}

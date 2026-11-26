@@ -1,0 +1,43 @@
+{
+  "title": "Terjadwal",
+  "empty": {
+    "title": "Belum ada jadwal",
+    "hint": "Tulis pesan dan pilih waktu kirim"
+  },
+  "keys": {
+    "new": "Baru",
+    "status": "Status",
+    "info": "Info",
+    "cancel": "Batal"
+  },
+  "status": {
+    "pending": "Tertunda",
+    "all": "Semua",
+    "sent": "Terkirim",
+    "canceled": "Dibatalkan",
+    "failed": "Gagal"
+  },
+  "info": {
+    "deliver": "Kirim: {time}",
+    "deliverTz": "Kirim: {time} ({tz})",
+    "status": "Status: {status}",
+    "level": "Level: {level}",
+    "application": "Aplikasi: {name}",
+    "device": "Perangkat: {name}",
+    "action": "Aksi: {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Batalkan pengiriman?",
+      "button": "Batalkan"
+    }
+  },
+  "toast": {
+    "onlyPending": "Hanya pesan tertunda yang bisa dibatalkan",
+    "canceled": "Pengiriman dibatalkan"
+  },
+  "help": {
+    "filter": "5 atau Z C  ganti filter status",
+    "keys": "Enter / 7  detail   8  batalkan"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Mensaje",
+  "keys": {
+    "read": "Leído",
+    "unread": "No leído",
+    "delete": "Borrar"
+  },
+  "meta": {
+    "scheduled": "programados"
+  },
+  "attachment": "Adjunto",
+  "actionsHeading": "ACCIONES",
+  "confirm": {
+    "delete": {
+      "title": "¿Eliminar mensaje?"
+    }
+  },
+  "toast": {
+    "gone": "El mensaje ya no existe",
+    "markedRead": "Marcado como leído",
+    "markedUnread": "Marcado como no leído",
+    "deleted": "Eliminado"
+  },
+  "help": "Mensaje\nF X / flechas  desplazar   Space  página   T  inicio\n4 5 6  botones de acción (o 1 2 3)\n7 / R  leído o no leído   8 / D  eliminar"
+}

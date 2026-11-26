@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "Paramètres non enregistrés : {error}",
+    "moreMessages": "+{count} autres",
+    "holdEscToExit": "Maintenez Esc pour quitter Pocket Alert",
+    "screenshotSaved": "Capture enregistrée",
+    "screenshotFailed": "Échec de la capture : {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix} : {error}",
+    "checkKey": "{error}. Vérifiez la clé API dans Paramètres"
+  },
+  "status": {
+    "demo": "DÉMO"
+  },
+  "options": {
+    "allDevices": "Tous les appareils"
+  },
+  "help": {
+    "title": "Clavier",
+    "global": "Partout\n4-8  actions de la barre du bas\nF X / flèches  déplacer (maintenir : défiler)\nT  haut de page   Enter  ouvrir\nEsc  retour   maintenir Esc  quitter\nfn+J  capture d’écran   fn+H  cette aide"
+  },
+  "modal": {
+    "cancelButton": "Esc  Annuler",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc fermer   F/X défiler",
+    "pickerFooter": "Enter choisir   Esc annuler",
+    "promptFooter": "Enter OK   Esc annuler"
+  },
+  "list": {
+    "empty": "Rien ici"
+  },
+  "toggle": {
+    "on": "Activé",
+    "off": "Désactivé"
+  },
+  "time": {
+    "yesterday": "Hier",
+    "dayMonth": "{day} {month}",
+    "weekday": {
+      "sun": "dim.",
+      "mon": "lun.",
+      "tue": "mar.",
+      "wed": "mer.",
+      "thu": "jeu.",
+      "fri": "ven.",
+      "sat": "sam."
+    },
+    "month": {
+      "jan": "janv.",
+      "feb": "févr.",
+      "mar": "mars",
+      "apr": "avr.",
+      "may": "mai",
+      "jun": "juin",
+      "jul": "juil.",
+      "aug": "août",
+      "sep": "sept.",
+      "oct": "oct.",
+      "nov": "nov.",
+      "dec": "déc."
+    }
+  },
+  "size": {
+    "megabytes": "{size} Mo",
+    "kilobytes": "{size} Ko",
+    "bytes": "{size} o"
+  }
+}

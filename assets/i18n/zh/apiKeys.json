@@ -1,0 +1,32 @@
+{
+  "title": "API 密钥",
+  "keys": {
+    "new": "新建"
+  },
+  "empty": {
+    "title": "没有 API 密钥"
+  },
+  "row": {
+    "created": "创建于 {date}",
+    "inactive": "已停用"
+  },
+  "create": {
+    "title": "新建 API 密钥",
+    "hint": "按用途命名。"
+  },
+  "info": {
+    "text": "TID：{tid}\n创建时间：{date}\n\n密钥仅在创建时显示一次。"
+  },
+  "toast": {
+    "notCreated": "创建失败"
+  },
+  "created": {
+    "title": "请立即复制此密钥",
+    "text": "{token}\n\n仅显示一次。扫码可转移到其他设备。"
+  },
+  "confirm": {
+    "deleteTitle": "删除 {name}？",
+    "deleteText": "使用此密钥的脚本和应用将失效。",
+    "deleteTextThisDevice": "使用此密钥的脚本和应用将失效。本设备可能正用它登录。"
+  }
+}

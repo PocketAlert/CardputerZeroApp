@@ -1,0 +1,30 @@
+{
+  "title": "デバイス",
+  "keys": {
+    "rename": "名前変更",
+    "send": "送信",
+    "info": "情報"
+  },
+  "empty": {
+    "title": "デバイスなし",
+    "hint": "スマホアプリを入れるとプッシュ通知が届きます"
+  },
+  "row": {
+    "inactive": "無効"
+  },
+  "rename": {
+    "title": "デバイス名を変更"
+  },
+  "info": {
+    "text": "シリアル: {serial}\nTID: {tid}\n有効: {active}\n追加日: {added}",
+    "yes": "はい",
+    "no": "いいえ"
+  },
+  "toast": {
+    "renamed": "名前を変更しました"
+  },
+  "confirm": {
+    "removeTitle": "{name} を削除しますか?",
+    "removeText": "再度ログインするまで、プッシュ通知を受信しなくなります。"
+  }
+}

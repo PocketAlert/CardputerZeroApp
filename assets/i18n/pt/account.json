@@ -1,0 +1,24 @@
+{
+  "title": "Conta",
+  "keys": {
+    "refresh": "Atualizar"
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "Grátis"
+  },
+  "usage": {
+    "sentToday": "Enviadas hoje",
+    "unlimited": "Plano ilimitado",
+    "resetsIn": "Zera em {time}",
+    "rejected": "{count} recusadas pelo limite"
+  },
+  "stats": {
+    "lastDays": "ÚLTIMOS 7 DIAS"
+  },
+  "duration": {
+    "now": "agora",
+    "hoursMinutes": "{hours}h {minutes}min",
+    "minutes": "{minutes}min"
+  }
+}

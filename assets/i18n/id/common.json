@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "Senyap",
+    "low": "Rendah",
+    "default": "Default",
+    "high": "Tinggi",
+    "critical": "Kritis"
+  },
+  "action": {
+    "run": "Jalankan",
+    "unknownType": "Tipe aksi tak dikenal: {type}",
+    "invalidRequest": "{label}: permintaan tidak valid"
+  },
+  "view": {
+    "text": "{url}\n\nPindai kode untuk membukanya di HP."
+  },
+  "http": {
+    "running": "{label}: {request}",
+    "failed": "{label} gagal: {error}",
+    "done": "{label}: selesai ({status})",
+    "httpError": "{label}: HTTP {status}"
+  }
+}

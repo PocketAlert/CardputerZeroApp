@@ -1,0 +1,25 @@
+{
+  "title": "Messaggio",
+  "keys": {
+    "read": "Letto",
+    "unread": "Non letto",
+    "delete": "Elimina"
+  },
+  "meta": {
+    "scheduled": "programmati"
+  },
+  "attachment": "Allegato",
+  "actionsHeading": "AZIONI",
+  "confirm": {
+    "delete": {
+      "title": "Eliminare messaggio?"
+    }
+  },
+  "toast": {
+    "gone": "Il messaggio non esiste più",
+    "markedRead": "Segnato come letto",
+    "markedUnread": "Segnato come non letto",
+    "deleted": "Eliminato"
+  },
+  "help": "Messaggio\nF X / frecce  scorri   Space  pagina   T  inizio\n4 5 6  pulsanti di azione (o 1 2 3)\n7 / R  letto o non letto   8 / D  elimina"
+}

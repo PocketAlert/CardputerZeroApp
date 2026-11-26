@@ -1,0 +1,25 @@
+{
+  "title": "Mensagem",
+  "keys": {
+    "read": "Lida",
+    "unread": "Não lida",
+    "delete": "Excluir"
+  },
+  "meta": {
+    "scheduled": "agendados"
+  },
+  "attachment": "Anexo",
+  "actionsHeading": "AÇÕES",
+  "confirm": {
+    "delete": {
+      "title": "Excluir mensagem?"
+    }
+  },
+  "toast": {
+    "gone": "Mensagem não existe mais",
+    "markedRead": "Marcada como lida",
+    "markedUnread": "Marcada como não lida",
+    "deleted": "Excluída"
+  },
+  "help": "Mensagem\nF X / setas  rolar   Space  página   T  topo\n4 5 6  botões de ação (ou 1 2 3)\n7 / R  lida ou não lida   8 / D  excluir"
+}

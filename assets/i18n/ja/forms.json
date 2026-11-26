@@ -1,0 +1,22 @@
+{
+  "title": "フォーム",
+  "keys": {
+    "link": "リンク"
+  },
+  "empty": {
+    "title": "フォームなし",
+    "hint": "pocketalert.app で作成できます"
+  },
+  "row": {
+    "submissions": "回答 {count}",
+    "submissionsLast": "回答 {count}  ·  最終 {time}",
+    "closed": "終了"
+  },
+  "link": {
+    "text": "{url}\n\n{count} 件の送信。1 件ごとに通知が届きます。"
+  },
+  "confirm": {
+    "deleteTitle": "{name} を削除?",
+    "deleteText": "公開リンクが無効になります。"
+  }
+}

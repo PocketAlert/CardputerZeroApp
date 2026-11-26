@@ -1,0 +1,55 @@
+{
+  "title": "Entrada",
+  "keys": {
+    "new": "Novo",
+    "filter": "Filtro",
+    "search": "Buscar",
+    "more": "Mais",
+    "menu": "Menu"
+  },
+  "subtitle": {
+    "unread": "não lidas",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "Falha ao carregar",
+    "title": "Caixa zerada",
+    "filteredTitle": "Nenhuma mensagem",
+    "hint": "Novos alertas aparecem aqui"
+  },
+  "filter": {
+    "title": "Mostrar mensagens de",
+    "allApps": "Todos os apps"
+  },
+  "search": {
+    "title": "Buscar",
+    "hint": "Busca no título, texto e aplicativo das mensagens carregadas."
+  },
+  "more": {
+    "title": "Entrada",
+    "markRead": "Marcar como lida",
+    "markUnread": "Marcar como não lida",
+    "delete": "Excluir mensagem",
+    "showAll": "Mostrar todas",
+    "showUnread": "Só não lidas",
+    "markAllRead": "Marcar todas como lidas",
+    "deleteAll": "Excluir todas",
+    "refresh": "Atualizar"
+  },
+  "confirm": {
+    "delete": {
+      "title": "Excluir mensagem?"
+    },
+    "deleteAll": {
+      "title": "Excluir todas as mensagens?",
+      "text": "Todas as mensagens da conta serão removidas, em todos os dispositivos. Não dá para desfazer.",
+      "button": "Excluir tudo"
+    }
+  },
+  "toast": {
+    "deleted": "Excluída",
+    "allRead": "Tudo marcado como lido",
+    "cleared": "Caixa limpa"
+  },
+  "help": "Entrada\nEnter  abrir mensagem\nR  lida / não lida   D ou Del  excluir\nU  só não lidas   S  buscar   G  atualizar\nN  nova mensagem   T ou Esc  voltar ao topo\nsegure F / X  rolar mais rápido"
+}

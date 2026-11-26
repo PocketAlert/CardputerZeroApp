@@ -1,0 +1,38 @@
+{
+  "tagline": "Alerts deiner Server in deiner Tasche",
+  "options": {
+    "email": "Mit E-Mail anmelden",
+    "apiKey": "API-Schlüssel eingeben",
+    "cliKey": "CLI-Schlüssel nutzen",
+    "demo": "Demo ausprobieren"
+  },
+  "help": "Einmal anmelden; der Schlüssel liegt in {path}.\nEinen langen Schlüssel zu tippen nervt: Kopiere ihn per SSH oder installiere die CLI und führe `{command}` aus.",
+  "email": {
+    "title": "Anmelden",
+    "keySignIn": "Login",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "du@example.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Pflichtfeld",
+    "submit": "Anmelden",
+    "note": "Enter bearbeitet ein Feld. Bei 2FA folgt die Code-Abfrage. Das Gerät erhält einen eigenen API-Schlüssel \"{name}\".",
+    "missingFields": "E-Mail und Passwort eingeben",
+    "signingIn": "Anmeldung…"
+  },
+  "twoFactor": {
+    "title": "2FA-Code",
+    "hint": "6-stelliger Code aus deiner Authenticator-App oder ein Wiederherstellungscode."
+  },
+  "apiKey": {
+    "title": "API-Schlüssel",
+    "hint": "Erstelle einen unter {url}",
+    "checking": "Prüfe Schlüssel…"
+  },
+  "signedInAs": "Angemeldet als {email}",
+  "error": {
+    "signInFailed": "Anmeldung fehlgeschlagen",
+    "codeRejected": "Code abgelehnt",
+    "deviceKeyFailed": "Geräteschlüssel nicht erstellt",
+    "keyRejected": "Schlüssel abgelehnt"
+  }
+}

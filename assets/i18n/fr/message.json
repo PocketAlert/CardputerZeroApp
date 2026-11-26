@@ -1,0 +1,25 @@
+{
+  "title": "Message",
+  "keys": {
+    "read": "Lu",
+    "unread": "Non lu",
+    "delete": "Suppr."
+  },
+  "meta": {
+    "scheduled": "programmés"
+  },
+  "attachment": "Pièce jointe",
+  "actionsHeading": "ACTIONS",
+  "confirm": {
+    "delete": {
+      "title": "Supprimer le message ?"
+    }
+  },
+  "toast": {
+    "gone": "Ce message n’existe plus",
+    "markedRead": "Marqué comme lu",
+    "markedUnread": "Marqué comme non lu",
+    "deleted": "Supprimé"
+  },
+  "help": "Message\nF X / flèches  défiler   Space  page   T  haut\n4 5 6  boutons d’action (ou 1 2 3)\n7 / R  lu ou non lu   8 / D  supprimer"
+}

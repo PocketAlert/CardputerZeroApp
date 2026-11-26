@@ -1,0 +1,32 @@
+{
+  "keys": {
+    "back": "Back",
+    "next": "Next",
+    "done": "Start",
+    "skip": "Skip",
+    "tour": "Tour",
+    "toggle": "Toggle"
+  },
+  "pages": {
+    "welcome": {
+      "title": "Welcome to Pocket Alert",
+      "text": "Alerts from your servers, scripts and webhooks land here.\nThe notifier keeps checking in the background and beeps when something new arrives, even with the app closed."
+    },
+    "keys": {
+      "title": "Getting around",
+      "text": "4-8  buttons in the bottom bar\nF X or arrows  move, hold to scroll\nEnter  open   Esc  back\nhold Esc  quit the app"
+    },
+    "inbox": {
+      "title": "In the inbox",
+      "text": "R  read / unread   D  delete\nU  unread only   S  search\nN  new message   G  refresh\n8  menu with everything else"
+    },
+    "help": {
+      "title": "Help is one key away",
+      "text": "fn+H  keys for the screen you are on\nMenu → Help  all shortcuts and this tour\nSettings  sound, language, theme"
+    }
+  },
+  "shortcuts": {
+    "title": "Help"
+  },
+  "launch": "Show this tour at every launch"
+}

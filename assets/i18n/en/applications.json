@@ -1,0 +1,53 @@
+{
+  "title": "Applications",
+  "keys": {
+    "new": "New",
+    "inbox": "Inbox",
+    "send": "Send",
+    "edit": "Edit"
+  },
+  "empty": {
+    "title": "No applications",
+    "hint": "Group alerts by source: 4 creates one"
+  },
+  "form": {
+    "newTitle": "New application",
+    "editTitle": "Edit application",
+    "saveChanges": "Save changes",
+    "create": "Create application",
+    "tidNote": "TID {tid}  ·  send with: pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "Name",
+    "description": "Description",
+    "color": "Color",
+    "defaultLevel": "Default level",
+    "required": "Required",
+    "optional": "Optional",
+    "levelNotSet": "Not set"
+  },
+  "colors": {
+    "blue": "Blue",
+    "indigo": "Indigo",
+    "red": "Red",
+    "coral": "Coral",
+    "amber": "Amber",
+    "green": "Green",
+    "teal": "Teal",
+    "purple": "Purple",
+    "pink": "Pink",
+    "gray": "Gray",
+    "custom": "Custom {color}"
+  },
+  "toast": {
+    "nameRequired": "Name is required",
+    "notSaved": "Not saved",
+    "created": "Application created",
+    "updated": "Application updated"
+  },
+  "confirm": {
+    "deleteTitle": "Delete {name}?",
+    "deleteText": "Its messages stay in the inbox without an application."
+  },
+  "help": "Applications\nEnter / 7  edit   4  new   5  inbox for app\n6  send to app   8  delete"
+}

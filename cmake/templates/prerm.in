@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+stop_for() {
+    systemctl --user -M "$1@" stop pocketalert-notifyd.service >/dev/null 2>&1 || true
+}
+
+if command -v systemctl >/dev/null 2>&1; then
+    for dir in /run/user/*; do
+        uid="${dir##*/}"
+        case "$uid" in ''|*[!0-9]*) continue ;; esac
+        [ "$uid" -ge 1000 ] || continue
+        name="$(getent passwd "$uid" | cut -d: -f1)"
+        [ -n "$name" ] && stop_for "$name"
+    done
+    systemctl --global disable pocketalert-notifyd.service >/dev/null 2>&1 || true
+fi
+exit 0

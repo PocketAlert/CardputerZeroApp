@@ -1,0 +1,20 @@
+{
+  "level": {
+    "silent": "senyap",
+    "low": "rendah",
+    "default": "default",
+    "high": "tinggi",
+    "critical": "kritis"
+  },
+  "ok": "OK",
+  "cancel": "Batal",
+  "save": "Simpan",
+  "delete": "Hapus",
+  "back": "Kembali",
+  "close": "Tutup",
+  "loading": "Memuat…",
+  "language": {
+    "label": "Bahasa",
+    "auto": "Sistem"
+  }
+}

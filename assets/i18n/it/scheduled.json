@@ -1,0 +1,43 @@
+{
+  "title": "Programmati",
+  "empty": {
+    "title": "Nulla di programmato",
+    "hint": "Scrivi un messaggio e scegli quando inviarlo"
+  },
+  "keys": {
+    "new": "Nuovo",
+    "status": "Stato",
+    "info": "Info",
+    "cancel": "Annulla"
+  },
+  "status": {
+    "pending": "In attesa",
+    "all": "Tutti",
+    "sent": "Inviati",
+    "canceled": "Annullati",
+    "failed": "Falliti"
+  },
+  "info": {
+    "deliver": "Invio: {time}",
+    "deliverTz": "Invio: {time} ({tz})",
+    "status": "Stato: {status}",
+    "level": "Livello: {level}",
+    "application": "App: {name}",
+    "device": "Dispositivo: {name}",
+    "action": "Azione: {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Annullare l'invio?",
+      "button": "Annulla invio"
+    }
+  },
+  "toast": {
+    "onlyPending": "Si annullano solo i messaggi in attesa",
+    "canceled": "Invio annullato"
+  },
+  "help": {
+    "filter": "5 o Z C  cambia filtro stato",
+    "keys": "Enter / 7  dettagli   8  annulla invio"
+  }
+}

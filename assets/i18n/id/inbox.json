@@ -1,0 +1,55 @@
+{
+  "title": "Kotak Masuk",
+  "keys": {
+    "new": "Baru",
+    "filter": "Filter",
+    "search": "Cari",
+    "more": "Lainnya",
+    "menu": "Menu"
+  },
+  "subtitle": {
+    "unread": "belum dibaca",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "Gagal memuat pesan",
+    "title": "Inbox kosong",
+    "filteredTitle": "Tidak ada pesan",
+    "hint": "Peringatan baru muncul di sini"
+  },
+  "filter": {
+    "title": "Tampilkan pesan dari",
+    "allApps": "Semua aplikasi"
+  },
+  "search": {
+    "title": "Cari",
+    "hint": "Cocok dengan judul, teks, dan aplikasi pesan yang dimuat."
+  },
+  "more": {
+    "title": "Kotak Masuk",
+    "markRead": "Tandai dibaca",
+    "markUnread": "Tandai belum dibaca",
+    "delete": "Hapus pesan",
+    "showAll": "Tampilkan semua pesan",
+    "showUnread": "Hanya belum dibaca",
+    "markAllRead": "Tandai semua dibaca",
+    "deleteAll": "Hapus semua pesan",
+    "refresh": "Segarkan"
+  },
+  "confirm": {
+    "delete": {
+      "title": "Hapus pesan?"
+    },
+    "deleteAll": {
+      "title": "Hapus semua pesan?",
+      "text": "Semua pesan di akun Anda dihapus, di semua perangkat. Tindakan ini tidak dapat dibatalkan.",
+      "button": "Hapus semua"
+    }
+  },
+  "toast": {
+    "deleted": "Dihapus",
+    "allRead": "Semua pesan ditandai dibaca",
+    "cleared": "Kotak masuk dikosongkan"
+  },
+  "help": "Kotak Masuk\nEnter  buka pesan\nR  dibaca / belum   D atau Del  hapus\nU  belum dibaca   S  cari   G  segarkan\nN  pesan baru   T atau Esc  ke atas\nTahan F / X  gulir cepat"
+}

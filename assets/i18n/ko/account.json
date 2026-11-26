@@ -1,0 +1,24 @@
+{
+  "title": "계정",
+  "keys": {
+    "refresh": "새로고침"
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "무료"
+  },
+  "usage": {
+    "sentToday": "오늘 발송",
+    "unlimited": "무제한 플랜",
+    "resetsIn": "{time} 후 초기화",
+    "rejected": "한도 초과 {count}건 거부"
+  },
+  "stats": {
+    "lastDays": "최근 7일"
+  },
+  "duration": {
+    "now": "방금",
+    "hoursMinutes": "{hours}시간 {minutes}분",
+    "minutes": "{minutes}분"
+  }
+}

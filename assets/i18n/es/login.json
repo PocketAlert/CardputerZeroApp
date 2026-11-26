@@ -1,0 +1,38 @@
+{
+  "tagline": "Alertas de tus servidores, en tu bolsillo",
+  "options": {
+    "email": "Entrar con email",
+    "apiKey": "Introduce una clave de API",
+    "cliKey": "Usar la clave de la CLI",
+    "demo": "Explorar la demo"
+  },
+  "help": "Inicia sesión una vez; la clave se guarda en {path}.\nEscribir una clave larga es tedioso: cópiala por SSH o instala la CLI y ejecuta `{command}`.",
+  "email": {
+    "title": "Iniciar sesión",
+    "keySignIn": "Entrar",
+    "emailLabel": "Email",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Obligatoria",
+    "submit": "Iniciar sesión",
+    "note": "Enter edita un campo. Con 2FA se pedirá un código. El dispositivo recibe su propia clave de API llamada \"{name}\".",
+    "missingFields": "Introduce email y contraseña",
+    "signingIn": "Iniciando sesión…"
+  },
+  "twoFactor": {
+    "title": "Código en dos pasos",
+    "hint": "Código de 6 dígitos de tu app de autenticación o un código de recuperación."
+  },
+  "apiKey": {
+    "title": "Clave de API",
+    "hint": "Crea una en {url}",
+    "checking": "Comprobando clave…"
+  },
+  "signedInAs": "Sesión: {email}",
+  "error": {
+    "signInFailed": "Error al iniciar sesión",
+    "codeRejected": "Código rechazado",
+    "deviceKeyFailed": "No se creó la clave del dispositivo",
+    "keyRejected": "Clave rechazada"
+  }
+}

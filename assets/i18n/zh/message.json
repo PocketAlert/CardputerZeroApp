@@ -1,0 +1,25 @@
+{
+  "title": "消息",
+  "keys": {
+    "read": "已读",
+    "unread": "未读",
+    "delete": "删除"
+  },
+  "meta": {
+    "scheduled": "定时"
+  },
+  "attachment": "附件",
+  "actionsHeading": "操作",
+  "confirm": {
+    "delete": {
+      "title": "删除消息？"
+    }
+  },
+  "toast": {
+    "gone": "消息已不存在",
+    "markedRead": "已标为已读",
+    "markedUnread": "已标为未读",
+    "deleted": "已删除"
+  },
+  "help": "消息\nF X / 方向键  滚动   Space  翻页   T  顶部\n4 5 6  操作按钮（或 1 2 3）\n7 / R  已读/未读   8 / D  删除"
+}

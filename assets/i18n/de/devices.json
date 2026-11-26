@@ -1,0 +1,30 @@
+{
+  "title": "Geräte",
+  "keys": {
+    "rename": "Name",
+    "send": "Senden",
+    "info": "Info"
+  },
+  "empty": {
+    "title": "Keine Geräte",
+    "hint": "Installiere die App, um Push zu erhalten"
+  },
+  "row": {
+    "inactive": "inaktiv"
+  },
+  "rename": {
+    "title": "Gerät umbenennen"
+  },
+  "info": {
+    "text": "Seriennr.: {serial}\nTID: {tid}\nAktiv: {active}\nHinzugefügt: {added}",
+    "yes": "ja",
+    "no": "nein"
+  },
+  "toast": {
+    "renamed": "Umbenannt"
+  },
+  "confirm": {
+    "removeTitle": "{name} entfernen?",
+    "removeText": "Es erhält keine Push-Benachrichtigungen mehr, bis es sich erneut anmeldet."
+  }
+}

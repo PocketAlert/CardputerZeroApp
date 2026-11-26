@@ -1,0 +1,66 @@
+{
+  "title": "새 메시지",
+  "keys": {
+    "send": "전송",
+    "clear": "지우기"
+  },
+  "fields": {
+    "title": "제목",
+    "message": "메시지",
+    "app": "앱",
+    "device": "기기",
+    "level": "수준",
+    "when": "발송",
+    "delay": "지연",
+    "at": "시각",
+    "image": "이미지 URL",
+    "action1": "액션 1",
+    "action2": "액션 2",
+    "action3": "액션 3"
+  },
+  "placeholders": {
+    "required": "필수",
+    "image": "https://… (선택)"
+  },
+  "options": {
+    "noApp": "없음",
+    "levelAppDefault": "앱 기본값",
+    "when": {
+      "now": "지금",
+      "in": "지연 후",
+      "at": "시각 지정"
+    }
+  },
+  "note": "이미지·예약·액션은 유료 플랜 전용이에요. fn+H: 액션 문법",
+  "confirm": {
+    "discard": {
+      "title": "메시지를 취소할까요?",
+      "text": "초안은 저장되지 않아요.",
+      "button": "취소"
+    },
+    "clear": {
+      "title": "모든 필드를 비울까요?",
+      "text": "제목, 내용, 옵션이 초기화돼요.",
+      "button": "비우기"
+    }
+  },
+  "toast": {
+    "required": "제목과 메시지를 입력하세요",
+    "delayError": "지연: {error}",
+    "atRequired": "발송 시각을 입력하세요",
+    "imageUrl": "이미지는 http(s) URL이어야 해요",
+    "actionError": "액션 {number}: {error}",
+    "scheduledFor": "{time} 예약됨",
+    "sent": "발송됨"
+  },
+  "errors": {
+    "notSent": "발송 안 됨"
+  },
+  "help": {
+    "edit": "Enter  편집/선택",
+    "change": "Z C  옵션 변경   Tab  다음",
+    "keys": "4  전송   5  비우기   Esc  취소",
+    "actions": "액션 (최대 3개):",
+    "formats": "지연: {delay}  시각: {at}"
+  }
+}

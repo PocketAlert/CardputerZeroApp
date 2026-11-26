@@ -1,0 +1,24 @@
+{
+  "title": "Аккаунт",
+  "keys": {
+    "refresh": "Обновить"
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "FREE"
+  },
+  "usage": {
+    "sentToday": "Отправлено сегодня",
+    "unlimited": "Без ограничений",
+    "resetsIn": "Сброс через {time}",
+    "rejected": "Сверх лимита: {count}"
+  },
+  "stats": {
+    "lastDays": "ЗА 7 ДНЕЙ"
+  },
+  "duration": {
+    "now": "сейчас",
+    "hoursMinutes": "{hours} ч {minutes} м",
+    "minutes": "{minutes} м"
+  }
+}

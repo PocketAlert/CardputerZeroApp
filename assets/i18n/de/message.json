@@ -1,0 +1,25 @@
+{
+  "title": "Nachricht",
+  "keys": {
+    "read": "Gelesen",
+    "unread": "Ungel.",
+    "delete": "Löschen"
+  },
+  "meta": {
+    "scheduled": "geplant"
+  },
+  "attachment": "Anhang",
+  "actionsHeading": "AKTIONEN",
+  "confirm": {
+    "delete": {
+      "title": "Nachricht löschen?"
+    }
+  },
+  "toast": {
+    "gone": "Nachricht existiert nicht mehr",
+    "markedRead": "Als gelesen markiert",
+    "markedUnread": "Als ungelesen markiert",
+    "deleted": "Gelöscht"
+  },
+  "help": "Nachricht\nF X / Pfeile  scrollen   Space  Seite   T  oben\n4 5 6  Aktionsbuttons (oder 1 2 3)\n7 / R  gelesen/ungelesen   8 / D  löschen"
+}

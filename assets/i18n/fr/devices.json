@@ -1,0 +1,30 @@
+{
+  "title": "Appareils",
+  "keys": {
+    "rename": "Renom.",
+    "send": "Envoi",
+    "info": "Infos"
+  },
+  "empty": {
+    "title": "Aucun appareil",
+    "hint": "Installez l’app mobile pour recevoir les push"
+  },
+  "row": {
+    "inactive": "inactive"
+  },
+  "rename": {
+    "title": "Renommer l’appareil"
+  },
+  "info": {
+    "text": "N° série : {serial}\nTID : {tid}\nActif : {active}\nAjouté : {added}",
+    "yes": "oui",
+    "no": "non"
+  },
+  "toast": {
+    "renamed": "Renommé"
+  },
+  "confirm": {
+    "removeTitle": "Retirer {name} ?",
+    "removeText": "Il ne recevra plus de notifications push avant de se reconnecter."
+  }
+}

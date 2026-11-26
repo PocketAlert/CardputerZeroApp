@@ -1,0 +1,22 @@
+{
+  "title": "Formulaires",
+  "keys": {
+    "link": "Lien"
+  },
+  "empty": {
+    "title": "Aucun formulaire",
+    "hint": "Créez-en sur pocketalert.app"
+  },
+  "row": {
+    "submissions": "Réponses : {count}",
+    "submissionsLast": "Réponses : {count}  ·  dernière {time}",
+    "closed": "fermé"
+  },
+  "link": {
+    "text": "{url}\n\n{count} réponses. Chacune arrive sous forme d’alerte."
+  },
+  "confirm": {
+    "deleteTitle": "Supprimer {name} ?",
+    "deleteText": "Le lien public cessera de fonctionner."
+  }
+}

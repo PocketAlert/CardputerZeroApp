@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "설정 저장 안 됨: {error}",
+    "moreMessages": "+{count}개 더",
+    "holdEscToExit": "Esc를 길게 눌러 종료",
+    "screenshotSaved": "스크린샷 저장됨",
+    "screenshotFailed": "스크린샷 실패: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}. 설정에서 API 키를 확인하세요"
+  },
+  "status": {
+    "demo": "데모"
+  },
+  "options": {
+    "allDevices": "모든 기기"
+  },
+  "help": {
+    "title": "키보드",
+    "global": "전체 화면\n4-8  하단 바 동작\nF X / 방향키  이동 (길게: 스크롤)\nT  맨 위   Enter  열기\nEsc  뒤로   Esc 길게  종료\nfn+J  스크린샷   fn+H  도움말"
+  },
+  "modal": {
+    "cancelButton": "Esc  취소",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc 닫기  F/X 스크롤",
+    "pickerFooter": "Enter 선택  Esc 취소",
+    "promptFooter": "Enter 확인  Esc 취소"
+  },
+  "list": {
+    "empty": "비어 있어요"
+  },
+  "toggle": {
+    "on": "켜짐",
+    "off": "꺼짐"
+  },
+  "time": {
+    "yesterday": "어제",
+    "dayMonth": "{month} {day}",
+    "weekday": {
+      "sun": "일",
+      "mon": "월",
+      "tue": "화",
+      "wed": "수",
+      "thu": "목",
+      "fri": "금",
+      "sat": "토"
+    },
+    "month": {
+      "jan": "1월",
+      "feb": "2월",
+      "mar": "3월",
+      "apr": "4월",
+      "may": "5월",
+      "jun": "6월",
+      "jul": "7월",
+      "aug": "8월",
+      "sep": "9월",
+      "oct": "10월",
+      "nov": "11월",
+      "dec": "12월"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

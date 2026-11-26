@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "Settings not saved: {error}",
+    "moreMessages": "+{count} more",
+    "holdEscToExit": "Hold Esc to exit Pocket Alert",
+    "screenshotSaved": "Screenshot saved",
+    "screenshotFailed": "Screenshot failed: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}. Check the API key in Settings"
+  },
+  "status": {
+    "demo": "DEMO"
+  },
+  "options": {
+    "allDevices": "All devices"
+  },
+  "help": {
+    "title": "Keyboard",
+    "global": "Everywhere\n4-8  actions in the bottom bar\nF X / arrows  move (hold to scroll)\nT  back to top   Enter  open\nEsc  back   hold Esc  quit\nfn+J  screenshot   fn+H  this help"
+  },
+  "modal": {
+    "cancelButton": "Esc  Cancel",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc close   F/X scroll",
+    "pickerFooter": "Enter select   Esc cancel",
+    "promptFooter": "Enter OK   Esc cancel"
+  },
+  "list": {
+    "empty": "Nothing here"
+  },
+  "toggle": {
+    "on": "On",
+    "off": "Off"
+  },
+  "time": {
+    "yesterday": "Yesterday",
+    "dayMonth": "{day} {month}",
+    "weekday": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "month": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

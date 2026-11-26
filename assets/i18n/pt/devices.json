@@ -1,0 +1,30 @@
+{
+  "title": "Dispositivos",
+  "keys": {
+    "rename": "Renomear",
+    "send": "Enviar",
+    "info": "Info"
+  },
+  "empty": {
+    "title": "Sem dispositivos",
+    "hint": "Instale o app para receber push"
+  },
+  "row": {
+    "inactive": "inativo"
+  },
+  "rename": {
+    "title": "Renomear dispositivo"
+  },
+  "info": {
+    "text": "Série: {serial}\nTID: {tid}\nAtivo: {active}\nAdicionado: {added}",
+    "yes": "sim",
+    "no": "não"
+  },
+  "toast": {
+    "renamed": "Renomeado"
+  },
+  "confirm": {
+    "removeTitle": "Remover {name}?",
+    "removeText": "Ele para de receber notificações push até entrar de novo."
+  }
+}

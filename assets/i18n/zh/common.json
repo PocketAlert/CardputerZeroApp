@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "静音",
+    "low": "低",
+    "default": "默认",
+    "high": "高",
+    "critical": "紧急"
+  },
+  "action": {
+    "run": "运行",
+    "unknownType": "未知操作类型：{type}",
+    "invalidRequest": "{label}：请求无效"
+  },
+  "view": {
+    "text": "{url}\n\n扫码在手机上打开。"
+  },
+  "http": {
+    "running": "{label}：{request}",
+    "failed": "{label} 失败：{error}",
+    "done": "{label}：完成（{status}）",
+    "httpError": "{label}：HTTP {status}"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "收件箱",
+  "keys": {
+    "new": "新建",
+    "filter": "筛选",
+    "search": "搜索",
+    "more": "更多",
+    "menu": "菜单"
+  },
+  "subtitle": {
+    "unread": "未读",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "无法加载消息",
+    "title": "收件箱已清空",
+    "filteredTitle": "这里没有消息",
+    "hint": "新告警会显示在这里"
+  },
+  "filter": {
+    "title": "显示来自",
+    "allApps": "全部应用"
+  },
+  "search": {
+    "title": "搜索",
+    "hint": "匹配已加载消息的标题、正文和应用。"
+  },
+  "more": {
+    "title": "收件箱",
+    "markRead": "标为已读",
+    "markUnread": "标为未读",
+    "delete": "删除消息",
+    "showAll": "显示全部消息",
+    "showUnread": "仅显示未读",
+    "markAllRead": "全部标为已读",
+    "deleteAll": "删除全部消息",
+    "refresh": "刷新"
+  },
+  "confirm": {
+    "delete": {
+      "title": "删除消息？"
+    },
+    "deleteAll": {
+      "title": "删除所有消息？",
+      "text": "账户中所有设备上的全部消息都将被删除，无法撤销。",
+      "button": "全部删除"
+    }
+  },
+  "toast": {
+    "deleted": "已删除",
+    "allRead": "已全部标为已读",
+    "cleared": "收件箱已清空"
+  },
+  "help": "收件箱\nEnter  打开消息\nR  已读/未读   D 或 Del  删除\nU  仅未读   S  搜索   G  刷新\nN  新消息   T 或 Esc  返回顶部\n按住 F / X  快速滚动"
+}

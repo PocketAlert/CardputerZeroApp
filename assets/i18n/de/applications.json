@@ -1,0 +1,53 @@
+{
+  "title": "Anwendungen",
+  "keys": {
+    "new": "Neu",
+    "inbox": "Eingang",
+    "send": "Senden",
+    "edit": "Ändern"
+  },
+  "empty": {
+    "title": "Keine Anwendungen",
+    "hint": "Gruppiere nach Quelle: 4 erstellt eine"
+  },
+  "form": {
+    "newTitle": "Neue Anwendung",
+    "editTitle": "Anwendung bearbeiten",
+    "saveChanges": "Änderungen speichern",
+    "create": "Anwendung erstellen",
+    "tidNote": "TID {tid}  ·  senden mit: pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "Name",
+    "description": "Beschreibung",
+    "color": "Farbe",
+    "defaultLevel": "Standardstufe",
+    "required": "Pflichtfeld",
+    "optional": "Optional",
+    "levelNotSet": "Nicht gesetzt"
+  },
+  "colors": {
+    "blue": "Blau",
+    "indigo": "Indigo",
+    "red": "Rot",
+    "coral": "Koralle",
+    "amber": "Bernstein",
+    "green": "Grün",
+    "teal": "Petrol",
+    "purple": "Violett",
+    "pink": "Pink",
+    "gray": "Grau",
+    "custom": "Eigene {color}"
+  },
+  "toast": {
+    "nameRequired": "Name erforderlich",
+    "notSaved": "Nicht gespeichert",
+    "created": "Anwendung erstellt",
+    "updated": "Anwendung aktualisiert"
+  },
+  "confirm": {
+    "deleteTitle": "{name} löschen?",
+    "deleteText": "Die Nachrichten bleiben ohne Anwendung im Posteingang."
+  },
+  "help": "Anwendungen\nEnter / 7  bearb.   4  neu   5  Inbox der App\n6  an App senden   8  löschen"
+}

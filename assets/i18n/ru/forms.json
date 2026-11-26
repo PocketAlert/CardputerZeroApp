@@ -1,0 +1,22 @@
+{
+  "title": "Формы",
+  "keys": {
+    "link": "Ссылка"
+  },
+  "empty": {
+    "title": "Нет форм",
+    "hint": "Создавайте формы на pocketalert.app"
+  },
+  "row": {
+    "submissions": "Ответов: {count}",
+    "submissionsLast": "Ответов: {count}  ·  последний {time}",
+    "closed": "закрыта"
+  },
+  "link": {
+    "text": "{url}\n\nОтветов: {count}. Каждый приходит как уведомление."
+  },
+  "confirm": {
+    "deleteTitle": "Удалить {name}?",
+    "deleteText": "Публичная ссылка перестанет работать."
+  }
+}

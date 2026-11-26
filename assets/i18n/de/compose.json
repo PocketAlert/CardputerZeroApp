@@ -1,0 +1,66 @@
+{
+  "title": "Neue Nachricht",
+  "keys": {
+    "send": "Senden",
+    "clear": "Leeren"
+  },
+  "fields": {
+    "title": "Titel",
+    "message": "Text",
+    "app": "Anwendung",
+    "device": "Gerät",
+    "level": "Stufe",
+    "when": "Versand",
+    "delay": "Verzög.",
+    "at": "Um",
+    "image": "Bild-URL",
+    "action1": "Aktion 1",
+    "action2": "Aktion 2",
+    "action3": "Aktion 3"
+  },
+  "placeholders": {
+    "required": "Pflicht",
+    "image": "https://… (optional)"
+  },
+  "options": {
+    "noApp": "Keine",
+    "levelAppDefault": "App-Standard",
+    "when": {
+      "now": "Jetzt",
+      "in": "Nach Verzögerung",
+      "at": "Zu einer Uhrzeit"
+    }
+  },
+  "note": "Bilder, Planung und Aktionen brauchen einen Bezahltarif. fn+H zeigt die Aktionssyntax.",
+  "confirm": {
+    "discard": {
+      "title": "Nachricht verwerfen?",
+      "text": "Der Entwurf wird nicht gespeichert.",
+      "button": "Verwerfen"
+    },
+    "clear": {
+      "title": "Alle Felder leeren?",
+      "text": "Titel, Text und Optionen werden zurückgesetzt.",
+      "button": "Leeren"
+    }
+  },
+  "toast": {
+    "required": "Titel und Nachricht nötig",
+    "delayError": "Verzögerung: {error}",
+    "atRequired": "Versandzeit eingeben",
+    "imageUrl": "Bild muss eine http(s)-URL sein",
+    "actionError": "Aktion {number}: {error}",
+    "scheduledFor": "Geplant für {time}",
+    "sent": "Gesendet"
+  },
+  "errors": {
+    "notSent": "Nicht gesendet"
+  },
+  "help": {
+    "edit": "Enter  bearbeiten / wählen",
+    "change": "Z C  Option ändern   Tab  nächstes Feld",
+    "keys": "4  senden   5  leeren   Esc  abbrechen",
+    "actions": "Aktionen (max. 3):",
+    "formats": "Verzög.: {delay}  Um: {at}"
+  }
+}

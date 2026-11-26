@@ -1,0 +1,67 @@
+{
+  "title": "设置",
+  "keys": {
+    "test": "测试"
+  },
+  "fields": {
+    "poll": "打开时",
+    "sound": "声音",
+    "minLevel": "提示音级别",
+    "notifier": "后台",
+    "notifyPoll": "关闭时",
+    "dim": "屏幕变暗",
+    "off": "息屏",
+    "theme": "主题"
+  },
+  "options": {
+    "check": {
+      "s10": "每 10 秒检查",
+      "s15": "每 15 秒检查",
+      "s30": "每 30 秒检查",
+      "m1": "每 1 分钟检查",
+      "m2": "每 2 分钟检查",
+      "m5": "每 5 分钟检查"
+    },
+    "after": {
+      "s15": "15 秒后",
+      "s30": "30 秒后",
+      "m1": "1 分钟后",
+      "m2": "2 分钟后",
+      "m5": "5 分钟后"
+    },
+    "never": "从不",
+    "minLevel": {
+      "low": "低及以上",
+      "default": "默认及以上",
+      "high": "高及以上",
+      "critical": "仅紧急"
+    },
+    "theme": {
+      "dark": "深色",
+      "lcd": "寻呼机 LCD"
+    }
+  },
+  "buttons": {
+    "test": "发送测试通知",
+    "beep": "播放提示音",
+    "save": "保存更改"
+  },
+  "about": {
+    "version": "Pocket Alert for Cardputer Zero {version}",
+    "demo": "演示模式：数据并非真实",
+    "account": "账号：{email}",
+    "config": "配置：{path}",
+    "background": "后台运行：应用关闭时，{service} 服务仍会发出提示音。"
+  },
+  "testAlert": {
+    "title": "来自 Cardputer Zero 的测试",
+    "message": "如果你的设备收到了这条消息，说明告警全程正常。"
+  },
+  "toast": {
+    "saved": "设置已保存",
+    "testSent": "测试通知已发送"
+  },
+  "errors": {
+    "testFailed": "测试失败"
+  }
+}

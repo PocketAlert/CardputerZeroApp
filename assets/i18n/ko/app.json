@@ -1,0 +1,20 @@
+{
+  "level": {
+    "silent": "무음",
+    "low": "낮음",
+    "default": "기본",
+    "high": "높음",
+    "critical": "긴급"
+  },
+  "ok": "확인",
+  "cancel": "취소",
+  "save": "저장",
+  "delete": "삭제",
+  "back": "뒤로",
+  "close": "닫기",
+  "loading": "불러오는 중…",
+  "language": {
+    "label": "언어",
+    "auto": "시스템"
+  }
+}

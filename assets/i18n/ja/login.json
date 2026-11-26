@@ -1,0 +1,38 @@
+{
+  "tagline": "サーバーからの通知を、ポケットに",
+  "options": {
+    "email": "メールでログイン",
+    "apiKey": "API キーを入力",
+    "cliKey": "CLI のキーを使う",
+    "demo": "デモを試す"
+  },
+  "help": "ログインは一度だけです。キーは {path} に保存されます。\n長いキーの入力は大変です。SSH でコピーするか、CLI をインストールして `{command}` を実行してください。",
+  "email": {
+    "title": "ログイン",
+    "keySignIn": "ログイン",
+    "emailLabel": "メール",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "必須",
+    "submit": "ログイン",
+    "note": "Enter で項目を編集。2FA の場合は次にコードを入力。デバイス用に「{name}」という API キーを作成します。",
+    "missingFields": "メールとパスワードを入力",
+    "signingIn": "ログイン中…"
+  },
+  "twoFactor": {
+    "title": "二要素認証コード",
+    "hint": "認証アプリの6桁コードかリカバリーコード。"
+  },
+  "apiKey": {
+    "title": "API キー",
+    "hint": "{url} で作成できます",
+    "checking": "キーを確認中…"
+  },
+  "signedInAs": "{email} でログイン中",
+  "error": {
+    "signInFailed": "ログイン失敗",
+    "codeRejected": "コードが無効です",
+    "deviceKeyFailed": "デバイスキーを作成できません",
+    "keyRejected": "キーが無効です"
+  }
+}

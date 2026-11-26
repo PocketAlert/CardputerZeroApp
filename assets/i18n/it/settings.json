@@ -1,0 +1,67 @@
+{
+  "title": "Impostazioni",
+  "keys": {
+    "test": "Test"
+  },
+  "fields": {
+    "poll": "Se aperta",
+    "sound": "Suono",
+    "minLevel": "Beep per",
+    "notifier": "In background",
+    "notifyPoll": "Se chiusa",
+    "dim": "Abbassa luce",
+    "off": "Schermo off",
+    "theme": "Tema"
+  },
+  "options": {
+    "check": {
+      "s10": "Ogni 10 s",
+      "s15": "Ogni 15 s",
+      "s30": "Ogni 30 s",
+      "m1": "Ogni 1 min",
+      "m2": "Ogni 2 min",
+      "m5": "Ogni 5 min"
+    },
+    "after": {
+      "s15": "Dopo 15 s",
+      "s30": "Dopo 30 s",
+      "m1": "Dopo 1 min",
+      "m2": "Dopo 2 min",
+      "m5": "Dopo 5 min"
+    },
+    "never": "Mai",
+    "minLevel": {
+      "low": "Bassa e superiori",
+      "default": "Default e superiori",
+      "high": "Alta e superiori",
+      "critical": "Solo critica"
+    },
+    "theme": {
+      "dark": "Scuro",
+      "lcd": "LCD pager"
+    }
+  },
+  "buttons": {
+    "test": "Invia un avviso di prova",
+    "beep": "Riproduci il suono di avviso",
+    "save": "Salva modifiche"
+  },
+  "about": {
+    "version": "Pocket Alert per Cardputer Zero {version}",
+    "demo": "Modalità demo: i dati non sono reali",
+    "account": "Account: {email}",
+    "config": "Config: {path}",
+    "background": "In background: il servizio {service} emette un beep anche con l'app chiusa."
+  },
+  "testAlert": {
+    "title": "Test da Cardputer Zero",
+    "message": "Se questo è arrivato sui tuoi dispositivi, le notifiche funzionano end to end."
+  },
+  "toast": {
+    "saved": "Impostazioni salvate",
+    "testSent": "Notifica di test inviata"
+  },
+  "errors": {
+    "testFailed": "Test fallito"
+  }
+}

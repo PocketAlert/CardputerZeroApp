@@ -1,0 +1,22 @@
+{
+  "title": "Formulários",
+  "keys": {
+    "link": "Link"
+  },
+  "empty": {
+    "title": "Sem formulários",
+    "hint": "Crie em pocketalert.app"
+  },
+  "row": {
+    "submissions": "{count} envios",
+    "submissionsLast": "{count} envios  ·  último {time}",
+    "closed": "fechado"
+  },
+  "link": {
+    "text": "{url}\n\n{count} envios. Cada um chega como alerta."
+  },
+  "confirm": {
+    "deleteTitle": "Excluir {name}?",
+    "deleteText": "O link público deixa de funcionar."
+  }
+}

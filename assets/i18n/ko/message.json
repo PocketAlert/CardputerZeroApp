@@ -1,0 +1,25 @@
+{
+  "title": "메시지",
+  "keys": {
+    "read": "읽음",
+    "unread": "안읽음",
+    "delete": "삭제"
+  },
+  "meta": {
+    "scheduled": "예약"
+  },
+  "attachment": "첨부",
+  "actionsHeading": "액션",
+  "confirm": {
+    "delete": {
+      "title": "메시지를 삭제할까요?"
+    }
+  },
+  "toast": {
+    "gone": "메시지가 이미 삭제됐어요",
+    "markedRead": "읽음으로 표시했어요",
+    "markedUnread": "안 읽음으로 표시했어요",
+    "deleted": "삭제했어요"
+  },
+  "help": "메시지\nF X / 방향키  스크롤   Space  페이지   T  맨 위\n4 5 6  액션 버튼 (또는 1 2 3)\n7 / R  읽음/안 읽음   8 / D  삭제"
+}

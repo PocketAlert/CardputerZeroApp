@@ -1,0 +1,32 @@
+{
+  "title": "Chaves de API",
+  "keys": {
+    "new": "Novo"
+  },
+  "empty": {
+    "title": "Sem chaves de API"
+  },
+  "row": {
+    "created": "Criada em {date}",
+    "inactive": "inativa"
+  },
+  "create": {
+    "title": "Nova chave de API",
+    "hint": "Dê o nome do lugar onde ela será usada."
+  },
+  "info": {
+    "text": "TID: {tid}\nCriada em: {date}\n\nO segredo aparece só uma vez, na criação da chave."
+  },
+  "toast": {
+    "notCreated": "Não criada"
+  },
+  "created": {
+    "title": "Copie esta chave agora",
+    "text": "{token}\n\nEla aparece só uma vez. Escaneie o código para levá-la a outro dispositivo."
+  },
+  "confirm": {
+    "deleteTitle": "Excluir {name}?",
+    "deleteText": "Scripts e apps que usam esta chave param de funcionar.",
+    "deleteTextThisDevice": "Scripts e apps que usam esta chave param de funcionar. Pode ser a chave usada por este dispositivo para entrar."
+  }
+}

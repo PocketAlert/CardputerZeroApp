@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "Silent",
+    "low": "Low",
+    "default": "Default",
+    "high": "High",
+    "critical": "Critical"
+  },
+  "action": {
+    "run": "Run",
+    "unknownType": "Unknown action type: {type}",
+    "invalidRequest": "{label}: invalid request"
+  },
+  "view": {
+    "text": "{url}\n\nScan the code to open it on your phone."
+  },
+  "http": {
+    "running": "{label}: {request}",
+    "failed": "{label} failed: {error}",
+    "done": "{label}: done ({status})",
+    "httpError": "{label}: HTTP {status}"
+  }
+}

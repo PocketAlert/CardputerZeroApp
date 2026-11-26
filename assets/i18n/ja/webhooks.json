@@ -1,0 +1,70 @@
+{
+  "title": "Webhook",
+  "keys": {
+    "new": "新規",
+    "history": "履歴",
+    "url": "URL",
+    "toggle": "切替"
+  },
+  "empty": {
+    "title": "Webhook なし",
+    "hint": "あらゆるサービスの Webhook を通知に"
+  },
+  "row": {
+    "off": "オフ"
+  },
+  "form": {
+    "newTitle": "新規 Webhook",
+    "editTitle": "Webhook を編集",
+    "saveChanges": "変更を保存",
+    "create": "Webhook を作成",
+    "note": "テンプレート: * はペイロード全体を転送し、%field.path% は値を取り出します。アクションの値にも %placeholders% を使えます。"
+  },
+  "fields": {
+    "name": "名前",
+    "required": "必須",
+    "template": "テンプレ",
+    "templatePlaceholder": "* or %title%: %message%",
+    "slug": "URL スラッグ",
+    "slugPlaceholder": "空欄なら自動生成",
+    "application": "アプリ",
+    "applicationNone": "なし",
+    "device": "デバイス",
+    "level": "レベル",
+    "levelNotSet": "未設定",
+    "action": "動作 {number}",
+    "active": "有効"
+  },
+  "toast": {
+    "nameRequired": "名前は必須です",
+    "actionInvalid": "アクション {number}: {error}",
+    "notSaved": "保存できませんでした",
+    "updated": "Webhook を更新しました",
+    "enabled": "Webhook を有効にしました",
+    "paused": "Webhook を停止しました"
+  },
+  "created": {
+    "title": "Webhook を作成しました",
+    "text": "{url}\n\nここに JSON を POST するとアラートを送信できます。"
+  },
+  "urlInfo": "{url}\n\nテンプレート: {template}\n\n試す:\n{curl}",
+  "confirm": {
+    "deleteTitle": "{name} を削除しますか?",
+    "deleteText": "この URL を呼び出す送信元には 404 が返ります。"
+  },
+  "history": {
+    "keys": {
+      "refresh": "更新"
+    },
+    "empty": {
+      "title": "リクエストはまだありません",
+      "hint": "この Webhook への呼び出しがここに表示されます"
+    },
+    "error": "エラー",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "{method} リクエスト",
+    "detail": "ステータス: {status}\n日時: {when}\n送信元: {from}\n種類: {type}\n\n本文:\n{body}",
+    "detailMessage": "\n\nメッセージ:\n{message}"
+  },
+  "help": "Webhook\nEnter  編集   4  新規   5  リクエスト履歴\n6  URL + QR + curl   7  停止/再開   8  削除"
+}

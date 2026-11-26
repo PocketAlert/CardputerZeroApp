@@ -1,0 +1,53 @@
+{
+  "title": "应用",
+  "keys": {
+    "new": "新建",
+    "inbox": "收件箱",
+    "send": "发送",
+    "edit": "编辑"
+  },
+  "empty": {
+    "title": "暂无应用",
+    "hint": "按来源分组告警：按 4 新建"
+  },
+  "form": {
+    "newTitle": "新建应用",
+    "editTitle": "编辑应用",
+    "saveChanges": "保存更改",
+    "create": "创建应用",
+    "tidNote": "TID {tid}  ·  发送：pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "名称",
+    "description": "描述",
+    "color": "颜色",
+    "defaultLevel": "默认级别",
+    "required": "必填",
+    "optional": "可选",
+    "levelNotSet": "未设置"
+  },
+  "colors": {
+    "blue": "蓝色",
+    "indigo": "靛蓝",
+    "red": "红色",
+    "coral": "珊瑚红",
+    "amber": "琥珀色",
+    "green": "绿色",
+    "teal": "青色",
+    "purple": "紫色",
+    "pink": "粉色",
+    "gray": "灰色",
+    "custom": "自定义 {color}"
+  },
+  "toast": {
+    "nameRequired": "名称为必填项",
+    "notSaved": "未保存",
+    "created": "应用已创建",
+    "updated": "应用已更新"
+  },
+  "confirm": {
+    "deleteTitle": "删除 {name}？",
+    "deleteText": "其消息会保留在收件箱，但不再属于任何应用。"
+  },
+  "help": "应用\nEnter / 7  编辑   4  新建   5  收件箱\n6  发送   8  删除"
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Applicazioni",
+  "keys": {
+    "new": "Nuovo",
+    "inbox": "Posta",
+    "send": "Invia",
+    "edit": "Modifica"
+  },
+  "empty": {
+    "title": "Nessuna applicazione",
+    "hint": "Raggruppa gli avvisi per fonte: 4 ne crea una"
+  },
+  "form": {
+    "newTitle": "Nuova app",
+    "editTitle": "Modifica app",
+    "saveChanges": "Salva modifiche",
+    "create": "Crea applicazione",
+    "tidNote": "TID {tid}  ·  invia con: pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "Nome",
+    "description": "Descrizione",
+    "color": "Colore",
+    "defaultLevel": "Livello",
+    "required": "Obbligatorio",
+    "optional": "Facoltativo",
+    "levelNotSet": "Non impostato"
+  },
+  "colors": {
+    "blue": "Blu",
+    "indigo": "Indaco",
+    "red": "Rosso",
+    "coral": "Corallo",
+    "amber": "Ambra",
+    "green": "Verde",
+    "teal": "Verde acqua",
+    "purple": "Viola",
+    "pink": "Rosa",
+    "gray": "Grigio",
+    "custom": "Custom {color}"
+  },
+  "toast": {
+    "nameRequired": "Nome obbligatorio",
+    "notSaved": "Non salvato",
+    "created": "Applicazione creata",
+    "updated": "Applicazione aggiornata"
+  },
+  "confirm": {
+    "deleteTitle": "Eliminare {name}?",
+    "deleteText": "I suoi messaggi restano nella inbox senza applicazione."
+  },
+  "help": "Applicazioni\nEnter / 7  modifica   4  nuova   5  inbox app\n6  invia all'app   8  elimina"
+}

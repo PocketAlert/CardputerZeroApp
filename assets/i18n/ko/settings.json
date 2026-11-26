@@ -1,0 +1,67 @@
+{
+  "title": "설정",
+  "keys": {
+    "test": "테스트"
+  },
+  "fields": {
+    "poll": "열려 있을 때",
+    "sound": "소리",
+    "minLevel": "알림음 기준",
+    "notifier": "백그라운드",
+    "notifyPoll": "닫혀 있을 때",
+    "dim": "화면 어둡게",
+    "off": "화면 끄기",
+    "theme": "테마"
+  },
+  "options": {
+    "check": {
+      "s10": "10초마다 확인",
+      "s15": "15초마다 확인",
+      "s30": "30초마다 확인",
+      "m1": "1분마다 확인",
+      "m2": "2분마다 확인",
+      "m5": "5분마다 확인"
+    },
+    "after": {
+      "s15": "15초 후",
+      "s30": "30초 후",
+      "m1": "1분 후",
+      "m2": "2분 후",
+      "m5": "5분 후"
+    },
+    "never": "안 함",
+    "minLevel": {
+      "low": "낮음 이상",
+      "default": "기본 이상",
+      "high": "높음 이상",
+      "critical": "긴급만"
+    },
+    "theme": {
+      "dark": "다크",
+      "lcd": "삐삐 LCD"
+    }
+  },
+  "buttons": {
+    "test": "테스트 알림 보내기",
+    "beep": "알림음 재생",
+    "save": "변경 사항 저장"
+  },
+  "about": {
+    "version": "Pocket Alert for Cardputer Zero {version}",
+    "demo": "데모 모드: 실제 데이터가 아니에요",
+    "account": "계정: {email}",
+    "config": "설정: {path}",
+    "background": "백그라운드: 앱을 닫아도 {service} 서비스가 알림음을 울려요."
+  },
+  "testAlert": {
+    "title": "Cardputer Zero 테스트",
+    "message": "기기에 이 알림이 도착했다면 알림이 정상적으로 작동해요."
+  },
+  "toast": {
+    "saved": "설정을 저장했어요",
+    "testSent": "테스트 알림을 보냈어요"
+  },
+  "errors": {
+    "testFailed": "테스트 실패"
+  }
+}

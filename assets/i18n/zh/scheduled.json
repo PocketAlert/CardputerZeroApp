@@ -1,0 +1,43 @@
+{
+  "title": "定时发送",
+  "empty": {
+    "title": "没有定时消息",
+    "hint": "撰写消息并选择发送时间"
+  },
+  "keys": {
+    "new": "新建",
+    "status": "状态",
+    "info": "详情",
+    "cancel": "取消"
+  },
+  "status": {
+    "pending": "待发送",
+    "all": "全部",
+    "sent": "已发送",
+    "canceled": "已取消",
+    "failed": "失败"
+  },
+  "info": {
+    "deliver": "发送：{time}",
+    "deliverTz": "发送：{time}（{tz}）",
+    "status": "状态：{status}",
+    "level": "级别：{level}",
+    "application": "应用：{name}",
+    "device": "设备：{name}",
+    "action": "操作：{action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "取消发送？",
+      "button": "取消"
+    }
+  },
+  "toast": {
+    "onlyPending": "仅可取消待发送的消息",
+    "canceled": "已取消发送"
+  },
+  "help": {
+    "filter": "5 或 Z C  切换状态筛选",
+    "keys": "Enter / 7  详情   8  取消发送"
+  }
+}

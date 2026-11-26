@@ -1,0 +1,66 @@
+{
+  "title": "新規メッセージ",
+  "keys": {
+    "send": "送信",
+    "clear": "消去"
+  },
+  "fields": {
+    "title": "タイトル",
+    "message": "本文",
+    "app": "アプリ",
+    "device": "デバイス",
+    "level": "レベル",
+    "when": "送信",
+    "delay": "遅延",
+    "at": "日時",
+    "image": "画像URL",
+    "action1": "操作 1",
+    "action2": "操作 2",
+    "action3": "操作 3"
+  },
+  "placeholders": {
+    "required": "必須",
+    "image": "https://…(任意)"
+  },
+  "options": {
+    "noApp": "なし",
+    "levelAppDefault": "アプリ既定",
+    "when": {
+      "now": "今すぐ",
+      "in": "遅延後",
+      "at": "時刻指定"
+    }
+  },
+  "note": "画像・予約送信・アクションは有料プランが必要です。fn+H で書式を表示。",
+  "confirm": {
+    "discard": {
+      "title": "メッセージを破棄?",
+      "text": "下書きは保存されません。",
+      "button": "破棄"
+    },
+    "clear": {
+      "title": "全項目をクリア?",
+      "text": "タイトル、本文、オプションがリセットされます。",
+      "button": "クリア"
+    }
+  },
+  "toast": {
+    "required": "タイトルと本文は必須です",
+    "delayError": "遅延: {error}",
+    "atRequired": "送信時刻を入力",
+    "imageUrl": "画像は http(s) URL のみ",
+    "actionError": "アクション {number}: {error}",
+    "scheduledFor": "予約: {time}",
+    "sent": "送信しました"
+  },
+  "errors": {
+    "notSent": "未送信"
+  },
+  "help": {
+    "edit": "Enter  編集/選択",
+    "change": "Z C  変更   Tab  次の項目",
+    "keys": "4  送信   5  消去   Esc  戻る",
+    "actions": "アクション(最大3):",
+    "formats": "遅延: {delay}  時刻: {at}"
+  }
+}

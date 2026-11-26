@@ -1,0 +1,53 @@
+{
+  "title": "Aplikasi",
+  "keys": {
+    "new": "Baru",
+    "inbox": "Masuk",
+    "send": "Kirim",
+    "edit": "Ubah"
+  },
+  "empty": {
+    "title": "Belum ada aplikasi",
+    "hint": "Kelompokkan notifikasi per sumber: 4 untuk buat"
+  },
+  "form": {
+    "newTitle": "Aplikasi baru",
+    "editTitle": "Ubah aplikasi",
+    "saveChanges": "Simpan",
+    "create": "Buat aplikasi",
+    "tidNote": "TID {tid}  ·  kirim: pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "Nama",
+    "description": "Deskripsi",
+    "color": "Warna",
+    "defaultLevel": "Level awal",
+    "required": "Wajib",
+    "optional": "Opsional",
+    "levelNotSet": "Belum diatur"
+  },
+  "colors": {
+    "blue": "Biru",
+    "indigo": "Indigo",
+    "red": "Merah",
+    "coral": "Koral",
+    "amber": "Kuning amber",
+    "green": "Hijau",
+    "teal": "Teal",
+    "purple": "Ungu",
+    "pink": "Merah muda",
+    "gray": "Abu-abu",
+    "custom": "Kustom {color}"
+  },
+  "toast": {
+    "nameRequired": "Nama wajib diisi",
+    "notSaved": "Tidak tersimpan",
+    "created": "Aplikasi dibuat",
+    "updated": "Aplikasi diperbarui"
+  },
+  "confirm": {
+    "deleteTitle": "Hapus {name}?",
+    "deleteText": "Pesannya tetap ada di kotak masuk tanpa aplikasi."
+  },
+  "help": "Aplikasi\nEnter / 7  ubah   4  baru   5  kotak masuk app\n6  kirim ke app   8  hapus"
+}

@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "設定を保存できません: {error}",
+    "moreMessages": "他 {count} 件",
+    "holdEscToExit": "Esc 長押しで Pocket Alert を終了",
+    "screenshotSaved": "スクリーンショットを保存しました",
+    "screenshotFailed": "スクリーンショット失敗: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}。設定の API キーを確認してください"
+  },
+  "status": {
+    "demo": "デモ"
+  },
+  "options": {
+    "allDevices": "全デバイス"
+  },
+  "help": {
+    "title": "キーボード",
+    "global": "共通\n4-8  下部バーの操作\nF X / 矢印  移動(長押しでスクロール)\nT  先頭へ   Enter  開く\nEsc  戻る   Esc長押し  終了\nfn+J  スクリーンショット   fn+H  このヘルプ"
+  },
+  "modal": {
+    "cancelButton": "Esc  戻る",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc 閉じる  F/X 移動",
+    "pickerFooter": "Enter 選択  Esc 戻る",
+    "promptFooter": "Enter OK  Esc 戻る"
+  },
+  "list": {
+    "empty": "なにもありません"
+  },
+  "toggle": {
+    "on": "オン",
+    "off": "オフ"
+  },
+  "time": {
+    "yesterday": "昨日",
+    "dayMonth": "{month}{day}日",
+    "weekday": {
+      "sun": "日",
+      "mon": "月",
+      "tue": "火",
+      "wed": "水",
+      "thu": "木",
+      "fri": "金",
+      "sat": "土"
+    },
+    "month": {
+      "jan": "1月",
+      "feb": "2月",
+      "mar": "3月",
+      "apr": "4月",
+      "may": "5月",
+      "jun": "6月",
+      "jul": "7月",
+      "aug": "8月",
+      "sep": "9月",
+      "oct": "10月",
+      "nov": "11月",
+      "dec": "12月"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

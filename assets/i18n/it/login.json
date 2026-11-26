@@ -1,0 +1,38 @@
+{
+  "tagline": "Gli alert dei tuoi server, in tasca",
+  "options": {
+    "email": "Accedi con email",
+    "apiKey": "Inserisci chiave API",
+    "cliKey": "Usa la chiave della CLI",
+    "demo": "Prova la demo"
+  },
+  "help": "Accedi una volta sola; la chiave resta salvata in {path}.\nDigitare una chiave lunga è scomodo: copiala via SSH o installa la CLI ed esegui `{command}`.",
+  "email": {
+    "title": "Accedi",
+    "keySignIn": "Accedi",
+    "emailLabel": "Email",
+    "emailPlaceholder": "tu@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Obbligatoria",
+    "submit": "Accedi",
+    "note": "Enter modifica un campo. Con 2FA ti verrà chiesto un codice. Il dispositivo avrà una sua chiave API chiamata \"{name}\".",
+    "missingFields": "Inserisci email e password",
+    "signingIn": "Accesso…"
+  },
+  "twoFactor": {
+    "title": "Codice a due fattori",
+    "hint": "Codice a 6 cifre dalla tua app di autenticazione, o codice di recupero."
+  },
+  "apiKey": {
+    "title": "Chiave API",
+    "hint": "Creane una su {url}",
+    "checking": "Verifica chiave…"
+  },
+  "signedInAs": "Accesso come {email}",
+  "error": {
+    "signInFailed": "Accesso non riuscito",
+    "codeRejected": "Codice rifiutato",
+    "deviceKeyFailed": "Chiave dispositivo non creata",
+    "keyRejected": "Chiave rifiutata"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "level": {
+    "silent": "silent",
+    "low": "low",
+    "default": "default",
+    "high": "high",
+    "critical": "critical"
+  },
+  "ok": "OK",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "back": "Back",
+  "close": "Close",
+  "loading": "Loading…",
+  "language": {
+    "label": "Language",
+    "auto": "System"
+  }
+}

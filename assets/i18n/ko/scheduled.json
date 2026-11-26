@@ -1,0 +1,43 @@
+{
+  "title": "예약 발송",
+  "empty": {
+    "title": "예약된 발송이 없어요",
+    "hint": "메시지를 작성하고 발송 시간을 골라요"
+  },
+  "keys": {
+    "new": "새로",
+    "status": "상태",
+    "info": "정보",
+    "cancel": "취소"
+  },
+  "status": {
+    "pending": "대기",
+    "all": "전체",
+    "sent": "발송됨",
+    "canceled": "취소됨",
+    "failed": "실패"
+  },
+  "info": {
+    "deliver": "발송: {time}",
+    "deliverTz": "발송: {time} ({tz})",
+    "status": "상태: {status}",
+    "level": "레벨: {level}",
+    "application": "앱: {name}",
+    "device": "기기: {name}",
+    "action": "액션: {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "발송을 취소할까요?",
+      "button": "취소하기"
+    }
+  },
+  "toast": {
+    "onlyPending": "대기 중인 메시지만 취소해요",
+    "canceled": "발송을 취소했어요"
+  },
+  "help": {
+    "filter": "5 또는 Z C  상태 필터 전환",
+    "keys": "Enter / 7  상세   8  발송 취소"
+  }
+}

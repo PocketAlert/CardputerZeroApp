@@ -1,0 +1,32 @@
+{
+  "title": "Claves de API",
+  "keys": {
+    "new": "Nuevo"
+  },
+  "empty": {
+    "title": "Sin claves de API"
+  },
+  "row": {
+    "created": "Creada {date}",
+    "inactive": "inactiva"
+  },
+  "create": {
+    "title": "Nueva clave de API",
+    "hint": "Ponle el nombre de donde la usarás."
+  },
+  "info": {
+    "text": "TID: {tid}\nCreada: {date}\n\nEl secreto solo se muestra una vez, al crear la clave."
+  },
+  "toast": {
+    "notCreated": "No creada"
+  },
+  "created": {
+    "title": "Copia esta clave ya",
+    "text": "{token}\n\nSolo se muestra una vez. Escanea el código para pasarla a otro dispositivo."
+  },
+  "confirm": {
+    "deleteTitle": "¿Eliminar {name}?",
+    "deleteText": "Los scripts y apps que usan esta clave dejarán de funcionar.",
+    "deleteTextThisDevice": "Los scripts y apps que usan esta clave dejarán de funcionar. Puede ser la clave con la que este dispositivo inicia sesión."
+  }
+}

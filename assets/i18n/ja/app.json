@@ -1,0 +1,20 @@
+{
+  "level": {
+    "silent": "サイレント",
+    "low": "低",
+    "default": "標準",
+    "high": "高",
+    "critical": "緊急"
+  },
+  "ok": "OK",
+  "cancel": "取消",
+  "save": "保存",
+  "delete": "削除",
+  "back": "戻る",
+  "close": "閉じる",
+  "loading": "読込中…",
+  "language": {
+    "label": "言語",
+    "auto": "システム"
+  }
+}

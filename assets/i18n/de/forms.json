@@ -1,0 +1,22 @@
+{
+  "title": "Formulare",
+  "keys": {
+    "link": "Link"
+  },
+  "empty": {
+    "title": "Keine Formulare",
+    "hint": "Formulare auf pocketalert.app erstellen"
+  },
+  "row": {
+    "submissions": "Einsendungen: {count}",
+    "submissionsLast": "Einsendungen: {count}  ·  zuletzt {time}",
+    "closed": "geschlossen"
+  },
+  "link": {
+    "text": "{url}\n\n{count} Einsendungen. Jede kommt als Benachrichtigung an."
+  },
+  "confirm": {
+    "deleteTitle": "{name} löschen?",
+    "deleteText": "Der öffentliche Link funktioniert dann nicht mehr."
+  }
+}

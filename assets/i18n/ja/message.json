@@ -1,0 +1,25 @@
+{
+  "title": "メッセージ",
+  "keys": {
+    "read": "既読",
+    "unread": "未読",
+    "delete": "削除"
+  },
+  "meta": {
+    "scheduled": "予約送信"
+  },
+  "attachment": "添付",
+  "actionsHeading": "アクション",
+  "confirm": {
+    "delete": {
+      "title": "メッセージを削除?"
+    }
+  },
+  "toast": {
+    "gone": "メッセージは既に存在しません",
+    "markedRead": "既読にしました",
+    "markedUnread": "未読にしました",
+    "deleted": "削除しました"
+  },
+  "help": "メッセージ\nF X / 矢印  スクロール   Space  ページ   T  先頭\n4 5 6  アクションボタン (または 1 2 3)\n7 / R  既読・未読   8 / D  削除"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "菜单",
+  "keys": {
+    "inbox": "收件箱",
+    "new": "新建",
+    "setup": "设置"
+  },
+  "items": {
+    "inbox": "收件箱",
+    "compose": "新消息",
+    "scheduled": "定时发送",
+    "applications": "应用",
+    "devices": "设备",
+    "webhooks": "Webhook",
+    "forms": "表单",
+    "apiKeys": "API 密钥",
+    "account": "账户与用量",
+    "settings": "设置",
+    "leaveDemo": "退出演示",
+    "signOut": "退出登录"
+  },
+  "hints": {
+    "unread": "未读：{count}",
+    "demo": "演示"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "退出演示？",
+      "text": "返回登录界面。",
+      "button": "退出"
+    },
+    "signOut": {
+      "title": "退出登录？",
+      "text": "密钥在账户中仍然有效，如需删除请到 API 密钥中操作。",
+      "button": "退出"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Nuevo mensaje",
+  "keys": {
+    "send": "Enviar",
+    "clear": "Borrar"
+  },
+  "fields": {
+    "title": "Título",
+    "message": "Mensaje",
+    "app": "Aplicación",
+    "device": "Dispositivo",
+    "level": "Nivel",
+    "when": "Envío",
+    "delay": "Retraso",
+    "at": "A las",
+    "image": "URL imagen",
+    "action1": "Acción 1",
+    "action2": "Acción 2",
+    "action3": "Acción 3"
+  },
+  "placeholders": {
+    "required": "Obligatorio",
+    "image": "https://… (opcional)"
+  },
+  "options": {
+    "noApp": "Ninguna",
+    "levelAppDefault": "Valor de la app",
+    "when": {
+      "now": "Ahora",
+      "in": "Tras un retraso",
+      "at": "A una hora"
+    }
+  },
+  "note": "Imágenes, envío programado y acciones requieren plan de pago. fn+H muestra la sintaxis.",
+  "confirm": {
+    "discard": {
+      "title": "¿Descartar mensaje?",
+      "text": "El borrador no se guarda.",
+      "button": "Descartar"
+    },
+    "clear": {
+      "title": "¿Borrar todos los campos?",
+      "text": "Se restablecen título, texto y opciones.",
+      "button": "Borrar"
+    }
+  },
+  "toast": {
+    "required": "Título y mensaje obligatorios",
+    "delayError": "Retraso: {error}",
+    "atRequired": "Indica la hora de envío",
+    "imageUrl": "La imagen debe ser una URL http(s)",
+    "actionError": "Acción {number}: {error}",
+    "scheduledFor": "Programado: {time}",
+    "sent": "Enviado"
+  },
+  "errors": {
+    "notSent": "No enviado"
+  },
+  "help": {
+    "edit": "Enter  editar / elegir opción",
+    "change": "Z C  cambiar opción   Tab  siguiente campo",
+    "keys": "4  enviar   5  limpiar   Esc  cancelar",
+    "actions": "Acciones (máx. 3):",
+    "formats": "Retraso: {delay}  A las: {at}"
+  }
+}

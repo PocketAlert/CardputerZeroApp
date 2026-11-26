@@ -1,0 +1,24 @@
+{
+  "title": "Konto",
+  "keys": {
+    "refresh": "Aktual."
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "FREE"
+  },
+  "usage": {
+    "sentToday": "Heute gesendet",
+    "unlimited": "Unbegrenzter Tarif",
+    "resetsIn": "Reset in {time}",
+    "rejected": "{count} über Limit abgelehnt"
+  },
+  "stats": {
+    "lastDays": "LETZTE 7 TAGE"
+  },
+  "duration": {
+    "now": "jetzt",
+    "hoursMinutes": "{hours} Std {minutes} Min",
+    "minutes": "{minutes} Min"
+  }
+}

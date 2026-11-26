@@ -1,0 +1,55 @@
+{
+  "title": "Bandeja",
+  "keys": {
+    "new": "Nuevo",
+    "filter": "Filtro",
+    "search": "Buscar",
+    "more": "Más",
+    "menu": "Menú"
+  },
+  "subtitle": {
+    "unread": "sin leer",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "No se cargan los mensajes",
+    "title": "Bandeja vacía",
+    "filteredTitle": "No hay mensajes aquí",
+    "hint": "Las alertas nuevas aparecen aquí"
+  },
+  "filter": {
+    "title": "Mostrar mensajes de",
+    "allApps": "Todas las aplicaciones"
+  },
+  "search": {
+    "title": "Buscar",
+    "hint": "Busca en título, texto y aplicación de los mensajes cargados."
+  },
+  "more": {
+    "title": "Bandeja de entrada",
+    "markRead": "Marcar como leído",
+    "markUnread": "Marcar como no leído",
+    "delete": "Eliminar mensaje",
+    "showAll": "Mostrar todos",
+    "showUnread": "Mostrar no leídos",
+    "markAllRead": "Marcar todo como leído",
+    "deleteAll": "Eliminar todos",
+    "refresh": "Actualizar"
+  },
+  "confirm": {
+    "delete": {
+      "title": "¿Eliminar mensaje?"
+    },
+    "deleteAll": {
+      "title": "¿Eliminar todos los mensajes?",
+      "text": "Se borran todos los mensajes de tu cuenta, en todos los dispositivos. No se puede deshacer.",
+      "button": "Eliminar todo"
+    }
+  },
+  "toast": {
+    "deleted": "Eliminado",
+    "allRead": "Todos marcados como leídos",
+    "cleared": "Bandeja vaciada"
+  },
+  "help": "Bandeja\nEnter  abrir mensaje\nR  leído / no leído   D o Del  borrar\nU  solo no leídos   S  buscar   G  actualizar\nN  nuevo mensaje   T o Esc  ir arriba\nmantén F / X  desplazar rápido"
+}

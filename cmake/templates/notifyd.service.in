@@ -1,0 +1,14 @@
+[Unit]
+Description=Pocket Alert background notifier
+Documentation=https://pocketalert.app/docs
+
+# A user unit on purpose: it runs as whichever account owns the session
+# (pi, or any custom name) and shares that account's ~/.config with the app.
+[Service]
+Type=simple
+ExecStart=/usr/bin/pocketalert-notifyd
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,70 @@
+{
+  "title": "Webhook",
+  "keys": {
+    "new": "Nuovo",
+    "history": "Cronol.",
+    "url": "URL",
+    "toggle": "Attiva"
+  },
+  "empty": {
+    "title": "Nessun webhook",
+    "hint": "Trasforma ogni webhook in un avviso"
+  },
+  "row": {
+    "off": "off"
+  },
+  "form": {
+    "newTitle": "Nuovo webhook",
+    "editTitle": "Modifica webhook",
+    "saveChanges": "Salva modifiche",
+    "create": "Crea webhook",
+    "note": "Template: * inoltra l'intero payload, %field.path% estrae i valori. Anche i valori di azione possono usare %placeholders%."
+  },
+  "fields": {
+    "name": "Nome",
+    "required": "Obbligatorio",
+    "template": "Modello",
+    "templatePlaceholder": "* or %title%: %message%",
+    "slug": "Slug URL",
+    "slugPlaceholder": "Auto se vuoto",
+    "application": "App",
+    "applicationNone": "Nessuna",
+    "device": "Dispositivo",
+    "level": "Livello",
+    "levelNotSet": "Non impostato",
+    "action": "Azione {number}",
+    "active": "Attivo"
+  },
+  "toast": {
+    "nameRequired": "Nome obbligatorio",
+    "actionInvalid": "Azione {number}: {error}",
+    "notSaved": "Non salvato",
+    "updated": "Webhook aggiornato",
+    "enabled": "Webhook attivato",
+    "paused": "Webhook in pausa"
+  },
+  "created": {
+    "title": "Webhook creato",
+    "text": "{url}\n\nInvia qui un POST JSON per mandare un avviso."
+  },
+  "urlInfo": "{url}\n\nTemplate: {template}\n\nProva:\n{curl}",
+  "confirm": {
+    "deleteTitle": "Eliminare {name}?",
+    "deleteText": "Chi chiama il suo URL riceverà 404."
+  },
+  "history": {
+    "keys": {
+      "refresh": "Aggiorna"
+    },
+    "empty": {
+      "title": "Nessuna richiesta",
+      "hint": "Le chiamate al webhook appaiono qui"
+    },
+    "error": "errore",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "Richiesta {method}",
+    "detail": "Stato: {status}\nQuando: {when}\nDa: {from}\nTipo: {type}\n\nCorpo:\n{body}",
+    "detailMessage": "\n\nMessaggio:\n{message}"
+  },
+  "help": "Webhook\nEnter  modifica   4  nuovo   5  cronologia richieste\n6  URL + QR + curl   7  pausa/riprendi   8  elimina"
+}

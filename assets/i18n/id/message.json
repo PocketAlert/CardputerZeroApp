@@ -1,0 +1,25 @@
+{
+  "title": "Pesan",
+  "keys": {
+    "read": "Dibaca",
+    "unread": "Belum",
+    "delete": "Hapus"
+  },
+  "meta": {
+    "scheduled": "terjadwal"
+  },
+  "attachment": "Lampiran",
+  "actionsHeading": "AKSI",
+  "confirm": {
+    "delete": {
+      "title": "Hapus pesan?"
+    }
+  },
+  "toast": {
+    "gone": "Pesan sudah tidak ada",
+    "markedRead": "Ditandai sudah dibaca",
+    "markedUnread": "Ditandai belum dibaca",
+    "deleted": "Dihapus"
+  },
+  "help": "Pesan\nF X / panah  gulir   Space  halaman   T  atas\n4 5 6  tombol aksi (atau 1 2 3)\n7 / R  dibaca/belum   8 / D  hapus"
+}

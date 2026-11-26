@@ -1,0 +1,66 @@
+{
+  "title": "Nuovo messaggio",
+  "keys": {
+    "send": "Invia",
+    "clear": "Pulisci"
+  },
+  "fields": {
+    "title": "Titolo",
+    "message": "Messaggio",
+    "app": "App",
+    "device": "Dispositivo",
+    "level": "Livello",
+    "when": "Invio",
+    "delay": "Ritardo",
+    "at": "Alle",
+    "image": "URL immagine",
+    "action1": "Azione 1",
+    "action2": "Azione 2",
+    "action3": "Azione 3"
+  },
+  "placeholders": {
+    "required": "Obbligatorio",
+    "image": "https://… (facoltativo)"
+  },
+  "options": {
+    "noApp": "Nessuna",
+    "levelAppDefault": "Default app",
+    "when": {
+      "now": "Ora",
+      "in": "Dopo un ritardo",
+      "at": "A un'ora precisa"
+    }
+  },
+  "note": "Immagini, programmazione e azioni richiedono un piano a pagamento. fn+H mostra la sintassi delle azioni.",
+  "confirm": {
+    "discard": {
+      "title": "Scartare il messaggio?",
+      "text": "La bozza non viene salvata.",
+      "button": "Scarta"
+    },
+    "clear": {
+      "title": "Svuotare tutti i campi?",
+      "text": "Titolo, testo e opzioni vengono azzerati.",
+      "button": "Svuota"
+    }
+  },
+  "toast": {
+    "required": "Titolo e messaggio obbligatori",
+    "delayError": "Ritardo: {error}",
+    "atRequired": "Inserisci un orario di invio",
+    "imageUrl": "L'immagine deve essere un URL http(s)",
+    "actionError": "Azione {number}: {error}",
+    "scheduledFor": "Programmato per {time}",
+    "sent": "Inviato"
+  },
+  "errors": {
+    "notSent": "Non inviato"
+  },
+  "help": {
+    "edit": "Enter  modifica / scegli",
+    "change": "Z C  cambia   Tab  campo succ.",
+    "keys": "4  invia   5  pulisci   Esc  annulla",
+    "actions": "Azioni (max 3):",
+    "formats": "Ritardo: {delay}  Alle: {at}"
+  }
+}

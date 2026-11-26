@@ -1,0 +1,43 @@
+{
+  "title": "Geplant",
+  "empty": {
+    "title": "Nichts geplant",
+    "hint": "Nachricht verfassen und Zeit wählen"
+  },
+  "keys": {
+    "new": "Neu",
+    "status": "Status",
+    "info": "Info",
+    "cancel": "Abbr."
+  },
+  "status": {
+    "pending": "Offen",
+    "all": "Alle",
+    "sent": "Gesendet",
+    "canceled": "Abgebr.",
+    "failed": "Fehler"
+  },
+  "info": {
+    "deliver": "Versand: {time}",
+    "deliverTz": "Versand: {time} ({tz})",
+    "status": "Status: {status}",
+    "level": "Stufe: {level}",
+    "application": "Anwendung: {name}",
+    "device": "Gerät: {name}",
+    "action": "Aktion: {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Versand abbrechen?",
+      "button": "Abbrechen"
+    }
+  },
+  "toast": {
+    "onlyPending": "Nur ausstehende lassen sich abbrechen",
+    "canceled": "Versand abgebrochen"
+  },
+  "help": {
+    "filter": "5 oder Z C  Statusfilter wechseln",
+    "keys": "Enter / 7  Details   8  Versand abbrechen"
+  }
+}

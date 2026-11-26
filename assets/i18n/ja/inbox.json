@@ -1,0 +1,55 @@
+{
+  "title": "受信箱",
+  "keys": {
+    "new": "新規",
+    "filter": "絞込",
+    "search": "検索",
+    "more": "他",
+    "menu": "メニュー"
+  },
+  "subtitle": {
+    "unread": "未読",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "読み込めません",
+    "title": "未読ゼロ",
+    "filteredTitle": "該当なし",
+    "hint": "新着通知はここに表示"
+  },
+  "filter": {
+    "title": "表示するアプリ",
+    "allApps": "すべてのアプリ"
+  },
+  "search": {
+    "title": "検索",
+    "hint": "読み込み済みメッセージのタイトル・本文・アプリケーションを検索します。"
+  },
+  "more": {
+    "title": "受信箱",
+    "markRead": "既読にする",
+    "markUnread": "未読にする",
+    "delete": "メッセージを削除",
+    "showAll": "すべて表示",
+    "showUnread": "未読のみ表示",
+    "markAllRead": "すべて既読にする",
+    "deleteAll": "すべて削除",
+    "refresh": "更新"
+  },
+  "confirm": {
+    "delete": {
+      "title": "メッセージを削除?"
+    },
+    "deleteAll": {
+      "title": "全メッセージを削除?",
+      "text": "アカウント内のメッセージが全デバイスから削除されます。元に戻せません。",
+      "button": "全て削除"
+    }
+  },
+  "toast": {
+    "deleted": "削除しました",
+    "allRead": "すべて既読にしました",
+    "cleared": "受信箱を空にしました"
+  },
+  "help": "受信箱\nEnter  メッセージを開く\nR  既読/未読   D または Del  削除\nU  未読のみ   S  検索   G  更新\nN  新規作成   T または Esc  先頭へ\nF / X 長押し  高速スクロール"
+}

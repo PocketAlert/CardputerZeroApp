@@ -1,0 +1,38 @@
+{
+  "title": "Menú",
+  "keys": {
+    "inbox": "Bandeja",
+    "new": "Nuevo",
+    "setup": "Ajustes"
+  },
+  "items": {
+    "inbox": "Bandeja",
+    "compose": "Nuevo mensaje",
+    "scheduled": "Programados",
+    "applications": "Aplicaciones",
+    "devices": "Dispositivos",
+    "webhooks": "Webhooks",
+    "forms": "Formularios",
+    "apiKeys": "Claves de API",
+    "account": "Cuenta y uso",
+    "settings": "Configuración",
+    "leaveDemo": "Salir de la demo",
+    "signOut": "Cerrar sesión"
+  },
+  "hints": {
+    "unread": "{count} sin leer",
+    "demo": "demo"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "¿Salir de la demo?",
+      "text": "Volverás a la pantalla de inicio de sesión.",
+      "button": "Salir"
+    },
+    "signOut": {
+      "title": "¿Cerrar sesión?",
+      "text": "La clave sigue activa en tu cuenta; elimínala en Claves de API si lo necesitas.",
+      "button": "Cerrar"
+    }
+  }
+}

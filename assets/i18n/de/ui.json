@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "Nicht gespeichert: {error}",
+    "moreMessages": "+{count} weitere",
+    "holdEscToExit": "Esc halten zum Beenden",
+    "screenshotSaved": "Screenshot gespeichert",
+    "screenshotFailed": "Screenshot fehlgeschlagen: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}. API-Schlüssel in Einstellungen prüfen"
+  },
+  "status": {
+    "demo": "DEMO"
+  },
+  "options": {
+    "allDevices": "Alle Geräte"
+  },
+  "help": {
+    "title": "Tastatur",
+    "global": "Überall\n4-8  Aktionen in der Leiste unten\nF X / Pfeile  bewegen (halten: scrollen)\nT  nach oben   Enter  öffnen\nEsc  zurück   Esc halten  beenden\nfn+J  Screenshot   fn+H  diese Hilfe"
+  },
+  "modal": {
+    "cancelButton": "Esc  Abbruch",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc zu   F/X scrollen",
+    "pickerFooter": "Enter wählen   Esc zurück",
+    "promptFooter": "Enter OK   Esc zurück"
+  },
+  "list": {
+    "empty": "Nichts hier"
+  },
+  "toggle": {
+    "on": "An",
+    "off": "Aus"
+  },
+  "time": {
+    "yesterday": "Gestern",
+    "dayMonth": "{day}. {month}",
+    "weekday": {
+      "sun": "So",
+      "mon": "Mo",
+      "tue": "Di",
+      "wed": "Mi",
+      "thu": "Do",
+      "fri": "Fr",
+      "sat": "Sa"
+    },
+    "month": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mär",
+      "apr": "Apr",
+      "may": "Mai",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Okt",
+      "nov": "Nov",
+      "dec": "Dez"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

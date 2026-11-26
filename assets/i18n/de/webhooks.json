@@ -1,0 +1,70 @@
+{
+  "title": "Webhooks",
+  "keys": {
+    "new": "Neu",
+    "history": "Verlauf",
+    "url": "URL",
+    "toggle": "An/Aus"
+  },
+  "empty": {
+    "title": "Keine Webhooks",
+    "hint": "Mach aus jedem Webhook einen Alarm"
+  },
+  "row": {
+    "off": "aus"
+  },
+  "form": {
+    "newTitle": "Neuer Webhook",
+    "editTitle": "Webhook ändern",
+    "saveChanges": "Änderungen speichern",
+    "create": "Webhook erstellen",
+    "note": "Vorlage: * leitet den ganzen Payload weiter, %field.path% wählt Werte. Aktionswerte dürfen auch %placeholders% nutzen."
+  },
+  "fields": {
+    "name": "Name",
+    "required": "Pflicht",
+    "template": "Vorlage",
+    "templatePlaceholder": "* oder %title%: %message%",
+    "slug": "URL-Slug",
+    "slugPlaceholder": "Auto, falls leer",
+    "application": "Anwendung",
+    "applicationNone": "Keine",
+    "device": "Gerät",
+    "level": "Stufe",
+    "levelNotSet": "Nicht gesetzt",
+    "action": "Aktion {number}",
+    "active": "Aktiv"
+  },
+  "toast": {
+    "nameRequired": "Name erforderlich",
+    "actionInvalid": "Aktion {number}: {error}",
+    "notSaved": "Nicht gespeichert",
+    "updated": "Webhook aktualisiert",
+    "enabled": "Webhook aktiviert",
+    "paused": "Webhook pausiert"
+  },
+  "created": {
+    "title": "Webhook erstellt",
+    "text": "{url}\n\nSende hier per POST JSON, um eine Benachrichtigung auszulösen."
+  },
+  "urlInfo": "{url}\n\nVorlage: {template}\n\nAusprobieren:\n{curl}",
+  "confirm": {
+    "deleteTitle": "{name} löschen?",
+    "deleteText": "Aufrufe der URL liefern dann 404."
+  },
+  "history": {
+    "keys": {
+      "refresh": "Aktual."
+    },
+    "empty": {
+      "title": "Noch keine Anfragen",
+      "hint": "Aufrufe dieses Webhooks erscheinen hier"
+    },
+    "error": "Fehler",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "{method}-Anfrage",
+    "detail": "Status: {status}\nWann: {when}\nVon: {from}\nTyp: {type}\n\nBody:\n{body}",
+    "detailMessage": "\n\nNachricht:\n{message}"
+  },
+  "help": "Webhooks\nEnter  bearbeiten   4  neu   5  Anfrageverlauf\n6  URL + QR + curl   7  pausieren/fortsetzen   8  löschen"
+}

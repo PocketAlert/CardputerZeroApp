@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "设置未保存：{error}",
+    "moreMessages": "还有 {count} 条",
+    "holdEscToExit": "长按 Esc 退出 Pocket Alert",
+    "screenshotSaved": "截图已保存",
+    "screenshotFailed": "截图失败：{error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}：{error}",
+    "checkKey": "{error}。请检查设置中的 API 密钥"
+  },
+  "status": {
+    "demo": "演示"
+  },
+  "options": {
+    "allDevices": "所有设备"
+  },
+  "help": {
+    "title": "键盘",
+    "global": "全局\n4-8  底栏操作\nF X / 方向键  移动（按住滚动）\nT  回顶部   Enter  打开\nEsc  返回   按住 Esc  退出\nfn+J  截图   fn+H  本帮助"
+  },
+  "modal": {
+    "cancelButton": "Esc  取消",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc 关闭  F/X 滚动",
+    "pickerFooter": "Enter 选择  Esc 取消",
+    "promptFooter": "Enter 确定  Esc 取消"
+  },
+  "list": {
+    "empty": "暂无内容"
+  },
+  "toggle": {
+    "on": "开",
+    "off": "关"
+  },
+  "time": {
+    "yesterday": "昨天",
+    "dayMonth": "{month}{day}日",
+    "weekday": {
+      "sun": "周日",
+      "mon": "周一",
+      "tue": "周二",
+      "wed": "周三",
+      "thu": "周四",
+      "fri": "周五",
+      "sat": "周六"
+    },
+    "month": {
+      "jan": "1月",
+      "feb": "2月",
+      "mar": "3月",
+      "apr": "4月",
+      "may": "5月",
+      "jun": "6月",
+      "jul": "7月",
+      "aug": "8月",
+      "sep": "9月",
+      "oct": "10月",
+      "nov": "11月",
+      "dec": "12月"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "Тихий",
+    "low": "Низкий",
+    "default": "Обычный",
+    "high": "Высокий",
+    "critical": "Критичный"
+  },
+  "action": {
+    "run": "Запуск",
+    "unknownType": "Неизвестный тип действия: {type}",
+    "invalidRequest": "{label}: неверный запрос"
+  },
+  "view": {
+    "text": "{url}\n\nОтсканируйте код, чтобы открыть на телефоне."
+  },
+  "http": {
+    "running": "{label}: {request}",
+    "failed": "{label}: ошибка: {error}",
+    "done": "{label}: готово ({status})",
+    "httpError": "{label}: HTTP {status}"
+  }
+}

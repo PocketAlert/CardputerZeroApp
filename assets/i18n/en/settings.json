@@ -1,0 +1,69 @@
+{
+  "title": "Settings",
+  "keys": {
+    "test": "Test"
+  },
+  "fields": {
+    "poll": "When open",
+    "sound": "Sound",
+    "minLevel": "Beep for",
+    "notifier": "In background",
+    "notifyPoll": "When closed",
+    "dim": "Dim screen",
+    "off": "Screen off",
+    "theme": "Theme",
+    "tour": "Tour at launch"
+  },
+  "options": {
+    "check": {
+      "s10": "Check every 10 s",
+      "s15": "Check every 15 s",
+      "s30": "Check every 30 s",
+      "m1": "Check every 1 min",
+      "m2": "Check every 2 min",
+      "m5": "Check every 5 min"
+    },
+    "after": {
+      "s15": "After 15 s",
+      "s30": "After 30 s",
+      "m1": "After 1 min",
+      "m2": "After 2 min",
+      "m5": "After 5 min"
+    },
+    "never": "Never",
+    "minLevel": {
+      "low": "Low and above",
+      "default": "Default and above",
+      "high": "High and above",
+      "critical": "Critical only"
+    },
+    "theme": {
+      "dark": "Dark",
+      "lcd": "Pager LCD"
+    }
+  },
+  "buttons": {
+    "test": "Send a test alert",
+    "beep": "Play the alert sound",
+    "save": "Save changes",
+    "shortcuts": "Keyboard shortcuts"
+  },
+  "about": {
+    "version": "Pocket Alert for Cardputer Zero {version}",
+    "demo": "Demo mode: data is not real",
+    "account": "Account: {email}",
+    "config": "Config: {path}",
+    "background": "In background: the {service} service beeps while the app is closed."
+  },
+  "testAlert": {
+    "title": "Test from Cardputer Zero",
+    "message": "If this arrived on your devices, alerts work end to end."
+  },
+  "toast": {
+    "saved": "Settings saved",
+    "testSent": "Test alert sent"
+  },
+  "errors": {
+    "testFailed": "Test failed"
+  }
+}

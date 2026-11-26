@@ -1,0 +1,55 @@
+{
+  "title": "수신함",
+  "keys": {
+    "new": "새로",
+    "filter": "필터",
+    "search": "검색",
+    "more": "더보기",
+    "menu": "메뉴"
+  },
+  "subtitle": {
+    "unread": "안 읽음",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "메시지를 못 불러왔어요",
+    "title": "받은 메시지가 없어요",
+    "filteredTitle": "메시지가 없어요",
+    "hint": "새 알림이 여기에 표시돼요"
+  },
+  "filter": {
+    "title": "메시지 보기",
+    "allApps": "모든 앱"
+  },
+  "search": {
+    "title": "검색",
+    "hint": "불러온 메시지의 제목, 내용, 애플리케이션과 일치해요."
+  },
+  "more": {
+    "title": "받은 알림",
+    "markRead": "읽음 표시",
+    "markUnread": "읽지 않음 표시",
+    "delete": "메시지 삭제",
+    "showAll": "전체 보기",
+    "showUnread": "안 읽은 것만 보기",
+    "markAllRead": "모두 읽음 표시",
+    "deleteAll": "전체 삭제",
+    "refresh": "새로고침"
+  },
+  "confirm": {
+    "delete": {
+      "title": "메시지를 삭제할까요?"
+    },
+    "deleteAll": {
+      "title": "모든 메시지를 삭제할까요?",
+      "text": "모든 기기에서 계정의 메시지가 전부 삭제돼요. 되돌릴 수 없어요.",
+      "button": "모두 삭제"
+    }
+  },
+  "toast": {
+    "deleted": "삭제했어요",
+    "allRead": "모두 읽음으로 표시했어요",
+    "cleared": "받은 알림을 비웠어요"
+  },
+  "help": "수신함\nEnter  메시지 열기\nR  읽음/안읽음   D 또는 Del  삭제\nU  안읽음만   S  검색   G  새로고침\nN  새 메시지   T 또는 Esc  맨 위로\nF / X 길게  빠른 스크롤"
+}

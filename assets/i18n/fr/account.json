@@ -1,0 +1,24 @@
+{
+  "title": "Compte",
+  "keys": {
+    "refresh": "Actual."
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "GRAT."
+  },
+  "usage": {
+    "sentToday": "Envoyés aujourd’hui",
+    "unlimited": "Offre illimitée",
+    "resetsIn": "Reset dans {time}",
+    "rejected": "{count} refusés (limite)"
+  },
+  "stats": {
+    "lastDays": "7 DERNIERS JOURS"
+  },
+  "duration": {
+    "now": "à l’instant",
+    "hoursMinutes": "{hours}h {minutes}min",
+    "minutes": "{minutes}min"
+  }
+}

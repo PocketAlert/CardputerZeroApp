@@ -1,0 +1,43 @@
+{
+  "title": "Agendadas",
+  "empty": {
+    "title": "Nada agendado",
+    "hint": "Escreva uma mensagem e escolha o horário de envio"
+  },
+  "keys": {
+    "new": "Novo",
+    "status": "Status",
+    "info": "Info",
+    "cancel": "Cancelar"
+  },
+  "status": {
+    "pending": "Pendente",
+    "all": "Todos",
+    "sent": "Enviado",
+    "canceled": "Cancelado",
+    "failed": "Falhou"
+  },
+  "info": {
+    "deliver": "Envio: {time}",
+    "deliverTz": "Envio: {time} ({tz})",
+    "status": "Status: {status}",
+    "level": "Nível: {level}",
+    "application": "App: {name}",
+    "device": "Dispositivo: {name}",
+    "action": "Ação: {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "Cancelar envio?",
+      "button": "Cancelar"
+    }
+  },
+  "toast": {
+    "onlyPending": "Só é possível cancelar pendentes",
+    "canceled": "Envio cancelado"
+  },
+  "help": {
+    "filter": "5 ou Z C  trocar filtro de status",
+    "keys": "Enter / 7  detalhes   8  cancelar envio"
+  }
+}

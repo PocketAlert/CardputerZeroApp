@@ -1,0 +1,70 @@
+{
+  "title": "Webhooks",
+  "keys": {
+    "new": "New",
+    "history": "History",
+    "url": "URL",
+    "toggle": "On/Off"
+  },
+  "empty": {
+    "title": "No webhooks",
+    "hint": "Turn any service's webhook into an alert"
+  },
+  "row": {
+    "off": "off"
+  },
+  "form": {
+    "newTitle": "New webhook",
+    "editTitle": "Edit webhook",
+    "saveChanges": "Save changes",
+    "create": "Create webhook",
+    "note": "Template: * forwards the whole payload, %field.path% picks values. Action values may use %placeholders% too."
+  },
+  "fields": {
+    "name": "Name",
+    "required": "Required",
+    "template": "Template",
+    "templatePlaceholder": "* or %title%: %message%",
+    "slug": "URL slug",
+    "slugPlaceholder": "Generated if empty",
+    "application": "Application",
+    "applicationNone": "None",
+    "device": "Device",
+    "level": "Level",
+    "levelNotSet": "Not set",
+    "action": "Action {number}",
+    "active": "Active"
+  },
+  "toast": {
+    "nameRequired": "Name is required",
+    "actionInvalid": "Action {number}: {error}",
+    "notSaved": "Not saved",
+    "updated": "Webhook updated",
+    "enabled": "Webhook enabled",
+    "paused": "Webhook paused"
+  },
+  "created": {
+    "title": "Webhook created",
+    "text": "{url}\n\nPOST JSON here to send an alert."
+  },
+  "urlInfo": "{url}\n\nTemplate: {template}\n\nTry it:\n{curl}",
+  "confirm": {
+    "deleteTitle": "Delete {name}?",
+    "deleteText": "Senders calling its URL will get 404."
+  },
+  "history": {
+    "keys": {
+      "refresh": "Refresh"
+    },
+    "empty": {
+      "title": "No requests yet",
+      "hint": "Calls to this webhook show up here"
+    },
+    "error": "error",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "{method} request",
+    "detail": "Status: {status}\nWhen: {when}\nFrom: {from}\nType: {type}\n\nBody:\n{body}",
+    "detailMessage": "\n\nMessage:\n{message}"
+  },
+  "help": "Webhooks\nEnter  edit   4  new   5  request history\n6  URL + QR + curl   7  pause/resume   8  delete"
+}

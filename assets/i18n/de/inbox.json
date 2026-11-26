@@ -1,0 +1,55 @@
+{
+  "title": "Posteingang",
+  "keys": {
+    "new": "Neu",
+    "filter": "Filter",
+    "search": "Suche",
+    "more": "Mehr",
+    "menu": "Menü"
+  },
+  "subtitle": {
+    "unread": "ungelesen",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "Laden fehlgeschlagen",
+    "title": "Inbox Zero",
+    "filteredTitle": "Keine Nachrichten hier",
+    "hint": "Neue Alarme erscheinen hier"
+  },
+  "filter": {
+    "title": "Nachrichten anzeigen von",
+    "allApps": "Alle Anwendungen"
+  },
+  "search": {
+    "title": "Suche",
+    "hint": "Durchsucht Titel, Text und Anwendung geladener Nachrichten."
+  },
+  "more": {
+    "title": "Posteingang",
+    "markRead": "Als gelesen markieren",
+    "markUnread": "Als ungelesen markieren",
+    "delete": "Nachricht löschen",
+    "showAll": "Alle Nachrichten anzeigen",
+    "showUnread": "Nur ungelesene anzeigen",
+    "markAllRead": "Alle als gelesen markieren",
+    "deleteAll": "Alle Nachrichten löschen",
+    "refresh": "Aktualisieren"
+  },
+  "confirm": {
+    "delete": {
+      "title": "Nachricht löschen?"
+    },
+    "deleteAll": {
+      "title": "Alle Nachrichten löschen?",
+      "text": "Alle Nachrichten in deinem Konto werden auf allen Geräten entfernt. Das kann nicht rückgängig gemacht werden.",
+      "button": "Alle löschen"
+    }
+  },
+  "toast": {
+    "deleted": "Gelöscht",
+    "allRead": "Alle als gelesen markiert",
+    "cleared": "Posteingang geleert"
+  },
+  "help": "Posteingang\nEnter  Nachricht öffnen\nR  gelesen / ungelesen   D oder Del  löschen\nU  nur Ungelesene   S  Suche   G  aktualisieren\nN  neue Nachricht   T oder Esc  nach oben\nF / X halten  schneller scrollen"
+}

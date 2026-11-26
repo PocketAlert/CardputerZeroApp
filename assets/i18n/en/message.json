@@ -1,0 +1,25 @@
+{
+  "title": "Message",
+  "keys": {
+    "read": "Read",
+    "unread": "Unread",
+    "delete": "Delete"
+  },
+  "meta": {
+    "scheduled": "scheduled"
+  },
+  "attachment": "Attachment",
+  "actionsHeading": "ACTIONS",
+  "confirm": {
+    "delete": {
+      "title": "Delete message?"
+    }
+  },
+  "toast": {
+    "gone": "Message no longer exists",
+    "markedRead": "Marked as read",
+    "markedUnread": "Marked as unread",
+    "deleted": "Deleted"
+  },
+  "help": "Message\nF X / arrows  scroll   Space  page   T  top\n4 5 6  action buttons (or 1 2 3)\n7 / R  read or unread   8 / D  delete"
+}

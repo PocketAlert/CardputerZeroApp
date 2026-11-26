@@ -1,0 +1,32 @@
+{
+  "title": "API 키",
+  "keys": {
+    "new": "새로"
+  },
+  "empty": {
+    "title": "API 키 없음"
+  },
+  "row": {
+    "created": "생성 {date}",
+    "inactive": "비활성"
+  },
+  "create": {
+    "title": "새 API 키",
+    "hint": "사용할 곳의 이름을 지정하세요."
+  },
+  "info": {
+    "text": "TID: {tid}\n생성: {date}\n\n비밀 값은 키를 만들 때 한 번만 표시돼요."
+  },
+  "toast": {
+    "notCreated": "생성 안 됨"
+  },
+  "created": {
+    "title": "지금 키를 복사하세요",
+    "text": "{token}\n\n한 번만 표시돼요. 코드를 스캔해서 다른 기기로 옮기세요."
+  },
+  "confirm": {
+    "deleteTitle": "{name} 삭제할까요?",
+    "deleteText": "이 키를 쓰는 스크립트와 앱이 작동하지 않아요.",
+    "deleteTextThisDevice": "이 키를 쓰는 스크립트와 앱이 작동하지 않아요. 이 기기가 로그인에 쓰는 키일 수 있어요."
+  }
+}

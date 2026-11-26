@@ -1,0 +1,67 @@
+{
+  "title": "Einstellungen",
+  "keys": {
+    "test": "Test"
+  },
+  "fields": {
+    "poll": "Wenn offen",
+    "sound": "Ton",
+    "minLevel": "Piepen bei",
+    "notifier": "Im Hintergr.",
+    "notifyPoll": "Wenn zu",
+    "dim": "Dimmen",
+    "off": "Bildsch. aus",
+    "theme": "Design"
+  },
+  "options": {
+    "check": {
+      "s10": "Prüfen alle 10 s",
+      "s15": "Prüfen alle 15 s",
+      "s30": "Prüfen alle 30 s",
+      "m1": "Prüfen alle 1 Min",
+      "m2": "Prüfen alle 2 Min",
+      "m5": "Prüfen alle 5 Min"
+    },
+    "after": {
+      "s15": "Nach 15 s",
+      "s30": "Nach 30 s",
+      "m1": "Nach 1 Min",
+      "m2": "Nach 2 Min",
+      "m5": "Nach 5 Min"
+    },
+    "never": "Nie",
+    "minLevel": {
+      "low": "Niedrig und höher",
+      "default": "Standard und höher",
+      "high": "Hoch und höher",
+      "critical": "Nur Kritisch"
+    },
+    "theme": {
+      "dark": "Dunkel",
+      "lcd": "Pager-LCD"
+    }
+  },
+  "buttons": {
+    "test": "Test-Alarm senden",
+    "beep": "Alarmton abspielen",
+    "save": "Änderungen speichern"
+  },
+  "about": {
+    "version": "Pocket Alert für Cardputer Zero {version}",
+    "demo": "Demo-Modus: Daten sind nicht echt",
+    "account": "Konto: {email}",
+    "config": "Konfig: {path}",
+    "background": "Im Hintergrund: Der Dienst {service} piept, auch wenn die App geschlossen ist."
+  },
+  "testAlert": {
+    "title": "Test von Cardputer Zero",
+    "message": "Kam das auf deinen Geräten an, funktionieren Benachrichtigungen komplett."
+  },
+  "toast": {
+    "saved": "Einstellungen gespeichert",
+    "testSent": "Testalarm gesendet"
+  },
+  "errors": {
+    "testFailed": "Test fehlgeschlagen"
+  }
+}

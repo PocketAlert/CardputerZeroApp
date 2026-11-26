@@ -1,0 +1,22 @@
+{
+  "title": "Forms",
+  "keys": {
+    "link": "Link"
+  },
+  "empty": {
+    "title": "No forms",
+    "hint": "Create forms at pocketalert.app"
+  },
+  "row": {
+    "submissions": "{count} submissions",
+    "submissionsLast": "{count} submissions  ·  last {time}",
+    "closed": "closed"
+  },
+  "link": {
+    "text": "{url}\n\n{count} submissions. Each one arrives as an alert."
+  },
+  "confirm": {
+    "deleteTitle": "Delete {name}?",
+    "deleteText": "The public link stops working."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "tagline": "服务器告警，随身掌握",
+  "options": {
+    "email": "邮箱登录",
+    "apiKey": "输入 API 密钥",
+    "cliKey": "使用 CLI 密钥",
+    "demo": "体验演示"
+  },
+  "help": "只需登录一次，密钥会保存在 {path}。\n手动输入长密钥很麻烦：可通过 SSH 复制，或安装 CLI 后运行 `{command}`。",
+  "email": {
+    "title": "登录",
+    "keySignIn": "登录",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "必填",
+    "submit": "登录",
+    "note": "按 Enter 编辑字段。启用 2FA 的账号随后需输入验证码。设备会获得专属 API 密钥，名为“{name}”。",
+    "missingFields": "请输入邮箱和密码",
+    "signingIn": "登录中…"
+  },
+  "twoFactor": {
+    "title": "双重验证码",
+    "hint": "验证器应用的 6 位验证码，或恢复码。"
+  },
+  "apiKey": {
+    "title": "API 密钥",
+    "hint": "在 {url} 创建",
+    "checking": "正在验证密钥…"
+  },
+  "signedInAs": "已登录：{email}",
+  "error": {
+    "signInFailed": "登录失败",
+    "codeRejected": "验证码无效",
+    "deviceKeyFailed": "无法创建设备密钥",
+    "keyRejected": "密钥无效"
+  }
+}

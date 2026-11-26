@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "Настройки не сохранены: {error}",
+    "moreMessages": "+ещё {count}",
+    "holdEscToExit": "Удерживайте Esc для выхода из Pocket Alert",
+    "screenshotSaved": "Скриншот сохранён",
+    "screenshotFailed": "Ошибка скриншота: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}. Проверьте API-ключ в настройках"
+  },
+  "status": {
+    "demo": "ДЕМО"
+  },
+  "options": {
+    "allDevices": "Все устройства"
+  },
+  "help": {
+    "title": "Клавиши",
+    "global": "Везде\n4-8  действия в нижней панели\nF X / стрелки  движение (удерживайте для прокрутки)\nT  наверх   Enter  открыть\nEsc  назад   удерж. Esc  выход\nfn+J  скриншот   fn+H  эта справка"
+  },
+  "modal": {
+    "cancelButton": "Esc  Отмена",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc закрыть   F/X прокрутка",
+    "pickerFooter": "Enter выбор   Esc отмена",
+    "promptFooter": "Enter OK   Esc отмена"
+  },
+  "list": {
+    "empty": "Здесь пусто"
+  },
+  "toggle": {
+    "on": "Вкл",
+    "off": "Выкл"
+  },
+  "time": {
+    "yesterday": "Вчера",
+    "dayMonth": "{day} {month}",
+    "weekday": {
+      "sun": "Вс",
+      "mon": "Пн",
+      "tue": "Вт",
+      "wed": "Ср",
+      "thu": "Чт",
+      "fri": "Пт",
+      "sat": "Сб"
+    },
+    "month": {
+      "jan": "янв",
+      "feb": "фев",
+      "mar": "мар",
+      "apr": "апр",
+      "may": "мая",
+      "jun": "июн",
+      "jul": "июл",
+      "aug": "авг",
+      "sep": "сен",
+      "oct": "окт",
+      "nov": "ноя",
+      "dec": "дек"
+    }
+  },
+  "size": {
+    "megabytes": "{size} МБ",
+    "kilobytes": "{size} КБ",
+    "bytes": "{size} Б"
+  }
+}

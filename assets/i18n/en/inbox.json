@@ -1,0 +1,55 @@
+{
+  "title": "Inbox",
+  "keys": {
+    "new": "New",
+    "filter": "Filter",
+    "search": "Search",
+    "more": "More",
+    "menu": "Menu"
+  },
+  "subtitle": {
+    "unread": "unread",
+    "search": "\"{query}\""
+  },
+  "empty": {
+    "loadFailed": "Can't load messages",
+    "title": "Inbox zero",
+    "filteredTitle": "No messages here",
+    "hint": "New alerts show up here"
+  },
+  "filter": {
+    "title": "Show messages from",
+    "allApps": "All applications"
+  },
+  "search": {
+    "title": "Search",
+    "hint": "Matches title, text and application of loaded messages."
+  },
+  "more": {
+    "title": "Inbox",
+    "markRead": "Mark as read",
+    "markUnread": "Mark as unread",
+    "delete": "Delete message",
+    "showAll": "Show all messages",
+    "showUnread": "Show unread only",
+    "markAllRead": "Mark all as read",
+    "deleteAll": "Delete all messages",
+    "refresh": "Refresh"
+  },
+  "confirm": {
+    "delete": {
+      "title": "Delete message?"
+    },
+    "deleteAll": {
+      "title": "Delete all messages?",
+      "text": "Every message in your account is removed, on all devices. This cannot be undone.",
+      "button": "Delete all"
+    }
+  },
+  "toast": {
+    "deleted": "Deleted",
+    "allRead": "All messages marked as read",
+    "cleared": "Inbox cleared"
+  },
+  "help": "Inbox\nEnter  open message\nR  read / unread   D or Del  delete\nU  unread only   S  search   G  refresh\nN  new message   T or Esc  back to top\nhold F / X  scroll faster"
+}

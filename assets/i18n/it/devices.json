@@ -1,0 +1,30 @@
+{
+  "title": "Dispositivi",
+  "keys": {
+    "rename": "Rinomina",
+    "send": "Invia",
+    "info": "Info"
+  },
+  "empty": {
+    "title": "Nessun dispositivo",
+    "hint": "Installa l'app mobile per ricevere push"
+  },
+  "row": {
+    "inactive": "inattivo"
+  },
+  "rename": {
+    "title": "Rinomina dispositivo"
+  },
+  "info": {
+    "text": "Seriale: {serial}\nTID: {tid}\nAttivo: {active}\nAggiunto: {added}",
+    "yes": "sì",
+    "no": "no"
+  },
+  "toast": {
+    "renamed": "Rinominato"
+  },
+  "confirm": {
+    "removeTitle": "Rimuovere {name}?",
+    "removeText": "Non riceverà più notifiche push finché non accede di nuovo."
+  }
+}

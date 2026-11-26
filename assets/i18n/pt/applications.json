@@ -1,0 +1,53 @@
+{
+  "title": "Aplicativos",
+  "keys": {
+    "new": "Novo",
+    "inbox": "Caixa",
+    "send": "Enviar",
+    "edit": "Editar"
+  },
+  "empty": {
+    "title": "Sem aplicativos",
+    "hint": "Agrupe alertas por origem: 4 cria um"
+  },
+  "form": {
+    "newTitle": "Novo aplicativo",
+    "editTitle": "Editar aplicativo",
+    "saveChanges": "Salvar alterações",
+    "create": "Criar aplicativo",
+    "tidNote": "TID {tid}  ·  envie com: pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "Nome",
+    "description": "Descrição",
+    "color": "Cor",
+    "defaultLevel": "Nível pad.",
+    "required": "Obrigatório",
+    "optional": "Opcional",
+    "levelNotSet": "Não definido"
+  },
+  "colors": {
+    "blue": "Azul",
+    "indigo": "Índigo",
+    "red": "Vermelho",
+    "coral": "Coral",
+    "amber": "Âmbar",
+    "green": "Verde",
+    "teal": "Verde-azulado",
+    "purple": "Roxo",
+    "pink": "Rosa",
+    "gray": "Cinza",
+    "custom": "Outra {color}"
+  },
+  "toast": {
+    "nameRequired": "Nome obrigatório",
+    "notSaved": "Não salvo",
+    "created": "Aplicativo criado",
+    "updated": "Aplicativo atualizado"
+  },
+  "confirm": {
+    "deleteTitle": "Excluir {name}?",
+    "deleteText": "As mensagens continuam na caixa de entrada, sem aplicativo."
+  },
+  "help": "Aplicativos\nEnter / 7  editar   4  novo   5  caixa do app\n6  enviar ao app   8  excluir"
+}

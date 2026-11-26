@@ -1,0 +1,67 @@
+{
+  "title": "設定",
+  "keys": {
+    "test": "テスト"
+  },
+  "fields": {
+    "poll": "起動中",
+    "sound": "サウンド",
+    "minLevel": "音の対象",
+    "notifier": "裏で動作",
+    "notifyPoll": "終了中",
+    "dim": "減光",
+    "off": "画面オフ",
+    "theme": "テーマ"
+  },
+  "options": {
+    "check": {
+      "s10": "10 秒ごとに確認",
+      "s15": "15 秒ごとに確認",
+      "s30": "30 秒ごとに確認",
+      "m1": "1 分ごとに確認",
+      "m2": "2 分ごとに確認",
+      "m5": "5 分ごとに確認"
+    },
+    "after": {
+      "s15": "15 秒後",
+      "s30": "30 秒後",
+      "m1": "1 分後",
+      "m2": "2 分後",
+      "m5": "5 分後"
+    },
+    "never": "なし",
+    "minLevel": {
+      "low": "低以上",
+      "default": "標準以上",
+      "high": "高以上",
+      "critical": "緊急のみ"
+    },
+    "theme": {
+      "dark": "ダーク",
+      "lcd": "ポケベル液晶"
+    }
+  },
+  "buttons": {
+    "test": "テスト通知を送信",
+    "beep": "通知音を再生",
+    "save": "変更を保存"
+  },
+  "about": {
+    "version": "Pocket Alert for Cardputer Zero {version}",
+    "demo": "デモモード:データは実際のものではありません",
+    "account": "アカウント:{email}",
+    "config": "設定:{path}",
+    "background": "バックグラウンド:アプリを閉じていても {service} サービスがビープ音で知らせます。"
+  },
+  "testAlert": {
+    "title": "Cardputer Zero からのテスト",
+    "message": "このメッセージがデバイスに届けば、通知は問題なく動作しています。"
+  },
+  "toast": {
+    "saved": "設定を保存しました",
+    "testSent": "テスト通知を送信しました"
+  },
+  "errors": {
+    "testFailed": "テスト失敗"
+  }
+}

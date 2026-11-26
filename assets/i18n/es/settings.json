@@ -1,0 +1,67 @@
+{
+  "title": "Configuración",
+  "keys": {
+    "test": "Prueba"
+  },
+  "fields": {
+    "poll": "Si abierta",
+    "sound": "Sonido",
+    "minLevel": "Pitar con",
+    "notifier": "En 2.º plano",
+    "notifyPoll": "Si cerrada",
+    "dim": "Atenuar",
+    "off": "Apagar",
+    "theme": "Tema"
+  },
+  "options": {
+    "check": {
+      "s10": "Cada 10 s",
+      "s15": "Cada 15 s",
+      "s30": "Cada 30 s",
+      "m1": "Cada 1 min",
+      "m2": "Cada 2 min",
+      "m5": "Cada 5 min"
+    },
+    "after": {
+      "s15": "Tras 15 s",
+      "s30": "Tras 30 s",
+      "m1": "Tras 1 min",
+      "m2": "Tras 2 min",
+      "m5": "Tras 5 min"
+    },
+    "never": "Nunca",
+    "minLevel": {
+      "low": "Baja o superior",
+      "default": "Normal o superior",
+      "high": "Alta o superior",
+      "critical": "Solo crítica"
+    },
+    "theme": {
+      "dark": "Oscuro",
+      "lcd": "LCD de busca"
+    }
+  },
+  "buttons": {
+    "test": "Enviar alerta de prueba",
+    "beep": "Reproducir sonido de alerta",
+    "save": "Guardar cambios"
+  },
+  "about": {
+    "version": "Pocket Alert para Cardputer Zero {version}",
+    "demo": "Modo demo: los datos no son reales",
+    "account": "Cuenta: {email}",
+    "config": "Configuración: {path}",
+    "background": "En segundo plano: el servicio {service} suena aunque la app esté cerrada."
+  },
+  "testAlert": {
+    "title": "Prueba desde Cardputer Zero",
+    "message": "Si esto llegó a tus dispositivos, las alertas funcionan de principio a fin."
+  },
+  "toast": {
+    "saved": "Configuración guardada",
+    "testSent": "Alerta de prueba enviada"
+  },
+  "errors": {
+    "testFailed": "Prueba fallida"
+  }
+}

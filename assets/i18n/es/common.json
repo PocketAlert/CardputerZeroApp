@@ -1,0 +1,23 @@
+{
+  "levelOption": {
+    "silent": "Silencio",
+    "low": "Baja",
+    "default": "Normal",
+    "high": "Alta",
+    "critical": "Crítica"
+  },
+  "action": {
+    "run": "Ejecutar",
+    "unknownType": "Tipo de acción desconocido: {type}",
+    "invalidRequest": "{label}: solicitud no válida"
+  },
+  "view": {
+    "text": "{url}\n\nEscanea el código para abrirlo en tu teléfono."
+  },
+  "http": {
+    "running": "{label}: {request}",
+    "failed": "{label} falló: {error}",
+    "done": "{label}: listo ({status})",
+    "httpError": "{label}: HTTP {status}"
+  }
+}

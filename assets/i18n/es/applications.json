@@ -1,0 +1,53 @@
+{
+  "title": "Aplicaciones",
+  "keys": {
+    "new": "Nuevo",
+    "inbox": "Bandeja",
+    "send": "Enviar",
+    "edit": "Editar"
+  },
+  "empty": {
+    "title": "Sin aplicaciones",
+    "hint": "Agrupa alertas por origen: 4 crea una"
+  },
+  "form": {
+    "newTitle": "Nueva aplicación",
+    "editTitle": "Editar aplicación",
+    "saveChanges": "Guardar cambios",
+    "create": "Crear aplicación",
+    "tidNote": "TID {tid}  ·  envía con: pocketalert send -a {tid}"
+  },
+  "fields": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "color": "Color",
+    "defaultLevel": "Nivel pred.",
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "levelNotSet": "Sin definir"
+  },
+  "colors": {
+    "blue": "Azul",
+    "indigo": "Índigo",
+    "red": "Rojo",
+    "coral": "Coral",
+    "amber": "Ámbar",
+    "green": "Verde",
+    "teal": "Verdeazulado",
+    "purple": "Morado",
+    "pink": "Rosa",
+    "gray": "Gris",
+    "custom": "Personal {color}"
+  },
+  "toast": {
+    "nameRequired": "El nombre es obligatorio",
+    "notSaved": "No guardado",
+    "created": "Aplicación creada",
+    "updated": "Aplicación actualizada"
+  },
+  "confirm": {
+    "deleteTitle": "¿Eliminar {name}?",
+    "deleteText": "Sus mensajes quedan en la bandeja sin aplicación."
+  },
+  "help": "Aplicaciones\nEnter / 7  editar   4  nueva   5  bandeja de app\n6  enviar a app   8  eliminar"
+}

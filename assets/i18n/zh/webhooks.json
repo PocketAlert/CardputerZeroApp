@@ -1,0 +1,70 @@
+{
+  "title": "Webhook",
+  "keys": {
+    "new": "新建",
+    "history": "历史",
+    "url": "URL",
+    "toggle": "开关"
+  },
+  "empty": {
+    "title": "暂无 Webhook",
+    "hint": "把任意服务的 Webhook 变成告警"
+  },
+  "row": {
+    "off": "关"
+  },
+  "form": {
+    "newTitle": "新建 Webhook",
+    "editTitle": "编辑 Webhook",
+    "saveChanges": "保存更改",
+    "create": "创建 Webhook",
+    "note": "模板：* 转发整个载荷，%field.path% 取指定字段值。操作值也可使用 %placeholders%。"
+  },
+  "fields": {
+    "name": "名称",
+    "required": "必填",
+    "template": "模板",
+    "templatePlaceholder": "* or %title%: %message%",
+    "slug": "URL 标识",
+    "slugPlaceholder": "留空则自动生成",
+    "application": "应用",
+    "applicationNone": "无",
+    "device": "设备",
+    "level": "级别",
+    "levelNotSet": "未设置",
+    "action": "操作 {number}",
+    "active": "启用"
+  },
+  "toast": {
+    "nameRequired": "请填写名称",
+    "actionInvalid": "操作 {number}：{error}",
+    "notSaved": "未保存",
+    "updated": "Webhook 已更新",
+    "enabled": "Webhook 已启用",
+    "paused": "Webhook 已暂停"
+  },
+  "created": {
+    "title": "Webhook 已创建",
+    "text": "{url}\n\n向此地址 POST JSON 即可发送通知。"
+  },
+  "urlInfo": "{url}\n\n模板：{template}\n\n试一试：\n{curl}",
+  "confirm": {
+    "deleteTitle": "删除 {name}？",
+    "deleteText": "调用其 URL 的发送方将收到 404。"
+  },
+  "history": {
+    "keys": {
+      "refresh": "刷新"
+    },
+    "empty": {
+      "title": "暂无请求",
+      "hint": "对此 Webhook 的调用会显示在这里"
+    },
+    "error": "错误",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "{method} 请求",
+    "detail": "状态：{status}\n时间：{when}\n来源：{from}\n类型：{type}\n\n正文：\n{body}",
+    "detailMessage": "\n\n消息：\n{message}"
+  },
+  "help": "Webhook\nEnter  编辑   4  新建   5  请求历史\n6  URL + 二维码 + curl   7  暂停/恢复   8  删除"
+}

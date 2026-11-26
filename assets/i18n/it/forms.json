@@ -1,0 +1,22 @@
+{
+  "title": "Moduli",
+  "keys": {
+    "link": "Link"
+  },
+  "empty": {
+    "title": "Nessun form",
+    "hint": "Crea form su pocketalert.app"
+  },
+  "row": {
+    "submissions": "{count} invii",
+    "submissionsLast": "{count} invii  ·  ultimo {time}",
+    "closed": "chiuso"
+  },
+  "link": {
+    "text": "{url}\n\n{count} invii. Ognuno arriva come avviso."
+  },
+  "confirm": {
+    "deleteTitle": "Eliminare {name}?",
+    "deleteText": "Il link pubblico smette di funzionare."
+  }
+}

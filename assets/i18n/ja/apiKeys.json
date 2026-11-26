@@ -1,0 +1,32 @@
+{
+  "title": "API キー",
+  "keys": {
+    "new": "新規"
+  },
+  "empty": {
+    "title": "API キーなし"
+  },
+  "row": {
+    "created": "作成 {date}",
+    "inactive": "無効"
+  },
+  "create": {
+    "title": "新しい API キー",
+    "hint": "使う場所の名前を付けましょう。"
+  },
+  "info": {
+    "text": "TID: {tid}\n作成日: {date}\n\nシークレットは、キーの作成時に一度だけ表示されます。"
+  },
+  "toast": {
+    "notCreated": "作成できません"
+  },
+  "created": {
+    "title": "このキーを今すぐコピー",
+    "text": "{token}\n\n表示は1回のみです。コードを読み取って別のデバイスへ移せます。"
+  },
+  "confirm": {
+    "deleteTitle": "{name} を削除しますか?",
+    "deleteText": "このキーを使うスクリプトやアプリは動作しなくなります。",
+    "deleteTextThisDevice": "このキーを使うスクリプトやアプリは動作しなくなります。このデバイスのログインに使用中のキーかもしれません。"
+  }
+}

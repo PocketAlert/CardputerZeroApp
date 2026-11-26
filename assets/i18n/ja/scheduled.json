@@ -1,0 +1,43 @@
+{
+  "title": "予約送信",
+  "empty": {
+    "title": "予約はありません",
+    "hint": "メッセージ作成で送信時刻を選択"
+  },
+  "keys": {
+    "new": "新規",
+    "status": "状態",
+    "info": "情報",
+    "cancel": "取消"
+  },
+  "status": {
+    "pending": "待機中",
+    "all": "すべて",
+    "sent": "送信済",
+    "canceled": "取消済",
+    "failed": "失敗"
+  },
+  "info": {
+    "deliver": "送信予定: {time}",
+    "deliverTz": "送信予定: {time} ({tz})",
+    "status": "状態: {status}",
+    "level": "レベル: {level}",
+    "application": "アプリ: {name}",
+    "device": "デバイス: {name}",
+    "action": "アクション: {action}"
+  },
+  "confirm": {
+    "cancel": {
+      "title": "送信を取り消しますか?",
+      "button": "取り消す"
+    }
+  },
+  "toast": {
+    "onlyPending": "送信待ちのみ取消できます",
+    "canceled": "送信を取り消しました"
+  },
+  "help": {
+    "filter": "5 / Z / C  状態フィルター切替",
+    "keys": "Enter / 7  詳細   8  配信取消"
+  }
+}

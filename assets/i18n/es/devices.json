@@ -1,0 +1,30 @@
+{
+  "title": "Dispositivos",
+  "keys": {
+    "rename": "Nombre",
+    "send": "Enviar",
+    "info": "Info"
+  },
+  "empty": {
+    "title": "Sin dispositivos",
+    "hint": "Instala la app para recibir push"
+  },
+  "row": {
+    "inactive": "inactivo"
+  },
+  "rename": {
+    "title": "Renombrar dispositivo"
+  },
+  "info": {
+    "text": "Serie: {serial}\nTID: {tid}\nActivo: {active}\nAñadido: {added}",
+    "yes": "sí",
+    "no": "no"
+  },
+  "toast": {
+    "renamed": "Renombrado"
+  },
+  "confirm": {
+    "removeTitle": "¿Quitar {name}?",
+    "removeText": "Dejará de recibir notificaciones push hasta que vuelva a iniciar sesión."
+  }
+}

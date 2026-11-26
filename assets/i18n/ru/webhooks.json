@@ -1,0 +1,70 @@
+{
+  "title": "Вебхуки",
+  "keys": {
+    "new": "Новый",
+    "history": "Лог",
+    "url": "URL",
+    "toggle": "Перекл."
+  },
+  "empty": {
+    "title": "Нет вебхуков",
+    "hint": "Превращайте вебхуки сервисов в уведомления"
+  },
+  "row": {
+    "off": "выкл"
+  },
+  "form": {
+    "newTitle": "Новый вебхук",
+    "editTitle": "Правка вебхука",
+    "saveChanges": "Сохранить",
+    "create": "Создать вебхук",
+    "note": "Шаблон: * передаёт весь payload, %field.path% берёт значения. В действиях тоже можно использовать %placeholders%."
+  },
+  "fields": {
+    "name": "Имя",
+    "required": "Обязательно",
+    "template": "Шаблон",
+    "templatePlaceholder": "* или %title%: %message%",
+    "slug": "URL-слаг",
+    "slugPlaceholder": "Если пусто — авто",
+    "application": "Приложение",
+    "applicationNone": "Нет",
+    "device": "Устройство",
+    "level": "Уровень",
+    "levelNotSet": "Не задан",
+    "action": "Действие {number}",
+    "active": "Активен"
+  },
+  "toast": {
+    "nameRequired": "Укажите название",
+    "actionInvalid": "Действие {number}: {error}",
+    "notSaved": "Не сохранено",
+    "updated": "Вебхук обновлён",
+    "enabled": "Вебхук включён",
+    "paused": "Вебхук приостановлен"
+  },
+  "created": {
+    "title": "Вебхук создан",
+    "text": "{url}\n\nОтправьте сюда POST с JSON, чтобы отправить уведомление."
+  },
+  "urlInfo": "{url}\n\nШаблон: {template}\n\nПопробуйте:\n{curl}",
+  "confirm": {
+    "deleteTitle": "Удалить {name}?",
+    "deleteText": "Отправители, обращающиеся к его URL, получат 404."
+  },
+  "history": {
+    "keys": {
+      "refresh": "Обновить"
+    },
+    "empty": {
+      "title": "Запросов пока нет",
+      "hint": "Здесь появятся вызовы этого вебхука"
+    },
+    "error": "ошибка",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} мс",
+    "requestTitle": "Запрос {method}",
+    "detail": "Статус: {status}\nКогда: {when}\nОт: {from}\nТип: {type}\n\nТело:\n{body}",
+    "detailMessage": "\n\nСообщение:\n{message}"
+  },
+  "help": "Вебхуки\nEnter  изменить   4  создать   5  история запросов\n6  URL + QR + curl   7  пауза/запуск   8  удалить"
+}

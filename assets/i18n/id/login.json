@@ -1,0 +1,38 @@
+{
+  "tagline": "Alert dari server Anda, di saku Anda",
+  "options": {
+    "email": "Masuk dengan email",
+    "apiKey": "Masukkan kunci API",
+    "cliKey": "Pakai kunci CLI",
+    "demo": "Coba demo"
+  },
+  "help": "Masuk sekali saja; kunci disimpan di {path}.\nMengetik kunci panjang itu merepotkan: salin lewat SSH atau pasang CLI lalu jalankan `{command}`.",
+  "email": {
+    "title": "Masuk",
+    "keySignIn": "Masuk",
+    "emailLabel": "Email",
+    "emailPlaceholder": "anda@example.com",
+    "passwordLabel": "Sandi",
+    "passwordPlaceholder": "Wajib",
+    "submit": "Masuk",
+    "note": "Enter untuk ubah kolom. Akun 2FA akan diminta kode. Perangkat dapat kunci API sendiri bernama \"{name}\".",
+    "missingFields": "Isi email dan sandi",
+    "signingIn": "Masuk…"
+  },
+  "twoFactor": {
+    "title": "Kode dua faktor",
+    "hint": "Kode 6 digit dari aplikasi autentikator, atau kode pemulihan."
+  },
+  "apiKey": {
+    "title": "Kunci API",
+    "hint": "Buat di {url}",
+    "checking": "Memeriksa kunci…"
+  },
+  "signedInAs": "Masuk sebagai {email}",
+  "error": {
+    "signInFailed": "Gagal masuk",
+    "codeRejected": "Kode ditolak",
+    "deviceKeyFailed": "Gagal membuat kunci perangkat",
+    "keyRejected": "Kunci ditolak"
+  }
+}

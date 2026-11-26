@@ -1,0 +1,30 @@
+{
+  "title": "기기",
+  "keys": {
+    "rename": "이름변경",
+    "send": "전송",
+    "info": "정보"
+  },
+  "empty": {
+    "title": "기기 없음",
+    "hint": "앱을 설치하면 푸시를 받아요"
+  },
+  "row": {
+    "inactive": "비활성"
+  },
+  "rename": {
+    "title": "기기 이름 변경"
+  },
+  "info": {
+    "text": "시리얼: {serial}\nTID: {tid}\n활성: {active}\n추가: {added}",
+    "yes": "예",
+    "no": "아니요"
+  },
+  "toast": {
+    "renamed": "이름 변경됨"
+  },
+  "confirm": {
+    "removeTitle": "{name} 삭제할까요?",
+    "removeText": "다시 로그인할 때까지 푸시 알림을 받지 않아요."
+  }
+}

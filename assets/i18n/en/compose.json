@@ -1,0 +1,66 @@
+{
+  "title": "New message",
+  "keys": {
+    "send": "Send",
+    "clear": "Clear"
+  },
+  "fields": {
+    "title": "Title",
+    "message": "Message",
+    "app": "Application",
+    "device": "Device",
+    "level": "Level",
+    "when": "Deliver",
+    "delay": "Delay",
+    "at": "At",
+    "image": "Image URL",
+    "action1": "Action 1",
+    "action2": "Action 2",
+    "action3": "Action 3"
+  },
+  "placeholders": {
+    "required": "Required",
+    "image": "https://… (optional)"
+  },
+  "options": {
+    "noApp": "None",
+    "levelAppDefault": "App default",
+    "when": {
+      "now": "Now",
+      "in": "After a delay",
+      "at": "At a time"
+    }
+  },
+  "note": "Images, scheduling and actions need a paid plan. fn+H shows the action syntax.",
+  "confirm": {
+    "discard": {
+      "title": "Discard message?",
+      "text": "The draft is not saved.",
+      "button": "Discard"
+    },
+    "clear": {
+      "title": "Clear all fields?",
+      "text": "Title, text and options are reset.",
+      "button": "Clear"
+    }
+  },
+  "toast": {
+    "required": "Title and message are required",
+    "delayError": "Delay: {error}",
+    "atRequired": "Enter a delivery time",
+    "imageUrl": "Image must be an http(s) URL",
+    "actionError": "Action {number}: {error}",
+    "scheduledFor": "Scheduled for {time}",
+    "sent": "Sent"
+  },
+  "errors": {
+    "notSent": "Not sent"
+  },
+  "help": {
+    "edit": "Enter  edit field / pick option",
+    "change": "Z C  change option   Tab  next field",
+    "keys": "4  send   5  clear   Esc  cancel",
+    "actions": "Actions (up to 3):",
+    "formats": "Delay: {delay}  At: {at}"
+  }
+}

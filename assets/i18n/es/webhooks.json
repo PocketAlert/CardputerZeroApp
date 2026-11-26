@@ -1,0 +1,70 @@
+{
+  "title": "Webhooks",
+  "keys": {
+    "new": "Nuevo",
+    "history": "Historial",
+    "url": "URL",
+    "toggle": "Activar"
+  },
+  "empty": {
+    "title": "Sin webhooks",
+    "hint": "Convierte el webhook de cualquier servicio en alerta"
+  },
+  "row": {
+    "off": "off"
+  },
+  "form": {
+    "newTitle": "Nuevo webhook",
+    "editTitle": "Editar webhook",
+    "saveChanges": "Guardar cambios",
+    "create": "Crear webhook",
+    "note": "Plantilla: * reenvía todo el payload, %field.path% toma valores. Las acciones también admiten %placeholders%."
+  },
+  "fields": {
+    "name": "Nombre",
+    "required": "Obligatorio",
+    "template": "Plantilla",
+    "templatePlaceholder": "* or %title%: %message%",
+    "slug": "Slug URL",
+    "slugPlaceholder": "Auto si vacío",
+    "application": "Aplicación",
+    "applicationNone": "Ninguna",
+    "device": "Dispositivo",
+    "level": "Nivel",
+    "levelNotSet": "Sin definir",
+    "action": "Acción {number}",
+    "active": "Activo"
+  },
+  "toast": {
+    "nameRequired": "El nombre es obligatorio",
+    "actionInvalid": "Acción {number}: {error}",
+    "notSaved": "No guardado",
+    "updated": "Webhook actualizado",
+    "enabled": "Webhook activado",
+    "paused": "Webhook en pausa"
+  },
+  "created": {
+    "title": "Webhook creado",
+    "text": "{url}\n\nEnvía un POST con JSON aquí para mandar una alerta."
+  },
+  "urlInfo": "{url}\n\nPlantilla: {template}\n\nPruébalo:\n{curl}",
+  "confirm": {
+    "deleteTitle": "¿Eliminar {name}?",
+    "deleteText": "Quien llame a su URL recibirá un 404."
+  },
+  "history": {
+    "keys": {
+      "refresh": "Recarg."
+    },
+    "empty": {
+      "title": "Aún no hay solicitudes",
+      "hint": "Las llamadas a este webhook aparecen aquí"
+    },
+    "error": "error",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "Solicitud {method}",
+    "detail": "Estado: {status}\nCuándo: {when}\nDe: {from}\nTipo: {type}\n\nCuerpo:\n{body}",
+    "detailMessage": "\n\nMensaje:\n{message}"
+  },
+  "help": "Webhooks\nEnter  editar   4  nuevo   5  historial\n6  URL + QR + curl   7  pausar/reanudar   8  borrar"
+}

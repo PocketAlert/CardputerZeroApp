@@ -1,0 +1,38 @@
+{
+  "tagline": "Alerts from your servers, in your pocket",
+  "options": {
+    "email": "Sign in with email",
+    "apiKey": "Enter an API key",
+    "cliKey": "Use the CLI's key",
+    "demo": "Explore the demo"
+  },
+  "help": "Sign in once; the key is stored in {path}.\nTyping a long key is tedious: copy it over SSH or install the CLI and run `{command}`.",
+  "email": {
+    "title": "Sign in",
+    "keySignIn": "Sign in",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Required",
+    "submit": "Sign in",
+    "note": "Enter edits a field. Accounts with 2FA ask for a code next. The device gets its own API key named \"{name}\".",
+    "missingFields": "Enter email and password",
+    "signingIn": "Signing in…"
+  },
+  "twoFactor": {
+    "title": "Two-factor code",
+    "hint": "6-digit code from your authenticator app, or a recovery code."
+  },
+  "apiKey": {
+    "title": "API key",
+    "hint": "Create one at {url}",
+    "checking": "Checking key…"
+  },
+  "signedInAs": "Signed in as {email}",
+  "error": {
+    "signInFailed": "Sign in failed",
+    "codeRejected": "Code rejected",
+    "deviceKeyFailed": "Could not create a device key",
+    "keyRejected": "Key rejected"
+  }
+}

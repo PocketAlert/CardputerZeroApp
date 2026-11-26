@@ -1,0 +1,70 @@
+{
+  "title": "Webhooks",
+  "keys": {
+    "new": "Novo",
+    "history": "Histór.",
+    "url": "URL",
+    "toggle": "Ativar"
+  },
+  "empty": {
+    "title": "Sem webhooks",
+    "hint": "Transforme qualquer webhook em alerta"
+  },
+  "row": {
+    "off": "off"
+  },
+  "form": {
+    "newTitle": "Novo webhook",
+    "editTitle": "Editar webhook",
+    "saveChanges": "Salvar alterações",
+    "create": "Criar webhook",
+    "note": "Template: * repassa todo o payload, %field.path% pega valores. Valores de ação também aceitam %placeholders%."
+  },
+  "fields": {
+    "name": "Nome",
+    "required": "Obrigatório",
+    "template": "Modelo",
+    "templatePlaceholder": "* ou %title%: %message%",
+    "slug": "Slug URL",
+    "slugPlaceholder": "Gerado se vazio",
+    "application": "App",
+    "applicationNone": "Nenhum",
+    "device": "Dispositivo",
+    "level": "Nível",
+    "levelNotSet": "Não definido",
+    "action": "Ação {number}",
+    "active": "Ativo"
+  },
+  "toast": {
+    "nameRequired": "Nome obrigatório",
+    "actionInvalid": "Ação {number}: {error}",
+    "notSaved": "Não salvo",
+    "updated": "Webhook atualizado",
+    "enabled": "Webhook ativado",
+    "paused": "Webhook pausado"
+  },
+  "created": {
+    "title": "Webhook criado",
+    "text": "{url}\n\nFaça POST de JSON aqui para enviar um alerta."
+  },
+  "urlInfo": "{url}\n\nModelo: {template}\n\nTeste:\n{curl}",
+  "confirm": {
+    "deleteTitle": "Excluir {name}?",
+    "deleteText": "Quem chamar essa URL receberá 404."
+  },
+  "history": {
+    "keys": {
+      "refresh": "Atualizar"
+    },
+    "empty": {
+      "title": "Nenhuma requisição",
+      "hint": "As chamadas a este webhook aparecem aqui"
+    },
+    "error": "erro",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "Requisição {method}",
+    "detail": "Status: {status}\nQuando: {when}\nDe: {from}\nTipo: {type}\n\nCorpo:\n{body}",
+    "detailMessage": "\n\nMensagem:\n{message}"
+  },
+  "help": "Webhooks\nEnter  editar   4  novo   5  histórico\n6  URL + QR + curl   7  pausar/retomar   8  excluir"
+}

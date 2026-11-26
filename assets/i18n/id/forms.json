@@ -1,0 +1,22 @@
+{
+  "title": "Formulir",
+  "keys": {
+    "link": "Tautan"
+  },
+  "empty": {
+    "title": "Belum ada formulir",
+    "hint": "Buat formulir di pocketalert.app"
+  },
+  "row": {
+    "submissions": "{count} kiriman",
+    "submissionsLast": "{count} kiriman  ·  terakhir {time}",
+    "closed": "ditutup"
+  },
+  "link": {
+    "text": "{url}\n\n{count} kiriman. Setiap kiriman masuk sebagai notifikasi."
+  },
+  "confirm": {
+    "deleteTitle": "Hapus {name}?",
+    "deleteText": "Tautan publik tidak akan berfungsi lagi."
+  }
+}

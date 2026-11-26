@@ -1,0 +1,30 @@
+{
+  "title": "Perangkat",
+  "keys": {
+    "rename": "Ubah",
+    "send": "Kirim",
+    "info": "Info"
+  },
+  "empty": {
+    "title": "Tidak ada perangkat",
+    "hint": "Pasang aplikasi seluler untuk menerima push"
+  },
+  "row": {
+    "inactive": "nonaktif"
+  },
+  "rename": {
+    "title": "Ganti nama perangkat"
+  },
+  "info": {
+    "text": "Serial: {serial}\nTID: {tid}\nAktif: {active}\nDitambah: {added}",
+    "yes": "ya",
+    "no": "tidak"
+  },
+  "toast": {
+    "renamed": "Diganti namanya"
+  },
+  "confirm": {
+    "removeTitle": "Hapus {name}?",
+    "removeText": "Tidak akan menerima notifikasi push sampai masuk lagi."
+  }
+}

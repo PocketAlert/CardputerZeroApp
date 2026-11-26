@@ -1,0 +1,70 @@
+{
+  "title": "웹훅",
+  "keys": {
+    "new": "새로",
+    "history": "기록",
+    "url": "URL",
+    "toggle": "켜기"
+  },
+  "empty": {
+    "title": "웹훅 없음",
+    "hint": "서비스의 웹훅을 알림으로 바꿔요"
+  },
+  "row": {
+    "off": "끔"
+  },
+  "form": {
+    "newTitle": "새 웹훅",
+    "editTitle": "웹훅 수정",
+    "saveChanges": "변경 저장",
+    "create": "웹훅 만들기",
+    "note": "템플릿: *는 전체 페이로드를 전달하고, %field.path%는 값을 선택해요. 액션 값에도 %placeholders%를 쓸 수 있어요."
+  },
+  "fields": {
+    "name": "이름",
+    "required": "필수",
+    "template": "템플릿",
+    "templatePlaceholder": "* 또는 %title%: %message%",
+    "slug": "URL 슬러그",
+    "slugPlaceholder": "비우면 자동 생성",
+    "application": "앱",
+    "applicationNone": "없음",
+    "device": "기기",
+    "level": "레벨",
+    "levelNotSet": "미설정",
+    "action": "액션 {number}",
+    "active": "활성"
+  },
+  "toast": {
+    "nameRequired": "이름을 입력하세요",
+    "actionInvalid": "액션 {number}: {error}",
+    "notSaved": "저장 안 됨",
+    "updated": "웹훅을 수정했어요",
+    "enabled": "웹훅을 켰어요",
+    "paused": "웹훅을 일시중지했어요"
+  },
+  "created": {
+    "title": "웹훅 생성됨",
+    "text": "{url}\n\n이 주소로 JSON을 POST하면 알림이 전송돼요."
+  },
+  "urlInfo": "{url}\n\n템플릿: {template}\n\n테스트:\n{curl}",
+  "confirm": {
+    "deleteTitle": "{name} 삭제할까요?",
+    "deleteText": "이 URL을 호출하면 404를 받아요."
+  },
+  "history": {
+    "keys": {
+      "refresh": "새로고침"
+    },
+    "empty": {
+      "title": "요청 없음",
+      "hint": "이 웹훅 호출이 여기에 표시돼요"
+    },
+    "error": "오류",
+    "rowMeta": "{time}  ·  {method}  ·  {ip}  ·  {duration} ms",
+    "requestTitle": "{method} 요청",
+    "detail": "상태: {status}\n시각: {when}\n발신: {from}\n유형: {type}\n\n본문:\n{body}",
+    "detailMessage": "\n\n메시지:\n{message}"
+  },
+  "help": "웹훅\nEnter  수정   4  새로   5  요청 기록\n6  URL·QR·curl   7  일시정지/재개   8  삭제"
+}

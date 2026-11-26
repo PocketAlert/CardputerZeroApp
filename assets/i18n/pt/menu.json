@@ -1,0 +1,38 @@
+{
+  "title": "Menu",
+  "keys": {
+    "inbox": "Caixa",
+    "new": "Novo",
+    "setup": "Config."
+  },
+  "items": {
+    "inbox": "Entrada",
+    "compose": "Nova mensagem",
+    "scheduled": "Agendadas",
+    "applications": "Aplicativos",
+    "devices": "Dispositivos",
+    "webhooks": "Webhooks",
+    "forms": "Formulários",
+    "apiKeys": "Chaves de API",
+    "account": "Conta e uso",
+    "settings": "Configurações",
+    "leaveDemo": "Sair da demo",
+    "signOut": "Sair"
+  },
+  "hints": {
+    "unread": "{count} não lidas",
+    "demo": "demo"
+  },
+  "confirm": {
+    "leaveDemo": {
+      "title": "Sair da demo?",
+      "text": "Volta à tela de entrada.",
+      "button": "Sair"
+    },
+    "signOut": {
+      "title": "Sair da conta?",
+      "text": "A chave continua válida na conta; exclua em Chaves de API se precisar.",
+      "button": "Sair"
+    }
+  }
+}

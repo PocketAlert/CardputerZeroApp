@@ -1,0 +1,24 @@
+{
+  "title": "账号",
+  "keys": {
+    "refresh": "刷新"
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "免费"
+  },
+  "usage": {
+    "sentToday": "今日已发送",
+    "unlimited": "无限制套餐",
+    "resetsIn": "{time} 后重置",
+    "rejected": "超限被拒：{count}"
+  },
+  "stats": {
+    "lastDays": "最近 7 天"
+  },
+  "duration": {
+    "now": "现在",
+    "hoursMinutes": "{hours}时{minutes}分",
+    "minutes": "{minutes}分"
+  }
+}

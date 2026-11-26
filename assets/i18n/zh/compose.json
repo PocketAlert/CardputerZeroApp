@@ -1,0 +1,66 @@
+{
+  "title": "新消息",
+  "keys": {
+    "send": "发送",
+    "clear": "清空"
+  },
+  "fields": {
+    "title": "标题",
+    "message": "内容",
+    "app": "应用",
+    "device": "设备",
+    "level": "级别",
+    "when": "发送",
+    "delay": "延迟",
+    "at": "时间",
+    "image": "图片 URL",
+    "action1": "操作 1",
+    "action2": "操作 2",
+    "action3": "操作 3"
+  },
+  "placeholders": {
+    "required": "必填",
+    "image": "https://…（可选）"
+  },
+  "options": {
+    "noApp": "无",
+    "levelAppDefault": "应用默认",
+    "when": {
+      "now": "立即",
+      "in": "延迟后",
+      "at": "指定时间"
+    }
+  },
+  "note": "图片、定时和操作需付费套餐。fn+H 查看操作语法。",
+  "confirm": {
+    "discard": {
+      "title": "放弃此消息？",
+      "text": "草稿不会保存。",
+      "button": "放弃"
+    },
+    "clear": {
+      "title": "清空所有字段？",
+      "text": "标题、正文和选项将被重置。",
+      "button": "清空"
+    }
+  },
+  "toast": {
+    "required": "标题和消息为必填项",
+    "delayError": "延迟：{error}",
+    "atRequired": "请输入发送时间",
+    "imageUrl": "图片须为 http(s) URL",
+    "actionError": "操作 {number}：{error}",
+    "scheduledFor": "定时发送：{time}",
+    "sent": "已发送"
+  },
+  "errors": {
+    "notSent": "未发送"
+  },
+  "help": {
+    "edit": "Enter  编辑 / 选择",
+    "change": "Z C  切换选项   Tab  下一项",
+    "keys": "4  发送   5  清空   Esc  取消",
+    "actions": "操作（最多 3 个）：",
+    "formats": "延迟：{delay}  时间：{at}"
+  }
+}

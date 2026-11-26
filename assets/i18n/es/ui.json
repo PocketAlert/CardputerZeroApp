@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "Config. no guardada: {error}",
+    "moreMessages": "+{count} más",
+    "holdEscToExit": "Mantén Esc para salir de Pocket Alert",
+    "screenshotSaved": "Captura guardada",
+    "screenshotFailed": "Error de captura: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}. Revisa la clave de API en Configuración"
+  },
+  "status": {
+    "demo": "DEMO"
+  },
+  "options": {
+    "allDevices": "Todos los dispositivos"
+  },
+  "help": {
+    "title": "Teclado",
+    "global": "General\n4-8  acciones en la barra inferior\nF X / flechas  mover (mantén para desplazar)\nT  ir arriba   Enter  abrir\nEsc  atrás   mantén Esc  salir\nfn+J  captura   fn+H  esta ayuda"
+  },
+  "modal": {
+    "cancelButton": "Esc  Cancelar",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc cerrar   F/X desplazar",
+    "pickerFooter": "Enter elegir   Esc cancelar",
+    "promptFooter": "Enter OK   Esc cancelar"
+  },
+  "list": {
+    "empty": "Nada aquí"
+  },
+  "toggle": {
+    "on": "Sí",
+    "off": "No"
+  },
+  "time": {
+    "yesterday": "Ayer",
+    "dayMonth": "{day} {month}",
+    "weekday": {
+      "sun": "Dom",
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mié",
+      "thu": "Jue",
+      "fri": "Vie",
+      "sat": "Sáb"
+    },
+    "month": {
+      "jan": "Ene",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Abr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Ago",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dic"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

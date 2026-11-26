@@ -1,0 +1,30 @@
+{
+  "title": "Devices",
+  "keys": {
+    "rename": "Rename",
+    "send": "Send",
+    "info": "Info"
+  },
+  "empty": {
+    "title": "No devices",
+    "hint": "Install the mobile app to receive push"
+  },
+  "row": {
+    "inactive": "inactive"
+  },
+  "rename": {
+    "title": "Rename device"
+  },
+  "info": {
+    "text": "Serial: {serial}\nTID: {tid}\nActive: {active}\nAdded: {added}",
+    "yes": "yes",
+    "no": "no"
+  },
+  "toast": {
+    "renamed": "Renamed"
+  },
+  "confirm": {
+    "removeTitle": "Remove {name}?",
+    "removeText": "It stops receiving push notifications until it signs in again."
+  }
+}

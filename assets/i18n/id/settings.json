@@ -1,0 +1,67 @@
+{
+  "title": "Pengaturan",
+  "keys": {
+    "test": "Tes"
+  },
+  "fields": {
+    "poll": "Saat buka",
+    "sound": "Suara",
+    "minLevel": "Bunyi untuk",
+    "notifier": "Di latar",
+    "notifyPoll": "Saat tutup",
+    "dim": "Redupkan",
+    "off": "Layar mati",
+    "theme": "Tema"
+  },
+  "options": {
+    "check": {
+      "s10": "Cek tiap 10 dtk",
+      "s15": "Cek tiap 15 dtk",
+      "s30": "Cek tiap 30 dtk",
+      "m1": "Cek tiap 1 mnt",
+      "m2": "Cek tiap 2 mnt",
+      "m5": "Cek tiap 5 mnt"
+    },
+    "after": {
+      "s15": "Setelah 15 dtk",
+      "s30": "Setelah 30 dtk",
+      "m1": "Setelah 1 mnt",
+      "m2": "Setelah 2 mnt",
+      "m5": "Setelah 5 mnt"
+    },
+    "never": "Tidak pernah",
+    "minLevel": {
+      "low": "Rendah ke atas",
+      "default": "Default ke atas",
+      "high": "Tinggi ke atas",
+      "critical": "Hanya kritis"
+    },
+    "theme": {
+      "dark": "Gelap",
+      "lcd": "LCD Pager"
+    }
+  },
+  "buttons": {
+    "test": "Kirim notifikasi uji",
+    "beep": "Putar suara notifikasi",
+    "save": "Simpan perubahan"
+  },
+  "about": {
+    "version": "Pocket Alert untuk Cardputer Zero {version}",
+    "demo": "Mode demo: data tidak nyata",
+    "account": "Akun: {email}",
+    "config": "Konfigurasi: {path}",
+    "background": "Di latar belakang: layanan {service} berbunyi saat aplikasi ditutup."
+  },
+  "testAlert": {
+    "title": "Tes dari Cardputer Zero",
+    "message": "Jika ini sampai di perangkat Anda, notifikasi berfungsi dengan baik dari awal sampai akhir."
+  },
+  "toast": {
+    "saved": "Pengaturan tersimpan",
+    "testSent": "Tes notifikasi terkirim"
+  },
+  "errors": {
+    "testFailed": "Tes gagal"
+  }
+}

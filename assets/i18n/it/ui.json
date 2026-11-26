@@ -1,0 +1,69 @@
+{
+  "toast": {
+    "settingsNotSaved": "Impostazioni non salvate: {error}",
+    "moreMessages": "+{count} altri",
+    "holdEscToExit": "Tieni premuto Esc per uscire da Pocket Alert",
+    "screenshotSaved": "Screenshot salvato",
+    "screenshotFailed": "Screenshot fallito: {error}"
+  },
+  "error": {
+    "withPrefix": "{prefix}: {error}",
+    "checkKey": "{error}. Controlla la chiave API in Impostazioni"
+  },
+  "status": {
+    "demo": "DEMO"
+  },
+  "options": {
+    "allDevices": "Tutti i dispositivi"
+  },
+  "help": {
+    "title": "Tastiera",
+    "global": "Ovunque\n4-8  azioni nella barra in basso\nF X / frecce  muovi (tieni per scorrere)\nT  torna su   Enter  apri\nEsc  indietro   tieni Esc  esci\nfn+J  screenshot   fn+H  questa guida"
+  },
+  "modal": {
+    "cancelButton": "Esc  Annulla",
+    "confirmButton": "Enter  {label}",
+    "infoFooter": "Enter/Esc chiudi   F/X scorri",
+    "pickerFooter": "Enter scegli   Esc annulla",
+    "promptFooter": "Enter OK   Esc annulla"
+  },
+  "list": {
+    "empty": "Nulla qui"
+  },
+  "toggle": {
+    "on": "On",
+    "off": "Off"
+  },
+  "time": {
+    "yesterday": "Ieri",
+    "dayMonth": "{day} {month}",
+    "weekday": {
+      "sun": "Dom",
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mer",
+      "thu": "Gio",
+      "fri": "Ven",
+      "sat": "Sab"
+    },
+    "month": {
+      "jan": "Gen",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "Mag",
+      "jun": "Giu",
+      "jul": "Lug",
+      "aug": "Ago",
+      "sep": "Set",
+      "oct": "Ott",
+      "nov": "Nov",
+      "dec": "Dic"
+    }
+  },
+  "size": {
+    "megabytes": "{size} MB",
+    "kilobytes": "{size} KB",
+    "bytes": "{size} B"
+  }
+}

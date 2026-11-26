@@ -1,0 +1,24 @@
+{
+  "title": "アカウント",
+  "keys": {
+    "refresh": "更新"
+  },
+  "plan": {
+    "pro": "PRO",
+    "free": "無料"
+  },
+  "usage": {
+    "sentToday": "本日の送信数",
+    "unlimited": "無制限プラン",
+    "resetsIn": "リセットまで{time}",
+    "rejected": "上限超過で拒否: {count}"
+  },
+  "stats": {
+    "lastDays": "過去7日間"
+  },
+  "duration": {
+    "now": "今",
+    "hoursMinutes": "{hours}時間{minutes}分",
+    "minutes": "{minutes}分"
+  }
+}

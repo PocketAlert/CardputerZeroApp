@@ -1,0 +1,38 @@
+{
+  "tagline": "Alertas dos seus servidores, no bolso",
+  "options": {
+    "email": "Entrar com e-mail",
+    "apiKey": "Usar chave de API",
+    "cliKey": "Usar chave da CLI",
+    "demo": "Explorar a demo"
+  },
+  "help": "Entre uma vez; a chave fica salva em {path}.\nDigitar uma chave longa é chato: copie por SSH ou instale a CLI e rode `{command}`.",
+  "email": {
+    "title": "Entrar",
+    "keySignIn": "Entrar",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "voce@exemplo.com",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Obrigatória",
+    "submit": "Entrar",
+    "note": "Enter edita um campo. Contas com 2FA pedem um código depois. O dispositivo recebe sua própria chave de API chamada \"{name}\".",
+    "missingFields": "Informe e-mail e senha",
+    "signingIn": "Entrando…"
+  },
+  "twoFactor": {
+    "title": "Código de dois fatores",
+    "hint": "Código de 6 dígitos do app autenticador ou um código de recuperação."
+  },
+  "apiKey": {
+    "title": "Chave de API",
+    "hint": "Crie uma em {url}",
+    "checking": "Verificando chave…"
+  },
+  "signedInAs": "Conectado como {email}",
+  "error": {
+    "signInFailed": "Falha ao entrar",
+    "codeRejected": "Código recusado",
+    "deviceKeyFailed": "Falha ao criar chave",
+    "keyRejected": "Chave recusada"
+  }
+}
