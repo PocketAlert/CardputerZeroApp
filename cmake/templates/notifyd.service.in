@@ -6,7 +6,7 @@ Documentation=https://pocketalert.app/docs
 # (pi, or any custom name) and shares that account's ~/.config with the app.
 [Service]
 Type=simple
-ExecStart=/usr/bin/pocketalert-notifyd
+ExecStart=/usr/bin/pocketalert-cardputer-notifyd
 Restart=on-failure
 RestartSec=10
 

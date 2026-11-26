@@ -12,13 +12,13 @@ set(APP_PACKAGE_DESCRIPTION "Pocket Alert client: read, send and manage push ale
 set(APP_GENERATED_DIR "${CMAKE_CURRENT_BINARY_DIR}/generated/package")
 configure_file("${CMAKE_CURRENT_LIST_DIR}/templates/app.desktop.in" "${APP_GENERATED_DIR}/pocketalert.desktop" @ONLY)
 configure_file("${CMAKE_CURRENT_LIST_DIR}/templates/notifyd.service.in"
-               "${APP_GENERATED_DIR}/pocketalert-notifyd.service" @ONLY)
+               "${APP_GENERATED_DIR}/pocketalert-cardputer-notifyd.service" @ONLY)
 foreach(script postinst prerm)
     configure_file("${CMAKE_CURRENT_LIST_DIR}/templates/${script}.in" "${APP_GENERATED_DIR}/${script}" @ONLY
                    FILE_PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE)
 endforeach()
 
-install(TARGETS ${PROJECT_NAME} pocketalert-notifyd RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(TARGETS ${PROJECT_NAME} pocketalert-cardputer-notifyd RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/assets/audio/"
     DESTINATION "${CMAKE_INSTALL_DATADIR}/${APP_NAME}/audio" PATTERN ".DS_Store" EXCLUDE)
@@ -31,7 +31,10 @@ install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/assets/images/pocketalert.png"
 install(FILES "${APP_GENERATED_DIR}/pocketalert.desktop"
     DESTINATION "${CMAKE_INSTALL_DATADIR}/APPLaunch/applications")
 # Literal path: GNUInstallDirs would put LIBDIR under the multiarch triplet.
-install(FILES "${APP_GENERATED_DIR}/pocketalert-notifyd.service" DESTINATION "lib/systemd/user")
+# The store only accepts files named after the package, and has no rule for
+# /usr/lib/systemd/user; postinst links the user unit from the package's own directory.
+install(FILES "${APP_GENERATED_DIR}/pocketalert-cardputer-notifyd.service"
+    DESTINATION "lib/${APP_PACKAGE_NAME}/systemd")
 install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/README.md" DESTINATION "${CMAKE_INSTALL_DOCDIR}")
 install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/assets/fonts/LICENSE.txt" "${CMAKE_CURRENT_SOURCE_DIR}/assets/fonts/Geist-OFL.txt"
     "${CMAKE_CURRENT_SOURCE_DIR}/assets/fonts/NotoSansCJK-OFL.txt"

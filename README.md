@@ -59,7 +59,7 @@ The package installs:
 | Path | What |
 |---|---|
 | `/usr/bin/pocketalert_cardputer` | The app, shown in the launcher as "Pocket Alert" |
-| `/usr/bin/pocketalert-notifyd` | The notifier, a systemd user service enabled for every account |
+| `/usr/bin/pocketalert-cardputer-notifyd` | The notifier, a systemd user service enabled for every account |
 | `/usr/share/pocketalert_cardputer/` | Fonts, sounds and translations |
 
 ## Keys
@@ -106,9 +106,9 @@ Everything is saved in `~/.config/pocketalert-cardputer/config.json` (mode `0600
 ## Troubleshooting
 
 ```bash
-journalctl --user -u pocketalert-notifyd -f   # notifier log
-systemctl --user status pocketalert-notifyd   # is it running
-pocketalert-notifyd --once --verbose          # one check by hand
+journalctl --user -u pocketalert-cardputer-notifyd -f   # notifier log
+systemctl --user status pocketalert-cardputer-notifyd   # is it running
+pocketalert-cardputer-notifyd --once --verbose          # one check by hand
 sudo loginctl enable-linger $USER             # notifier starts at boot, not only after login
 PA_KEYBOARD_DEVICE=/dev/input/event2 pocketalert_cardputer   # force a keyboard device
 PA_FRAMEBUFFER=/dev/fb1 pocketalert_cardputer               # force the LCD framebuffer
@@ -200,7 +200,7 @@ src/core/      API client, models, parsing, config, demo backend, notifications 
 src/ui/        screens, widgets, navigation, worker thread
 src/platform/  keyboard (evdev + CardputerZero keymap), device status, screenshots
 src/app/       startup, display, simulator frame
-src/daemon/    pocketalert-notifyd
+src/daemon/    pocketalert-cardputer-notifyd
 tests/         core unit tests
 ```
 

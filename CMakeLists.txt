@@ -476,13 +476,13 @@ endif()
 # ====================================================
 # Notifier daemon
 # ====================================================
-add_executable(pocketalert-notifyd src/daemon/main.cpp)
-target_compile_definitions(pocketalert-notifyd PRIVATE
+add_executable(pocketalert-cardputer-notifyd src/daemon/main.cpp)
+target_compile_definitions(pocketalert-cardputer-notifyd PRIVATE
     APP_NAME="${APP_NAME}"
     APP_SOURCE_ASSETS_ROOT="${CMAKE_CURRENT_SOURCE_DIR}/assets"
 )
-target_link_libraries(pocketalert-notifyd PRIVATE pa_core)
-pa_strict(pocketalert-notifyd)
+target_link_libraries(pocketalert-cardputer-notifyd PRIVATE pa_core)
+pa_strict(pocketalert-cardputer-notifyd)
 
 # ====================================================
 # Tests: always with the simulator; on a native Linux build on request

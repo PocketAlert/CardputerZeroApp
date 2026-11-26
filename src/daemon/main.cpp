@@ -87,7 +87,7 @@ int check_once(const pa::Config& config, int& failures) {
 
     pa::Credentials credentials;
     credentials.api_key = config.api_key;
-    pa::Api api(std::make_shared<pa::CurlTransport>(std::string("pocketalert-notifyd/") + PA_VERSION), pa::kDefaultBaseUrl,
+    pa::Api api(std::make_shared<pa::CurlTransport>(std::string("pocketalert-cardputer-notifyd/") + PA_VERSION), pa::kDefaultBaseUrl,
                 credentials);
     pa::MessageQuery query;
     query.size = 20;
@@ -133,10 +133,10 @@ int main(int argc, char** argv) {
         if (std::strcmp(argv[i], "--once") == 0) once = true;
         else if (std::strcmp(argv[i], "-v") == 0 || std::strcmp(argv[i], "--verbose") == 0) g_verbose = true;
         else if (std::strcmp(argv[i], "--version") == 0) {
-            std::printf("pocketalert-notifyd %s\n", PA_VERSION);
+            std::printf("pocketalert-cardputer-notifyd %s\n", PA_VERSION);
             return 0;
         } else {
-            std::fprintf(stderr, "usage: pocketalert-notifyd [--once] [--verbose]\n");
+            std::fprintf(stderr, "usage: pocketalert-cardputer-notifyd [--once] [--verbose]\n");
             return 2;
         }
     }

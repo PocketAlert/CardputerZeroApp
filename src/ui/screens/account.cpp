@@ -353,7 +353,7 @@ public:
                       (c.demo ? std::string(tr("settings.about.demo"))
                               : tr("settings.about.account", {{"email", c.account_email}})) +
                       "\n" + tr("settings.about.config", {{"path", pa::config_path()}}) + "\n" +
-                      tr("settings.about.background", {{"service", "pocketalert-notifyd"}});
+                      tr("settings.about.background", {{"service", "pocketalert-cardputer-notifyd"}});
         fields.push_back(about);
         form_.set_fields(std::move(fields));
     }

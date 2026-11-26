@@ -15,12 +15,12 @@ for_each_session() {
 
 start_for() {
     systemctl --user -M "$1@" daemon-reload >/dev/null 2>&1 || true
-    systemctl --user -M "$1@" restart pocketalert-notifyd.service >/dev/null 2>&1 || true
+    systemctl --user -M "$1@" restart pocketalert-cardputer-notifyd.service >/dev/null 2>&1 || true
     systemctl --user -M "$1@" restart APPLaunch.service >/dev/null 2>&1 || true
 }
 
 if [ "$1" = "configure" ] && command -v systemctl >/dev/null 2>&1; then
-    systemctl --global enable pocketalert-notifyd.service >/dev/null 2>&1 || true
+    systemctl --global enable /usr/lib/@APP_PACKAGE_NAME@/systemd/pocketalert-cardputer-notifyd.service >/dev/null 2>&1 || true
     for_each_session start_for
 fi
 exit 0
